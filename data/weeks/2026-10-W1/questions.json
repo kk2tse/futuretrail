@@ -1,0 +1,5809 @@
+{
+  "week": "2026-10-W1",
+  "questions": [
+    {
+      "id": "ksx_KXWTI-26OCT1314_KXWTI-26OCT1314-T91.49",
+      "title": "Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "KXWTI-26OCT1314-T91.49"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "KXWTI-26OCT1314-T91.49"
+        }
+      ],
+      "end_time": "2026-10-14T02:30:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Commodities",
+      "kind": "binary",
+      "level": 4,
+      "volume": 736.18,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.0681,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791504000,
+              "d": -0.0
+            },
+            {
+              "t": 1791525600,
+              "d": -0.08
+            },
+            {
+              "t": 1791547200,
+              "d": -0.08
+            },
+            {
+              "t": 1791568800,
+              "d": 0.08
+            },
+            {
+              "t": 1791590400,
+              "d": 0.06
+            },
+            {
+              "t": 1791612000,
+              "d": 0.02
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the WTI crude oil settlement price be above 91.49 USD/Bbl on Oct 13, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1144883_5391592",
+      "title": "W35 Monastir: Tiphanie Lemaitre vs Polina Berezina",
+      "options": [
+        {
+          "key": "A",
+          "text": "Tiphanie Lemaitre",
+          "market_id": "5391592"
+        },
+        {
+          "key": "B",
+          "text": "Polina Berezina",
+          "market_id": "5391592"
+        }
+      ],
+      "end_time": "2026-10-14T17:30:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1509.503607,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.2283,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791331200,
+              "d": -0.1069
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1069
+            },
+            {
+              "t": 1791374400,
+              "d": 0.1836
+            },
+            {
+              "t": 1791396000,
+              "d": -0.3104
+            },
+            {
+              "t": 1791417600,
+              "d": 0.1781
+            },
+            {
+              "t": 1791439200,
+              "d": 0.1831
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1831
+            },
+            {
+              "t": 1791482400,
+              "d": -0.3119
+            },
+            {
+              "t": 1791504000,
+              "d": 0.1831
+            },
+            {
+              "t": 1791525600,
+              "d": 0.1831
+            },
+            {
+              "t": 1791547200,
+              "d": 0.1831
+            },
+            {
+              "t": 1791568800,
+              "d": 0.1831
+            },
+            {
+              "t": 1791590400,
+              "d": -0.3119
+            },
+            {
+              "t": 1791612000,
+              "d": -0.3119
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Tiphanie Lemaitre or Polina Berezina advance in their W35 Monastir main draw match, originally scheduled for October 7, 2026?\"\nA. Tiphanie Lemaitre\nB. Polina Berezina\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1140035_5347736",
+      "title": "Counter-Strike: HOTU vs fnatic - Map 1 Winner",
+      "options": [
+        {
+          "key": "A",
+          "text": "HOTU",
+          "market_id": "5347736"
+        },
+        {
+          "key": "B",
+          "text": "fnatic",
+          "market_id": "5347736"
+        }
+      ],
+      "end_time": "2026-10-14T22:00:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Esports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 984.085,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.056,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": 0.0324
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0324
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0374
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0424
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0324
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0424
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0124
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0124
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0526
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0976
+            },
+            {
+              "t": 1791482400,
+              "d": -0.1476
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0576
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0574
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0224
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0174
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0174
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0026
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win Map 1 of the Counter-Strike opening match between HOTU and fnatic in the Stake Pulse Beat III Group C, initially scheduled for October 14, 2026?\"\nA. HOTU\nB. fnatic\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1148921_5407371",
+      "title": "Will the price of Solana be above $115 on October 14?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5407371"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5407371"
+        }
+      ],
+      "end_time": "2026-10-15T00:00:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Solana",
+      "kind": "binary",
+      "level": 2,
+      "volume": 709.716582,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1553,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791396000,
+              "d": 0.235
+            },
+            {
+              "t": 1791417600,
+              "d": 0.245
+            },
+            {
+              "t": 1791439200,
+              "d": 0.17
+            },
+            {
+              "t": 1791460800,
+              "d": 0.085
+            },
+            {
+              "t": 1791482400,
+              "d": -0.16
+            },
+            {
+              "t": 1791504000,
+              "d": -0.085
+            },
+            {
+              "t": 1791525600,
+              "d": -0.06
+            },
+            {
+              "t": 1791547200,
+              "d": -0.04
+            },
+            {
+              "t": 1791568800,
+              "d": -0.12
+            },
+            {
+              "t": 1791590400,
+              "d": -0.155
+            },
+            {
+              "t": 1791612000,
+              "d": -0.115
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Binance's SOL/USDT 1-minute candle close above $115 at 12:00 ET on October 14?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1145588_5394211",
+      "title": "Will \"Car\" or \"Vehicle\" be said during the next episode of the Lemonade Stand Podcast?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5394211"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5394211"
+        }
+      ],
+      "end_time": "2026-10-15T11:59:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Tech",
+      "kind": "binary",
+      "level": 3,
+      "volume": 529.84,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1003,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791352800,
+              "d": 0.0223
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1277
+            },
+            {
+              "t": 1791396000,
+              "d": 0.2473
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0577
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0323
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0073
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0173
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1927
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0223
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0223
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0023
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0023
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0023
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the words \"Car\" or \"Vehicle\" be said during the next episode of the Lemonade Stand Podcast posted to YouTube after October 7, 2026 (ET) and containing \"Lemonade Stand\" in its title, with the market resolving to the affirmative if no qualifying episode airs by October 31, 2026, 11:59 PM ET?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1149557",
+      "title": "Will Interactive Brokers (IBKR) beat quarterly earnings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5410794"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5410794"
+        }
+      ],
+      "end_time": "2026-10-16T05:00:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 3,
+      "volume": 980.38,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0896,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791417600,
+              "d": 0.0745
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0745
+            },
+            {
+              "t": 1791460800,
+              "d": -0.2005
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0855
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0705
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0495
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0395
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0395
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0395
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0395
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will U.S.-listed Interactive Brokers (IBKR) report headline non-GAAP EPS greater than $0.70, rounded to the nearest cent, in its next quarterly earnings release expected on October 15, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_956264_4175305",
+      "title": "Will Chicago White Sox advance to the ALCS in the 2026 MLB Playoffs?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4175305"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4175305"
+        }
+      ],
+      "end_time": "2026-10-16T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "MLB",
+      "kind": "binary",
+      "level": 4,
+      "volume": 3051.492648000001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1604,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.2275
+            },
+            {
+              "t": 1791050400,
+              "d": -0.2275
+            },
+            {
+              "t": 1791072000,
+              "d": -0.0025
+            },
+            {
+              "t": 1791093600,
+              "d": -0.0125
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0125
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0125
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0125
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0125
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0075
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0075
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1075
+            },
+            {
+              "t": 1791266400,
+              "d": 0.1975
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1975
+            },
+            {
+              "t": 1791309600,
+              "d": 0.1975
+            },
+            {
+              "t": 1791331200,
+              "d": 0.1975
+            },
+            {
+              "t": 1791352800,
+              "d": 0.1975
+            },
+            {
+              "t": 1791374400,
+              "d": 0.2025
+            },
+            {
+              "t": 1791396000,
+              "d": 0.2025
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0575
+            },
+            {
+              "t": 1791439200,
+              "d": 0.1125
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0875
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0575
+            },
+            {
+              "t": 1791504000,
+              "d": -0.2275
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1875
+            },
+            {
+              "t": 1791547200,
+              "d": -0.2325
+            },
+            {
+              "t": 1791568800,
+              "d": -0.2175
+            },
+            {
+              "t": 1791590400,
+              "d": -0.2075
+            },
+            {
+              "t": 1791612000,
+              "d": -0.2075
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Chicago White Sox advance to the ALCS in the 2026 MLB Playoffs?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1118111",
+      "title": "Test Match: Afghanistan vs Bangladesh",
+      "options": [
+        {
+          "key": "A",
+          "text": "Afghanistan",
+          "market_id": "5200540"
+        },
+        {
+          "key": "B",
+          "text": "Draw",
+          "market_id": "5200541"
+        },
+        {
+          "key": "C",
+          "text": "Bangladesh",
+          "market_id": "5200542"
+        }
+      ],
+      "end_time": "2026-10-16T13:30:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 22701.31,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1429,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.1111
+            },
+            {
+              "t": 1791050400,
+              "d": -0.1261
+            },
+            {
+              "t": 1791072000,
+              "d": -0.1161
+            },
+            {
+              "t": 1791093600,
+              "d": -0.1061
+            },
+            {
+              "t": 1791115200,
+              "d": -0.1111
+            },
+            {
+              "t": 1791136800,
+              "d": -0.1111
+            },
+            {
+              "t": 1791158400,
+              "d": -0.1111
+            },
+            {
+              "t": 1791180000,
+              "d": -0.1111
+            },
+            {
+              "t": 1791201600,
+              "d": -0.1261
+            },
+            {
+              "t": 1791223200,
+              "d": -0.1111
+            },
+            {
+              "t": 1791244800,
+              "d": -0.1461
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0189
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0039
+            },
+            {
+              "t": 1791309600,
+              "d": 0.1289
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0339
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0439
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0389
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0639
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0689
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0589
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0389
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0489
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0289
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0161
+            },
+            {
+              "t": 1791547200,
+              "d": 0.1939
+            },
+            {
+              "t": 1791568800,
+              "d": 0.1839
+            },
+            {
+              "t": 1791590400,
+              "d": 0.1889
+            },
+            {
+              "t": 1791612000,
+              "d": 0.1589
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.2058
+            },
+            {
+              "t": 1791050400,
+              "d": 0.2008
+            },
+            {
+              "t": 1791072000,
+              "d": 0.2008
+            },
+            {
+              "t": 1791093600,
+              "d": 0.1958
+            },
+            {
+              "t": 1791115200,
+              "d": 0.1958
+            },
+            {
+              "t": 1791136800,
+              "d": 0.2058
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0592
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0642
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0442
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0442
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0442
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0442
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0442
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0442
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0542
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1042
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0492
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0592
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0542
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0442
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0242
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0542
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0392
+            },
+            {
+              "t": 1791525600,
+              "d": 0.2058
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1877
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1147
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1217
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1157
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.2079
+            },
+            {
+              "t": 1791050400,
+              "d": 0.2129
+            },
+            {
+              "t": 1791072000,
+              "d": 0.2129
+            },
+            {
+              "t": 1791093600,
+              "d": 0.2179
+            },
+            {
+              "t": 1791115200,
+              "d": 0.2179
+            },
+            {
+              "t": 1791136800,
+              "d": 0.2179
+            },
+            {
+              "t": 1791158400,
+              "d": 0.2029
+            },
+            {
+              "t": 1791180000,
+              "d": 0.1979
+            },
+            {
+              "t": 1791201600,
+              "d": 0.2079
+            },
+            {
+              "t": 1791223200,
+              "d": 0.1729
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1729
+            },
+            {
+              "t": 1791266400,
+              "d": 0.1779
+            },
+            {
+              "t": 1791288000,
+              "d": 0.2029
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0079
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1621
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1521
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1521
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1921
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1921
+            },
+            {
+              "t": 1791439200,
+              "d": -0.2021
+            },
+            {
+              "t": 1791460800,
+              "d": -0.2021
+            },
+            {
+              "t": 1791482400,
+              "d": -0.1771
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1771
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1771
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1771
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1771
+            },
+            {
+              "t": 1791590400,
+              "d": -0.2501
+            },
+            {
+              "t": 1791612000,
+              "d": -0.2396
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Test Match between Afghanistan and Bangladesh on October 9 2026, with on-field rulings such as DLS/DRS counting as ordinary wins, ties using any on-field tiebreak, and no-tiebreak ties or abandoned matches counting as a draw?\"\nA. Afghanistan\nB. Draw\nC. Bangladesh\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1118108",
+      "title": "Test Match: South Africa vs Australia",
+      "options": [
+        {
+          "key": "A",
+          "text": "South Africa",
+          "market_id": "5200530"
+        },
+        {
+          "key": "B",
+          "text": "Draw",
+          "market_id": "5200531"
+        },
+        {
+          "key": "C",
+          "text": "Australia",
+          "market_id": "5200532"
+        }
+      ],
+      "end_time": "2026-10-16T15:30:00+08:00",
+      "track": "3d",
+      "track_label": "Near · 0–3 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 25006.16,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0656,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.0214
+            },
+            {
+              "t": 1791050400,
+              "d": 0.0114
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0114
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0014
+            },
+            {
+              "t": 1791115200,
+              "d": 0.0064
+            },
+            {
+              "t": 1791136800,
+              "d": 0.0364
+            },
+            {
+              "t": 1791158400,
+              "d": 0.0364
+            },
+            {
+              "t": 1791180000,
+              "d": 0.0264
+            },
+            {
+              "t": 1791201600,
+              "d": 0.0264
+            },
+            {
+              "t": 1791223200,
+              "d": 0.0064
+            },
+            {
+              "t": 1791244800,
+              "d": 0.0164
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0164
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0164
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0064
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0014
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0064
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0014
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0114
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0014
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0014
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0014
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0014
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0114
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0014
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1136
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0686
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0486
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0486
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.0316
+            },
+            {
+              "t": 1791050400,
+              "d": 0.0366
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0316
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0166
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0184
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0534
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0484
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0384
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0384
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0184
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0184
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0284
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0284
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0284
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0184
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0184
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0134
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0134
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0134
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0134
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0134
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0034
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0134
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0134
+            },
+            {
+              "t": 1791547200,
+              "d": 0.1766
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0666
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0466
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0466
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.2871
+            },
+            {
+              "t": 1791050400,
+              "d": 0.3171
+            },
+            {
+              "t": 1791072000,
+              "d": 0.2621
+            },
+            {
+              "t": 1791093600,
+              "d": 0.2671
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0379
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0479
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0429
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0479
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0479
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0429
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0479
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0429
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0429
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0429
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0429
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0429
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0429
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0429
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0429
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0429
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0429
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0429
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0429
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0429
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0924
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0604
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0549
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0524
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What is the result of the Test Match between South Africa and Australia on October 9 2026, treating a tie without a Super Over or an abandoned match as a draw?\"\nA. South Africa\nB. Draw\nC. Australia\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1153202_5427285",
+      "title": "Shanghai Rolex Masters: Completed Match: Sebastian Baez vs Valentin Vacherot",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5427285"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5427285"
+        }
+      ],
+      "end_time": "2026-10-17T10:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 698.0,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.2077,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": -0.15
+            },
+            {
+              "t": 1791504000,
+              "d": -0.15
+            },
+            {
+              "t": 1791525600,
+              "d": -0.15
+            },
+            {
+              "t": 1791547200,
+              "d": -0.075
+            },
+            {
+              "t": 1791568800,
+              "d": -0.075
+            },
+            {
+              "t": 1791590400,
+              "d": 0.3
+            },
+            {
+              "t": 1791612000,
+              "d": 0.3
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the match between Sebastian Baez and Valentin Vacherot at the 2026 Shanghai Rolex Masters be completed through normal play, with all games and sets required to determine a match winner?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1153204_5427289",
+      "title": "Shanghai Rolex Masters: Completed Match: Juan Manuel Cerundolo vs Carlos Alcaraz",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5427289"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5427289"
+        }
+      ],
+      "end_time": "2026-10-17T10:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 712.0,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.211,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": -0.1236
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1236
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1236
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1236
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1236
+            },
+            {
+              "t": 1791590400,
+              "d": 0.3064
+            },
+            {
+              "t": 1791612000,
+              "d": 0.3114
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the match between Juan Manuel Cerundolo and Carlos Alcaraz at the Shanghai Rolex Masters be completed through normal play to determine a winner by October 23, 2026, 11:59 PM ET?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXNCAAFGAME-26OCT16MIZZMISS",
+      "title": "Missouri vs Ole Miss",
+      "options": [
+        {
+          "key": "A",
+          "text": "Missouri",
+          "market_id": "KXNCAAFGAME-26OCT16MIZZMISS-MIZZ"
+        },
+        {
+          "key": "B",
+          "text": "Ole Miss",
+          "market_id": "KXNCAAFGAME-26OCT16MIZZMISS-MISS"
+        }
+      ],
+      "end_time": "2026-10-17T11:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 1749.82,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.2138,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.4759
+            },
+            {
+              "t": 1791050400,
+              "d": -0.4759
+            },
+            {
+              "t": 1791072000,
+              "d": 0.3241
+            },
+            {
+              "t": 1791093600,
+              "d": -0.3959
+            },
+            {
+              "t": 1791115200,
+              "d": -0.3859
+            },
+            {
+              "t": 1791136800,
+              "d": -0.1859
+            },
+            {
+              "t": 1791158400,
+              "d": 0.1041
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0059
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0059
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0409
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0409
+            },
+            {
+              "t": 1791266400,
+              "d": 0.1341
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1341
+            },
+            {
+              "t": 1791309600,
+              "d": 0.1341
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0891
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0641
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0691
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0841
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0791
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0841
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0791
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0841
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0891
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0891
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0891
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0941
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0941
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0941
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.3907
+            },
+            {
+              "t": 1791050400,
+              "d": 0.3907
+            },
+            {
+              "t": 1791072000,
+              "d": 0.3907
+            },
+            {
+              "t": 1791093600,
+              "d": 0.3907
+            },
+            {
+              "t": 1791115200,
+              "d": 0.3907
+            },
+            {
+              "t": 1791136800,
+              "d": 0.1207
+            },
+            {
+              "t": 1791158400,
+              "d": 0.1207
+            },
+            {
+              "t": 1791180000,
+              "d": 0.1207
+            },
+            {
+              "t": 1791201600,
+              "d": 0.1207
+            },
+            {
+              "t": 1791223200,
+              "d": 0.2007
+            },
+            {
+              "t": 1791244800,
+              "d": 0.2007
+            },
+            {
+              "t": 1791266400,
+              "d": -0.2293
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0493
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0493
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1593
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1593
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1493
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1793
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1743
+            },
+            {
+              "t": 1791439200,
+              "d": -0.1743
+            },
+            {
+              "t": 1791460800,
+              "d": -0.1793
+            },
+            {
+              "t": 1791482400,
+              "d": -0.1793
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1843
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1943
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1943
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1943
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1943
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1943
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the Missouri vs Ole Miss college football game originally scheduled for Oct 16, 2026?\"\nA. Missouri\nB. Ole Miss\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXNCAAFGAME-26OCT16OKSTHOU",
+      "title": "Oklahoma St. vs Houston",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oklahoma St.",
+          "market_id": "KXNCAAFGAME-26OCT16OKSTHOU-OKST"
+        },
+        {
+          "key": "B",
+          "text": "Houston",
+          "market_id": "KXNCAAFGAME-26OCT16OKSTHOU-HOU"
+        }
+      ],
+      "end_time": "2026-10-17T11:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 2984.04,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.1708,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791072000,
+              "d": 0.2129
+            },
+            {
+              "t": 1791093600,
+              "d": 0.2129
+            },
+            {
+              "t": 1791115200,
+              "d": 0.2129
+            },
+            {
+              "t": 1791136800,
+              "d": 0.2129
+            },
+            {
+              "t": 1791158400,
+              "d": 0.2129
+            },
+            {
+              "t": 1791180000,
+              "d": 0.2129
+            },
+            {
+              "t": 1791201600,
+              "d": 0.2129
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0071
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0071
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0071
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0071
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0071
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1121
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1121
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1121
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1121
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1121
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0821
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0871
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0821
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1021
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1071
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1021
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1021
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1171
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1121
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.3446
+            },
+            {
+              "t": 1791050400,
+              "d": 0.3446
+            },
+            {
+              "t": 1791072000,
+              "d": -0.4154
+            },
+            {
+              "t": 1791093600,
+              "d": 0.3446
+            },
+            {
+              "t": 1791115200,
+              "d": 0.3446
+            },
+            {
+              "t": 1791136800,
+              "d": -0.1254
+            },
+            {
+              "t": 1791158400,
+              "d": 0.2046
+            },
+            {
+              "t": 1791180000,
+              "d": 0.2146
+            },
+            {
+              "t": 1791201600,
+              "d": 0.2146
+            },
+            {
+              "t": 1791223200,
+              "d": -0.1754
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1646
+            },
+            {
+              "t": 1791266400,
+              "d": 0.1646
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1646
+            },
+            {
+              "t": 1791309600,
+              "d": -0.1654
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1054
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1104
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1054
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1004
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1104
+            },
+            {
+              "t": 1791439200,
+              "d": -0.1354
+            },
+            {
+              "t": 1791460800,
+              "d": -0.1354
+            },
+            {
+              "t": 1791482400,
+              "d": -0.1354
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1204
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1154
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1204
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1204
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1054
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1054
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Oklahoma St. vs Houston college football game originally scheduled for Oct 16, 2026?\"\nA. Oklahoma St.\nB. Houston\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXNCAAFGAME-26OCT16WISUCLA",
+      "title": "Wisconsin vs UCLA",
+      "options": [
+        {
+          "key": "A",
+          "text": "Wisconsin",
+          "market_id": "KXNCAAFGAME-26OCT16WISUCLA-WIS"
+        },
+        {
+          "key": "B",
+          "text": "UCLA",
+          "market_id": "KXNCAAFGAME-26OCT16WISUCLA-UCLA"
+        }
+      ],
+      "end_time": "2026-10-17T11:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 2830.55,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.1601,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.2952
+            },
+            {
+              "t": 1791050400,
+              "d": 0.2552
+            },
+            {
+              "t": 1791072000,
+              "d": 0.2552
+            },
+            {
+              "t": 1791093600,
+              "d": -0.2548
+            },
+            {
+              "t": 1791115200,
+              "d": 0.1452
+            },
+            {
+              "t": 1791136800,
+              "d": -0.4548
+            },
+            {
+              "t": 1791158400,
+              "d": 0.1052
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0448
+            },
+            {
+              "t": 1791201600,
+              "d": 0.0052
+            },
+            {
+              "t": 1791223200,
+              "d": -0.1198
+            },
+            {
+              "t": 1791244800,
+              "d": -0.1198
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0002
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0402
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0198
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0002
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0098
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0198
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0002
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0052
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0148
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0148
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0148
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0002
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0002
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0102
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0198
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0002
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0098
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791072000,
+              "d": 0.3458
+            },
+            {
+              "t": 1791093600,
+              "d": 0.3358
+            },
+            {
+              "t": 1791115200,
+              "d": 0.3358
+            },
+            {
+              "t": 1791136800,
+              "d": 0.4058
+            },
+            {
+              "t": 1791158400,
+              "d": -0.1342
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0842
+            },
+            {
+              "t": 1791201600,
+              "d": 0.3158
+            },
+            {
+              "t": 1791223200,
+              "d": 0.0208
+            },
+            {
+              "t": 1791244800,
+              "d": 0.0108
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0842
+            },
+            {
+              "t": 1791288000,
+              "d": -0.1392
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0792
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0892
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0892
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0892
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1092
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1042
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0742
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0742
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0792
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0942
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0942
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1042
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0842
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0942
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0692
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Wisconsin vs UCLA college football game originally scheduled for Oct 16, 2026, if it begins within 48 hours of its originally scheduled start time?\"\nA. Wisconsin\nB. UCLA\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1154600_5434432",
+      "title": "Samsun: Completed Match: Bhosale/Micic vs Jakupovic/Salden",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5434432"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5434432"
+        }
+      ],
+      "end_time": "2026-10-17T16:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 682.0,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.2152,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": -0.13
+            },
+            {
+              "t": 1791504000,
+              "d": -0.13
+            },
+            {
+              "t": 1791525600,
+              "d": -0.13
+            },
+            {
+              "t": 1791547200,
+              "d": -0.12
+            },
+            {
+              "t": 1791568800,
+              "d": -0.12
+            },
+            {
+              "t": 1791590400,
+              "d": 0.315
+            },
+            {
+              "t": 1791612000,
+              "d": 0.315
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the Samsun doubles tennis match between Bhosale/Micic and Jakupovic/Salden be completed through normal play with a winner determined by October 24, 2026, 11:59 PM ET?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1129385_5270373",
+      "title": "Brose Bamberg vs. Mitteldeutscher BC",
+      "options": [
+        {
+          "key": "A",
+          "text": "Brose Bamberg",
+          "market_id": "5270373"
+        },
+        {
+          "key": "B",
+          "text": "Mitteldeutscher BC",
+          "market_id": "5270373"
+        }
+      ],
+      "end_time": "2026-10-18T00:30:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 8473.561490000002,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1128,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791115200,
+              "d": -0.1013
+            },
+            {
+              "t": 1791136800,
+              "d": -0.1013
+            },
+            {
+              "t": 1791158400,
+              "d": -0.1013
+            },
+            {
+              "t": 1791180000,
+              "d": -0.1013
+            },
+            {
+              "t": 1791201600,
+              "d": -0.1013
+            },
+            {
+              "t": 1791223200,
+              "d": -0.1013
+            },
+            {
+              "t": 1791244800,
+              "d": -0.1013
+            },
+            {
+              "t": 1791266400,
+              "d": -0.1013
+            },
+            {
+              "t": 1791288000,
+              "d": -0.1013
+            },
+            {
+              "t": 1791309600,
+              "d": -0.1013
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1013
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1013
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1013
+            },
+            {
+              "t": 1791396000,
+              "d": 0.1287
+            },
+            {
+              "t": 1791417600,
+              "d": 0.1087
+            },
+            {
+              "t": 1791439200,
+              "d": 0.1287
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1287
+            },
+            {
+              "t": 1791482400,
+              "d": 0.1087
+            },
+            {
+              "t": 1791504000,
+              "d": 0.1087
+            },
+            {
+              "t": 1791525600,
+              "d": 0.1087
+            },
+            {
+              "t": 1791547200,
+              "d": 0.1087
+            },
+            {
+              "t": 1791568800,
+              "d": 0.1087
+            },
+            {
+              "t": 1791590400,
+              "d": 0.1387
+            },
+            {
+              "t": 1791612000,
+              "d": 0.1387
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the October 10 Germany BBL game between Brose Bamberg and Mitteldeutscher BC, with the result including any overtime periods?\"\nA. Brose Bamberg\nB. Mitteldeutscher BC\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1110484",
+      "title": "Highest 24-hour rainfall in Bangkok, October 4-10?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<20mm",
+          "market_id": "5163479"
+        },
+        {
+          "key": "B",
+          "text": "20-50mm",
+          "market_id": "5163480"
+        },
+        {
+          "key": "C",
+          "text": "50-100mm",
+          "market_id": "5163481"
+        },
+        {
+          "key": "D",
+          "text": "100mm+",
+          "market_id": "5163482"
+        }
+      ],
+      "end_time": "2026-10-18T11:59:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Weather",
+      "kind": "multi_outcome",
+      "level": 2,
+      "volume": 5926.87,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.151,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.1475
+            },
+            {
+              "t": 1791050400,
+              "d": -0.0475
+            },
+            {
+              "t": 1791072000,
+              "d": -0.0525
+            },
+            {
+              "t": 1791093600,
+              "d": -0.0475
+            },
+            {
+              "t": 1791115200,
+              "d": -0.1025
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0525
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0475
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0475
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0525
+            },
+            {
+              "t": 1791223200,
+              "d": -0.2075
+            },
+            {
+              "t": 1791244800,
+              "d": -0.1975
+            },
+            {
+              "t": 1791266400,
+              "d": -0.2225
+            },
+            {
+              "t": 1791288000,
+              "d": -0.2275
+            },
+            {
+              "t": 1791309600,
+              "d": -0.2275
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1275
+            },
+            {
+              "t": 1791352800,
+              "d": -0.1375
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0625
+            },
+            {
+              "t": 1791396000,
+              "d": -0.2375
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0325
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0725
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1175
+            },
+            {
+              "t": 1791482400,
+              "d": 0.3925
+            },
+            {
+              "t": 1791504000,
+              "d": 0.3625
+            },
+            {
+              "t": 1791525600,
+              "d": 0.3625
+            },
+            {
+              "t": 1791547200,
+              "d": 0.2075
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0725
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0925
+            },
+            {
+              "t": 1791612000,
+              "d": 0.4475
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.0273
+            },
+            {
+              "t": 1791050400,
+              "d": 0.0723
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0623
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0923
+            },
+            {
+              "t": 1791115200,
+              "d": 0.0823
+            },
+            {
+              "t": 1791136800,
+              "d": 0.0723
+            },
+            {
+              "t": 1791158400,
+              "d": -0.1877
+            },
+            {
+              "t": 1791180000,
+              "d": -0.1977
+            },
+            {
+              "t": 1791201600,
+              "d": -0.2077
+            },
+            {
+              "t": 1791223200,
+              "d": 0.0673
+            },
+            {
+              "t": 1791244800,
+              "d": 0.0673
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0873
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0673
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0623
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0623
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0723
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0527
+            },
+            {
+              "t": 1791396000,
+              "d": 0.1123
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0527
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0277
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0227
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0627
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1277
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1277
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0177
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0773
+            },
+            {
+              "t": 1791590400,
+              "d": 0.1623
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1627
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.1668
+            },
+            {
+              "t": 1791050400,
+              "d": 0.1818
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0118
+            },
+            {
+              "t": 1791093600,
+              "d": 0.1768
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0182
+            },
+            {
+              "t": 1791136800,
+              "d": 0.1268
+            },
+            {
+              "t": 1791158400,
+              "d": 0.1718
+            },
+            {
+              "t": 1791180000,
+              "d": 0.1718
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0532
+            },
+            {
+              "t": 1791223200,
+              "d": 0.1718
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1718
+            },
+            {
+              "t": 1791266400,
+              "d": 0.1718
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1718
+            },
+            {
+              "t": 1791309600,
+              "d": 0.1718
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0168
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0118
+            },
+            {
+              "t": 1791374400,
+              "d": -0.1382
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1432
+            },
+            {
+              "t": 1791417600,
+              "d": -0.1432
+            },
+            {
+              "t": 1791439200,
+              "d": -0.1432
+            },
+            {
+              "t": 1791460800,
+              "d": -0.1432
+            },
+            {
+              "t": 1791482400,
+              "d": -0.1382
+            },
+            {
+              "t": 1791504000,
+              "d": -0.1532
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1532
+            },
+            {
+              "t": 1791547200,
+              "d": -0.1672
+            },
+            {
+              "t": 1791568800,
+              "d": -0.1672
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1672
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1672
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the highest 24-hour rainfall amount be at the BANGKOK METROPOLIS station between October 4 and October 10, 2026, according to Thai Meteorological Department Daily Weather Summary reports?\"\nA. <20mm\nB. 20-50mm\nC. 50-100mm\nD. 100mm+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1151141",
+      "title": "# of views of MrBeast Gaming video week 1?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<25M",
+          "market_id": "5420205"
+        },
+        {
+          "key": "B",
+          "text": "25–30M",
+          "market_id": "5420206"
+        },
+        {
+          "key": "C",
+          "text": "30–35M",
+          "market_id": "5420207"
+        },
+        {
+          "key": "D",
+          "text": "35–40M",
+          "market_id": "5420208"
+        },
+        {
+          "key": "E",
+          "text": "40–45M",
+          "market_id": "5420209"
+        },
+        {
+          "key": "F",
+          "text": "45–50M",
+          "market_id": "5420210"
+        },
+        {
+          "key": "G",
+          "text": "50–55M",
+          "market_id": "5420211"
+        },
+        {
+          "key": "H",
+          "text": "55M+",
+          "market_id": "5420212"
+        }
+      ],
+      "end_time": "2026-10-18T11:59:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Views",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 7782.6,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0549,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791439200,
+              "d": 0.0078
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0078
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0422
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0422
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0422
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0422
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0422
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0378
+            },
+            {
+              "t": 1791612000,
+              "d": 0.1578
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791439200,
+              "d": 0.0329
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0329
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0421
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0421
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0421
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0421
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0421
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0464
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0979
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791439200,
+              "d": 0.0189
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0189
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0511
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0339
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0511
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0261
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0511
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0539
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0539
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many views will MrBeast Gaming's next YouTube video (excluding Shorts/previews) receive within its first 168 hours after posting by October 31, 2026, per the channel views counter, with values exactly between brackets resolving to the higher range?\"\nA. <25M\nB. 25–30M\nC. 30–35M\nD. 35–40M\nE. 40–45M\nF. 45–50M\nG. 50–55M\nH. 55M+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXMLBSERIES-26CWSCLEALDS",
+      "title": "Series Winner: Chicago WS vs Cleveland",
+      "options": [
+        {
+          "key": "A",
+          "text": "Cleveland",
+          "market_id": "KXMLBSERIES-26CWSCLEALDS-CLE"
+        },
+        {
+          "key": "B",
+          "text": "Chicago WS",
+          "market_id": "KXMLBSERIES-26CWSCLEALDS-CWS"
+        }
+      ],
+      "end_time": "2026-10-19T01:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 327332.26,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.1592,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.2268
+            },
+            {
+              "t": 1791050400,
+              "d": 0.2318
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0368
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0368
+            },
+            {
+              "t": 1791115200,
+              "d": 0.0368
+            },
+            {
+              "t": 1791136800,
+              "d": 0.0318
+            },
+            {
+              "t": 1791158400,
+              "d": 0.0318
+            },
+            {
+              "t": 1791180000,
+              "d": 0.0318
+            },
+            {
+              "t": 1791201600,
+              "d": 0.0318
+            },
+            {
+              "t": 1791223200,
+              "d": 0.0268
+            },
+            {
+              "t": 1791244800,
+              "d": -0.2082
+            },
+            {
+              "t": 1791266400,
+              "d": -0.2082
+            },
+            {
+              "t": 1791288000,
+              "d": -0.1982
+            },
+            {
+              "t": 1791309600,
+              "d": -0.2032
+            },
+            {
+              "t": 1791331200,
+              "d": -0.2032
+            },
+            {
+              "t": 1791352800,
+              "d": -0.2032
+            },
+            {
+              "t": 1791374400,
+              "d": -0.2032
+            },
+            {
+              "t": 1791396000,
+              "d": -0.2032
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0232
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0432
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0432
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0582
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0132
+            },
+            {
+              "t": 1791525600,
+              "d": 0.2218
+            },
+            {
+              "t": 1791547200,
+              "d": 0.2168
+            },
+            {
+              "t": 1791568800,
+              "d": 0.2168
+            },
+            {
+              "t": 1791590400,
+              "d": 0.2168
+            },
+            {
+              "t": 1791612000,
+              "d": 0.2168
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.2314
+            },
+            {
+              "t": 1791050400,
+              "d": -0.2214
+            },
+            {
+              "t": 1791072000,
+              "d": -0.0364
+            },
+            {
+              "t": 1791093600,
+              "d": -0.0264
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0214
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0214
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0214
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0264
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0264
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0264
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1836
+            },
+            {
+              "t": 1791266400,
+              "d": 0.2036
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1986
+            },
+            {
+              "t": 1791309600,
+              "d": 0.2036
+            },
+            {
+              "t": 1791331200,
+              "d": 0.1886
+            },
+            {
+              "t": 1791352800,
+              "d": 0.1986
+            },
+            {
+              "t": 1791374400,
+              "d": 0.1986
+            },
+            {
+              "t": 1791396000,
+              "d": 0.2036
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0336
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0436
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0486
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0586
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0086
+            },
+            {
+              "t": 1791525600,
+              "d": -0.2164
+            },
+            {
+              "t": 1791547200,
+              "d": -0.2164
+            },
+            {
+              "t": 1791568800,
+              "d": -0.2214
+            },
+            {
+              "t": 1791590400,
+              "d": -0.2314
+            },
+            {
+              "t": 1791612000,
+              "d": -0.2264
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Chicago WS vs Cleveland Division Series in the 2026 Pro Baseball Playoffs?\"\nA. Cleveland\nB. Chicago WS\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXNFLGAME-26OCT18BALCLE",
+      "title": "BAL Ravens vs CLE Browns",
+      "options": [
+        {
+          "key": "A",
+          "text": "Baltimore",
+          "market_id": "KXNFLGAME-26OCT18BALCLE-BAL"
+        },
+        {
+          "key": "B",
+          "text": "Cleveland",
+          "market_id": "KXNFLGAME-26OCT18BALCLE-CLE"
+        }
+      ],
+      "end_time": "2026-10-19T04:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 43707.99,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.0728,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": 0.1244
+            },
+            {
+              "t": 1791288000,
+              "d": 0.1094
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0344
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0756
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0706
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0656
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0656
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0506
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0106
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0044
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0094
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0044
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0094
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0094
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0094
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0094
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0144
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": 0.2985
+            },
+            {
+              "t": 1791288000,
+              "d": -0.1265
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0615
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0385
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0385
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0435
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0435
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0235
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0165
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0315
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0315
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0365
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0315
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0315
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0365
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0415
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0415
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who wins the BAL Ravens vs CLE Browns Pro Football game originally scheduled for Oct 18, 2026, if the game begins within 48 hours of its originally scheduled start time?\"\nA. Baltimore\nB. Cleveland\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1162945_5481124",
+      "title": "Shanghai Rolex Masters: Alex de Minaur vs Rei Sakamoto",
+      "options": [
+        {
+          "key": "A",
+          "text": "Alex de Minaur",
+          "market_id": "5481124"
+        },
+        {
+          "key": "B",
+          "text": "Rei Sakamoto",
+          "market_id": "5481124"
+        }
+      ],
+      "end_time": "2026-10-19T10:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 3,
+      "volume": 8681.590372,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": null,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the match between Alex de Minaur and Rei Sakamoto at the Shanghai Rolex Masters on October 11, 2026?\"\nA. Alex de Minaur\nB. Rei Sakamoto\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1161399",
+      "title": "How many ships transit Bab el-Mandeb Strait week of October 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<170",
+          "market_id": "5475113"
+        },
+        {
+          "key": "B",
+          "text": "170-189",
+          "market_id": "5475114"
+        },
+        {
+          "key": "C",
+          "text": "190-209",
+          "market_id": "5475115"
+        },
+        {
+          "key": "D",
+          "text": "210-229",
+          "market_id": "5475116"
+        },
+        {
+          "key": "E",
+          "text": "230+",
+          "market_id": "5475117"
+        }
+      ],
+      "end_time": "2026-10-19T11:59:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Oil",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 891.24,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0731,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791590400,
+              "d": -0.0775
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0775
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791590400,
+              "d": 0.02
+            },
+            {
+              "t": 1791612000,
+              "d": -0.02
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791590400,
+              "d": 0.0575
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0575
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many ships will transit the Bab el-Mandeb Strait from October 12 through 18, 2026, inclusive, counting only container, dry bulk, roll-on/roll-off, general cargo, and tanker ships reported by IMF Portwatch?\"\nA. <170\nB. 170-189\nC. 190-209\nD. 210-229\nE. 230+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXRT-WHA_KXRT-WHA-75",
+      "title": "Whalefall Rotten Tomatoes score? — Above 75",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "KXRT-WHA-75"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "KXRT-WHA-75"
+        }
+      ],
+      "end_time": "2026-10-19T22:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Culture",
+      "kind": "binary",
+      "level": 4,
+      "volume": 30876.26,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.1014,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.1513
+            },
+            {
+              "t": 1791050400,
+              "d": 0.1513
+            },
+            {
+              "t": 1791072000,
+              "d": 0.1463
+            },
+            {
+              "t": 1791093600,
+              "d": 0.1213
+            },
+            {
+              "t": 1791115200,
+              "d": 0.1313
+            },
+            {
+              "t": 1791136800,
+              "d": 0.1213
+            },
+            {
+              "t": 1791158400,
+              "d": 0.1213
+            },
+            {
+              "t": 1791180000,
+              "d": 0.1213
+            },
+            {
+              "t": 1791201600,
+              "d": 0.1213
+            },
+            {
+              "t": 1791223200,
+              "d": 0.0763
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0587
+            },
+            {
+              "t": 1791266400,
+              "d": -0.1287
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0937
+            },
+            {
+              "t": 1791309600,
+              "d": -0.1337
+            },
+            {
+              "t": 1791331200,
+              "d": -0.1287
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0113
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0087
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0287
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0487
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0487
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0487
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0737
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0787
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0787
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0787
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0787
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0787
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0787
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Whalefall have a Rotten Tomatoes Tomatometer score above 75 on Oct 19, 2026 at 10:00 AM ET?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1139579_5343782",
+      "title": "Will \"Street Fighter\" score at least 40 on the Rotten Tomatoes Tomatometer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5343782"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5343782"
+        }
+      ],
+      "end_time": "2026-10-19T22:00:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Movies",
+      "kind": "binary",
+      "level": 2,
+      "volume": 842.6971440000001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.084,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791244800,
+              "d": 0.0653
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0047
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0047
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0203
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0203
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0253
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0253
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0303
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0303
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0253
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0253
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0303
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0303
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0303
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0303
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0303
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0997
+            },
+            {
+              "t": 1791612000,
+              "d": -0.3097
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will \"Street Fighter\" score at least 40 on the Rotten Tomatoes \"All Critics\" Tomatometer at 10:00 AM ET on October 19, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1066511_4868001",
+      "title": "Will \"Sense and Sensibility\" score at least 80 on the Rotten Tomatoes Tomatometer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4868001"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4868001"
+        }
+      ],
+      "end_time": "2026-10-20T07:59:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "Movies",
+      "kind": "binary",
+      "level": 3,
+      "volume": 3002.681238,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0635,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.0777
+            },
+            {
+              "t": 1791050400,
+              "d": -0.0777
+            },
+            {
+              "t": 1791072000,
+              "d": -0.0927
+            },
+            {
+              "t": 1791093600,
+              "d": -0.0827
+            },
+            {
+              "t": 1791115200,
+              "d": -0.0027
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0077
+            },
+            {
+              "t": 1791158400,
+              "d": -0.0427
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0377
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0327
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0377
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0377
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0377
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0327
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0277
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0127
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0073
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0027
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0223
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0123
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0823
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1173
+            },
+            {
+              "t": 1791482400,
+              "d": 0.1573
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0523
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0523
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0773
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0773
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0677
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0523
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will \"Sense and Sensibility\" score at least 80 on the Rotten Tomatoes \"All Critics\" Tomatometer at 10:00 AM ET on October 19, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1159285_5457275",
+      "title": "Will RTX (RTX) Q3 Pratt & Whitney sales be above $8.5B?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5457275"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5457275"
+        }
+      ],
+      "end_time": "2026-10-20T21:30:00+08:00",
+      "track": "7d",
+      "track_label": "Mid · 3–7 days",
+      "category": "RTX",
+      "kind": "binary",
+      "level": 3,
+      "volume": 842.013189,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1826,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791568800,
+              "d": 0.1867
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1783
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0083
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will RTX's Pratt & Whitney sales for the third fiscal quarter be above $8.5B as reported in official company earnings materials released by November 30, 2026, 11:59 PM ET, using the most precise figure and range midpoints while excluding revisions?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1149779",
+      "title": "Will Bank First (BFC) beat quarterly earnings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5412241"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5412241"
+        }
+      ],
+      "end_time": "2026-10-21T04:00:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 3,
+      "volume": 689.8,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0973,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791417600,
+              "d": 0.0135
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0465
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0465
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0785
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0785
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0785
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0585
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0985
+            },
+            {
+              "t": 1791590400,
+              "d": -0.1615
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1515
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Bank First (BFC) report GAAP EPS greater than $2.66 in its next quarterly earnings release on October 20, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1159287",
+      "title": "Netflix (NFLX) Q3 operating margin?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<30%",
+          "market_id": "5457285"
+        },
+        {
+          "key": "B",
+          "text": "30% to 32%",
+          "market_id": "5457286"
+        },
+        {
+          "key": "C",
+          "text": "32% to 34%",
+          "market_id": "5457287"
+        },
+        {
+          "key": "D",
+          "text": "34% to 36%",
+          "market_id": "5457288"
+        },
+        {
+          "key": "E",
+          "text": "36%+",
+          "market_id": "5457289"
+        }
+      ],
+      "end_time": "2026-10-21T06:00:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "KPIs",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 5122.5,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1731,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791568800,
+              "d": -0.1667
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0333
+            },
+            {
+              "t": 1791612000,
+              "d": 0.1333
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791568800,
+              "d": 0.145
+            },
+            {
+              "t": 1791590400,
+              "d": -0.04
+            },
+            {
+              "t": 1791612000,
+              "d": -0.105
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791590400,
+              "d": 0.1675
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1675
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What operating margin will Netflix report for its upcoming third fiscal quarter, based on the most numerically precise value in its official earnings materials, using a range midpoint if applicable?\"\nA. <30%\nB. 30% to 32%\nC. 32% to 34%\nD. 34% to 36%\nE. 36%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1139451",
+      "title": "How strong will Koguma be?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Very strong",
+          "market_id": "5343364"
+        },
+        {
+          "key": "B",
+          "text": "Violent",
+          "market_id": "5343365"
+        },
+        {
+          "key": "C",
+          "text": "Severe tropical storm or weaker",
+          "market_id": "5343362"
+        },
+        {
+          "key": "D",
+          "text": "Strong",
+          "market_id": "5343363"
+        }
+      ],
+      "end_time": "2026-10-21T11:59:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Typhoon",
+      "kind": "multi_outcome",
+      "level": 2,
+      "volume": 18408.25,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0526,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791244800,
+              "d": -0.0717
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0067
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0067
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0067
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0067
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0033
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0433
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0433
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0433
+            },
+            {
+              "t": 1791439200,
+              "d": -0.1517
+            },
+            {
+              "t": 1791460800,
+              "d": -0.1317
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0967
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0617
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0233
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0433
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0383
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0283
+            },
+            {
+              "t": 1791612000,
+              "d": 0.2733
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791244800,
+              "d": 0.0108
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0108
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0158
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0158
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0158
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0258
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0258
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0558
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0558
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0358
+            },
+            {
+              "t": 1791460800,
+              "d": 0.0358
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0242
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0242
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0242
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0242
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0242
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0792
+            },
+            {
+              "t": 1791612000,
+              "d": -0.1042
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791244800,
+              "d": 0.048
+            },
+            {
+              "t": 1791266400,
+              "d": -0.012
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0035
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0025
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0025
+            },
+            {
+              "t": 1791352800,
+              "d": -0.017
+            },
+            {
+              "t": 1791374400,
+              "d": -0.009
+            },
+            {
+              "t": 1791396000,
+              "d": -0.007
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0085
+            },
+            {
+              "t": 1791439200,
+              "d": 0.048
+            },
+            {
+              "t": 1791460800,
+              "d": 0.048
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0065
+            },
+            {
+              "t": 1791504000,
+              "d": -0.01
+            },
+            {
+              "t": 1791525600,
+              "d": -0.01
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0125
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0175
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0175
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0175
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What peak intensity class will JMA assign to Koguma, based on the highest intensity class in analyses published by JMA up to the point JMA stops publishing or October 20, 2026?\"\nA. Very strong\nB. Violent\nC. Severe tropical storm or weaker\nD. Strong\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1035410",
+      "title": "September Inflation UK - Annual",
+      "options": [
+        {
+          "key": "A",
+          "text": "≤2.7%",
+          "market_id": "4627770"
+        },
+        {
+          "key": "B",
+          "text": "2.8-3%",
+          "market_id": "4627771"
+        },
+        {
+          "key": "C",
+          "text": "3.1-3.3%",
+          "market_id": "4627772"
+        },
+        {
+          "key": "D",
+          "text": "3.4-3.6%",
+          "market_id": "4627773"
+        },
+        {
+          "key": "E",
+          "text": "3.7-3.9%",
+          "market_id": "4627774"
+        },
+        {
+          "key": "F",
+          "text": "4.0%+",
+          "market_id": "4627775"
+        }
+      ],
+      "end_time": "2026-10-21T19:59:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "CPI",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 19606.18,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0541,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": -0.1238
+            },
+            {
+              "t": 1791050400,
+              "d": -0.1288
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0662
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0262
+            },
+            {
+              "t": 1791115200,
+              "d": 0.0262
+            },
+            {
+              "t": 1791136800,
+              "d": -0.0188
+            },
+            {
+              "t": 1791158400,
+              "d": 0.0212
+            },
+            {
+              "t": 1791180000,
+              "d": 0.0112
+            },
+            {
+              "t": 1791201600,
+              "d": -0.0288
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0738
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0588
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0788
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0388
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0638
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0638
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0738
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0838
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0612
+            },
+            {
+              "t": 1791417600,
+              "d": 0.1312
+            },
+            {
+              "t": 1791439200,
+              "d": 0.1262
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1012
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0462
+            },
+            {
+              "t": 1791504000,
+              "d": 0.1312
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0138
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0088
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0312
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0712
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0062
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.0443
+            },
+            {
+              "t": 1791050400,
+              "d": 0.0443
+            },
+            {
+              "t": 1791072000,
+              "d": 0.0443
+            },
+            {
+              "t": 1791093600,
+              "d": 0.0443
+            },
+            {
+              "t": 1791115200,
+              "d": 0.0443
+            },
+            {
+              "t": 1791136800,
+              "d": 0.0443
+            },
+            {
+              "t": 1791158400,
+              "d": 0.0443
+            },
+            {
+              "t": 1791180000,
+              "d": 0.0293
+            },
+            {
+              "t": 1791201600,
+              "d": 0.0343
+            },
+            {
+              "t": 1791223200,
+              "d": -0.0007
+            },
+            {
+              "t": 1791244800,
+              "d": 0.0193
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0393
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0543
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0543
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0543
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0593
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0643
+            },
+            {
+              "t": 1791396000,
+              "d": -0.1257
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0857
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0957
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0907
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0907
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0657
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0207
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0357
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0357
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0357
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0357
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791028800,
+              "d": 0.024
+            },
+            {
+              "t": 1791050400,
+              "d": 0.019
+            },
+            {
+              "t": 1791072000,
+              "d": 0.016
+            },
+            {
+              "t": 1791093600,
+              "d": 0.002
+            },
+            {
+              "t": 1791115200,
+              "d": 0.001
+            },
+            {
+              "t": 1791136800,
+              "d": 0.0015
+            },
+            {
+              "t": 1791158400,
+              "d": 0.0535
+            },
+            {
+              "t": 1791180000,
+              "d": -0.0625
+            },
+            {
+              "t": 1791201600,
+              "d": -0.077
+            },
+            {
+              "t": 1791223200,
+              "d": -0.029
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0075
+            },
+            {
+              "t": 1791266400,
+              "d": -0.019
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0065
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0025
+            },
+            {
+              "t": 1791331200,
+              "d": -0.002
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0025
+            },
+            {
+              "t": 1791374400,
+              "d": -0.014
+            },
+            {
+              "t": 1791396000,
+              "d": -0.031
+            },
+            {
+              "t": 1791417600,
+              "d": -0.029
+            },
+            {
+              "t": 1791439200,
+              "d": -0.003
+            },
+            {
+              "t": 1791460800,
+              "d": -0.003
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0335
+            },
+            {
+              "t": 1791504000,
+              "d": 0.037
+            },
+            {
+              "t": 1791525600,
+              "d": 0.037
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0015
+            },
+            {
+              "t": 1791568800,
+              "d": 0.03
+            },
+            {
+              "t": 1791590400,
+              "d": -0.001
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0325
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the annual percentage change in the UK Consumer Prices Index (CPI) be for the 12-month period ending September 2026, as reported by the Office for National Statistics to one decimal point?\"\nA. ≤2.7%\nB. 2.8-3%\nC. 3.1-3.3%\nD. 3.4-3.6%\nE. 3.7-3.9%\nF. 4.0%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1153946",
+      "title": "How strong will Simon be?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Category 5",
+          "market_id": "5430413"
+        },
+        {
+          "key": "B",
+          "text": "Category 1 or weaker",
+          "market_id": "5430408"
+        },
+        {
+          "key": "C",
+          "text": "Category 2",
+          "market_id": "5430410"
+        },
+        {
+          "key": "D",
+          "text": "Category 4",
+          "market_id": "5430412"
+        },
+        {
+          "key": "E",
+          "text": "Category 3",
+          "market_id": "5430411"
+        }
+      ],
+      "end_time": "2026-10-22T11:59:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Weather",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 9170.41,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0957,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": -0.0164
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0614
+            },
+            {
+              "t": 1791525600,
+              "d": -0.1414
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0914
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0136
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0436
+            },
+            {
+              "t": 1791612000,
+              "d": 0.2536
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": 0.0186
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0364
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0364
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0936
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0136
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0236
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0764
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791482400,
+              "d": 0.0913
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0763
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0763
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0237
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0237
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0113
+            },
+            {
+              "t": 1791612000,
+              "d": -0.2077
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Hurricane Simon's peak Saffir-Simpson Hurricane Wind Scale category be according to National Hurricane Center Tropical Cyclone Public Advisories?\"\nA. Category 5\nB. Category 1 or weaker\nC. Category 2\nD. Category 4\nE. Category 3\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1149815",
+      "title": "Will American Airlines (AAL) beat quarterly earnings?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "5412445"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "5412445"
+        }
+      ],
+      "end_time": "2026-10-23T04:00:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 3,
+      "volume": 2781.72,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1742,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791417600,
+              "d": 0.376
+            },
+            {
+              "t": 1791439200,
+              "d": -0.184
+            },
+            {
+              "t": 1791460800,
+              "d": -0.109
+            },
+            {
+              "t": 1791482400,
+              "d": -0.104
+            },
+            {
+              "t": 1791504000,
+              "d": -0.049
+            },
+            {
+              "t": 1791525600,
+              "d": -0.119
+            },
+            {
+              "t": 1791547200,
+              "d": -0.114
+            },
+            {
+              "t": 1791568800,
+              "d": 0.201
+            },
+            {
+              "t": 1791590400,
+              "d": 0.051
+            },
+            {
+              "t": 1791612000,
+              "d": 0.051
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will American Airlines report non-GAAP EPS greater than $-0.34 in its next quarterly earnings release estimated for October 22, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "ksx_KXDPWTTOP5-OPDEPBM26_KXDPWTTOP5-OPDEPBM26-ELOP",
+      "title": "Open De España Presented By Madrid: Top 5 Finishers — Eugenio Lopez-Chacarra finishes top 5",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "KXDPWTTOP5-OPDEPBM26-ELOP"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "KXDPWTTOP5-OPDEPBM26-ELOP"
+        }
+      ],
+      "end_time": "2026-10-25T08:00:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 612.58,
+      "volume_unit": "contracts",
+      "source": "kalshi",
+      "price_volatility": 0.172,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791417600,
+              "d": -0.248
+            },
+            {
+              "t": 1791439200,
+              "d": -0.238
+            },
+            {
+              "t": 1791460800,
+              "d": -0.218
+            },
+            {
+              "t": 1791482400,
+              "d": 0.047
+            },
+            {
+              "t": 1791504000,
+              "d": 0.047
+            },
+            {
+              "t": 1791525600,
+              "d": 0.077
+            },
+            {
+              "t": 1791547200,
+              "d": 0.077
+            },
+            {
+              "t": 1791568800,
+              "d": 0.252
+            },
+            {
+              "t": 1791590400,
+              "d": 0.102
+            },
+            {
+              "t": 1791612000,
+              "d": 0.102
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Eugenio Lopez-Chacarra finish in the top 5, including ties, at the 2026 Open de España presented by Madrid?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1137539",
+      "title": "OpenRouter AI token usage Sep 28 to Oct 25?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<575T",
+          "market_id": "5326399"
+        },
+        {
+          "key": "B",
+          "text": "575-625T",
+          "market_id": "5326400"
+        },
+        {
+          "key": "C",
+          "text": "625-675T",
+          "market_id": "5326401"
+        },
+        {
+          "key": "D",
+          "text": "675-725T",
+          "market_id": "5326402"
+        },
+        {
+          "key": "E",
+          "text": "725T+",
+          "market_id": "5326403"
+        }
+      ],
+      "end_time": "2026-10-26T11:59:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "AI",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 10443.64,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0813,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791223200,
+              "d": 0.0118
+            },
+            {
+              "t": 1791244800,
+              "d": 0.0118
+            },
+            {
+              "t": 1791266400,
+              "d": -0.1132
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0568
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0418
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0318
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0482
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0482
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0682
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0882
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0682
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0682
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0868
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0018
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0018
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0018
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0018
+            },
+            {
+              "t": 1791590400,
+              "d": 0.1868
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0668
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791223200,
+              "d": -0.1279
+            },
+            {
+              "t": 1791244800,
+              "d": -0.0629
+            },
+            {
+              "t": 1791266400,
+              "d": -0.0579
+            },
+            {
+              "t": 1791288000,
+              "d": -0.0379
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0179
+            },
+            {
+              "t": 1791331200,
+              "d": -0.0229
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0379
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0429
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0779
+            },
+            {
+              "t": 1791417600,
+              "d": 0.1021
+            },
+            {
+              "t": 1791439200,
+              "d": 0.0271
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0429
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0921
+            },
+            {
+              "t": 1791504000,
+              "d": 0.2121
+            },
+            {
+              "t": 1791525600,
+              "d": 0.2171
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0029
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0729
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0579
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0121
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791223200,
+              "d": 0.1466
+            },
+            {
+              "t": 1791244800,
+              "d": 0.1766
+            },
+            {
+              "t": 1791266400,
+              "d": 0.0116
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0566
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0566
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0566
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0266
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0316
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0334
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0934
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0834
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0884
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0984
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0734
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0784
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0284
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0134
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0066
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0216
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What is the total number of AI tokens OpenRouter processes over the four weeks of September 28 to October 25, 2026, calculated as the sum of weekly Top Models chart totals, with exact totals on a bracket boundary counted toward the higher bracket?\"\nA. <575T\nB. 575-625T\nC. 625-675T\nD. 675-725T\nE. 725T+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    },
+    {
+      "id": "pmb_1141225",
+      "title": "Central Bank of Chile decision in October",
+      "options": [
+        {
+          "key": "A",
+          "text": "25 bps increase",
+          "market_id": "5364733"
+        },
+        {
+          "key": "B",
+          "text": "25 bps decrease",
+          "market_id": "5364731"
+        },
+        {
+          "key": "C",
+          "text": "No change",
+          "market_id": "5364732"
+        },
+        {
+          "key": "D",
+          "text": "50+ bps increase",
+          "market_id": "5364734"
+        },
+        {
+          "key": "E",
+          "text": "50+ bps decrease",
+          "market_id": "5364730"
+        }
+      ],
+      "end_time": "2026-10-27T08:00:00+08:00",
+      "track": "14d",
+      "track_label": "Far · 7–14 days",
+      "category": "Economy",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 6039.41,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0954,
+      "price_history": [
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": -0.5535
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0365
+            },
+            {
+              "t": 1791309600,
+              "d": 0.0165
+            },
+            {
+              "t": 1791331200,
+              "d": -0.2035
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0035
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0285
+            },
+            {
+              "t": 1791396000,
+              "d": 0.0365
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0715
+            },
+            {
+              "t": 1791439200,
+              "d": 0.1015
+            },
+            {
+              "t": 1791460800,
+              "d": 0.1015
+            },
+            {
+              "t": 1791482400,
+              "d": 0.0965
+            },
+            {
+              "t": 1791504000,
+              "d": 0.0915
+            },
+            {
+              "t": 1791525600,
+              "d": 0.0915
+            },
+            {
+              "t": 1791547200,
+              "d": 0.0815
+            },
+            {
+              "t": 1791568800,
+              "d": 0.0815
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0935
+            },
+            {
+              "t": 1791612000,
+              "d": 0.0765
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": 0.1782
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0632
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0068
+            },
+            {
+              "t": 1791331200,
+              "d": 0.0532
+            },
+            {
+              "t": 1791352800,
+              "d": -0.0073
+            },
+            {
+              "t": 1791374400,
+              "d": -0.0273
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0273
+            },
+            {
+              "t": 1791417600,
+              "d": -0.0323
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0333
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0333
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0453
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0388
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0388
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0363
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0363
+            },
+            {
+              "t": 1791590400,
+              "d": 0.0927
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0238
+            }
+          ]
+        },
+        {
+          "label": null,
+          "series": [
+            {
+              "t": 1791266400,
+              "d": 0.1773
+            },
+            {
+              "t": 1791288000,
+              "d": 0.0123
+            },
+            {
+              "t": 1791309600,
+              "d": -0.0327
+            },
+            {
+              "t": 1791331200,
+              "d": 0.1123
+            },
+            {
+              "t": 1791352800,
+              "d": 0.0273
+            },
+            {
+              "t": 1791374400,
+              "d": 0.0323
+            },
+            {
+              "t": 1791396000,
+              "d": -0.0277
+            },
+            {
+              "t": 1791417600,
+              "d": 0.0023
+            },
+            {
+              "t": 1791439200,
+              "d": -0.0222
+            },
+            {
+              "t": 1791460800,
+              "d": -0.0252
+            },
+            {
+              "t": 1791482400,
+              "d": -0.0142
+            },
+            {
+              "t": 1791504000,
+              "d": -0.0402
+            },
+            {
+              "t": 1791525600,
+              "d": -0.0402
+            },
+            {
+              "t": 1791547200,
+              "d": -0.0402
+            },
+            {
+              "t": 1791568800,
+              "d": -0.0402
+            },
+            {
+              "t": 1791590400,
+              "d": -0.0402
+            },
+            {
+              "t": 1791612000,
+              "d": -0.0402
+            }
+          ]
+        }
+      ],
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the change in basis points, rounded to the nearest 25, in the Central Bank of Chile's monetary policy rate relative to the level prior to its October 2026 meeting?\"\nA. 25 bps increase\nB. 25 bps decrease\nC. No change\nD. 50+ bps increase\nE. 50+ bps decrease\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "open",
+      "predictions": []
+    }
+  ]
+}

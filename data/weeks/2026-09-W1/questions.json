@@ -1,0 +1,3883 @@
+{
+  "week": "2026-09-W1",
+  "questions": [
+    {
+      "id": "pmb_945710",
+      "title": "Donald Trump # Truth Social posts September 4 - September 11, 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "120-139",
+          "market_id": "4050638"
+        },
+        {
+          "key": "B",
+          "text": "140-159",
+          "market_id": "4050645"
+        },
+        {
+          "key": "C",
+          "text": "160-179",
+          "market_id": "4050656"
+        },
+        {
+          "key": "D",
+          "text": "180-199",
+          "market_id": "4050665"
+        },
+        {
+          "key": "E",
+          "text": "200+",
+          "market_id": "4050679"
+        }
+      ],
+      "end_time": "2026-09-12T00:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Politics",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 26964.55,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0906,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many Truth Social posts will Donald Trump (@realDonaldTrump) make between 12:00 PM ET on September 4 and 12:00 PM ET on September 11, 2026, counting main feed posts, quote posts, and reposts, but excluding replies?\"\nA. 120-139\nB. 140-159\nC. 160-179\nD. 180-199\nE. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/donald-trump-of-truth-social-posts-september-4-september-11-2026",
+      "answer": [
+        "C"
+      ],
+      "answer_text": "160-179",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.000471,
+        "B": 0.045176,
+        "C": 0.272,
+        "D": 0.315294,
+        "E": 0.367059
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "D"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.33765,
+          "alpha": -0.5714822912659999,
+          "probabilities": {
+            "A": 0.005,
+            "B": 0.015,
+            "C": 0.05,
+            "D": 0.5,
+            "E": 0.43
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "D"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.3898359999999998,
+          "alpha": -0.6236682912659998,
+          "probabilities": {
+            "A": 0.001,
+            "B": 0.001,
+            "C": 0.053,
+            "D": 0.625,
+            "E": 0.32
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.3666,
+          "alpha": -0.600432291266,
+          "probabilities": {
+            "A": 0.02,
+            "B": 0.03,
+            "C": 0.08,
+            "D": 0.17,
+            "E": 0.7
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_945711",
+      "title": "White House # posts September 4 - September 11, 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "120-139",
+          "market_id": "4050642"
+        },
+        {
+          "key": "B",
+          "text": "140-159",
+          "market_id": "4050652"
+        },
+        {
+          "key": "C",
+          "text": "160-179",
+          "market_id": "4050663"
+        },
+        {
+          "key": "D",
+          "text": "180-199",
+          "market_id": "4050671"
+        },
+        {
+          "key": "E",
+          "text": "200+",
+          "market_id": "4050680"
+        }
+      ],
+      "end_time": "2026-09-12T00:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Politics",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 11874.33,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1521,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many main feed posts, quote posts, and reposts (excluding replies) will the White House (@WhiteHouse) make on X from 12:00 PM ET on September 4 to 12:00 PM ET on September 11, 2026?\"\nA. 120-139\nB. 140-159\nC. 160-179\nD. 180-199\nE. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/white-house-of-tweets-september-4-september-11-2026",
+      "answer": [
+        "E"
+      ],
+      "answer_text": "200+",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.001972,
+        "B": 0.007396,
+        "C": 0.043886,
+        "D": 0.359961,
+        "E": 0.586785
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.7416,
+          "alpha": -0.4392968716580001,
+          "probabilities": {
+            "A": 0.08,
+            "B": 0.18,
+            "C": 0.26,
+            "D": 0.24,
+            "E": 0.24
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.28728638,
+          "alpha": 0.015016748341999953,
+          "probabilities": {
+            "A": 0.0002,
+            "B": 0.0003,
+            "C": 0.0015,
+            "D": 0.378,
+            "E": 0.62
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.27759999999999996,
+          "alpha": 0.024703128342000003,
+          "probabilities": {
+            "A": 0.02,
+            "B": 0.04,
+            "C": 0.12,
+            "D": 0.26,
+            "E": 0.56
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_945715",
+      "title": "NYC Mayor # posts September 4 - September 11, 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20-39",
+          "market_id": "4050601"
+        },
+        {
+          "key": "B",
+          "text": "40-59",
+          "market_id": "4050609"
+        },
+        {
+          "key": "C",
+          "text": "60-79",
+          "market_id": "4050617"
+        },
+        {
+          "key": "D",
+          "text": "80-99",
+          "market_id": "4050625"
+        },
+        {
+          "key": "E",
+          "text": "100-119",
+          "market_id": "4050635"
+        },
+        {
+          "key": "F",
+          "text": "120-139",
+          "market_id": "4050655"
+        },
+        {
+          "key": "G",
+          "text": "140-159",
+          "market_id": "4050664"
+        },
+        {
+          "key": "H",
+          "text": "160-179",
+          "market_id": "4050673"
+        },
+        {
+          "key": "I",
+          "text": "180-199",
+          "market_id": "4050682"
+        },
+        {
+          "key": "J",
+          "text": "200+",
+          "market_id": "4050688"
+        }
+      ],
+      "end_time": "2026-09-12T00:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Politics",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 7608.23,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0711,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many main feed posts, quote posts, and reposts will NYC Mayor Zohran Mamdani make on X between 12:00 PM ET on September 4 and 12:00 PM ET on September 11, 2026?\"\nA. 20-39\nB. 40-59\nC. 60-79\nD. 80-99\nE. 100-119\nF. 120-139\nG. 140-159\nH. 160-179\nI. 180-199\nJ. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/nyc-mayor-of-tweets-september-4-september-11-2026",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "20-39",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.759615,
+        "B": 0.192308,
+        "C": 0.003846,
+        "D": 0.010096,
+        "E": 0.010096,
+        "F": 0.004808,
+        "G": 0.005769,
+        "H": 0.005769,
+        "I": 0.004808,
+        "J": 0.002885
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.743038,
+          "alpha": -0.6479309150879999,
+          "probabilities": {
+            "A": 0.22,
+            "B": 0.26,
+            "C": 0.2,
+            "D": 0.13,
+            "E": 0.08,
+            "F": 0.05,
+            "G": 0.03,
+            "H": 0.015,
+            "I": 0.008,
+            "J": 0.007
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.009135239999999994,
+          "alpha": 0.08597184491200008,
+          "probabilities": {
+            "A": 0.93,
+            "B": 0.065,
+            "C": 0.003,
+            "D": 0.001,
+            "E": 0.0004,
+            "F": 0.0002,
+            "G": 0.0001,
+            "H": 0.0001,
+            "I": 0.0001,
+            "J": 0.0001
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.05430599999999997,
+          "alpha": 0.040801084912000095,
+          "probabilities": {
+            "A": 0.8,
+            "B": 0.11,
+            "C": 0.04,
+            "D": 0.02,
+            "E": 0.01,
+            "F": 0.008,
+            "G": 0.005,
+            "H": 0.003,
+            "I": 0.002,
+            "J": 0.002
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_945716",
+      "title": "CZ # posts September 4 - September 11, 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "20-39",
+          "market_id": "4050600"
+        },
+        {
+          "key": "B",
+          "text": "40-59",
+          "market_id": "4050608"
+        },
+        {
+          "key": "C",
+          "text": "60-79",
+          "market_id": "4050616"
+        },
+        {
+          "key": "D",
+          "text": "80-99",
+          "market_id": "4050626"
+        },
+        {
+          "key": "E",
+          "text": "100-119",
+          "market_id": "4050637"
+        },
+        {
+          "key": "F",
+          "text": "120-139",
+          "market_id": "4050647"
+        },
+        {
+          "key": "G",
+          "text": "140-159",
+          "market_id": "4050657"
+        },
+        {
+          "key": "H",
+          "text": "160-179",
+          "market_id": "4050669"
+        },
+        {
+          "key": "I",
+          "text": "180-199",
+          "market_id": "4050676"
+        },
+        {
+          "key": "J",
+          "text": "200+",
+          "market_id": "4050683"
+        }
+      ],
+      "end_time": "2026-09-12T00:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Politics",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 7371.71,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1223,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many posts will CZ (@cz_binance) make on X between 12:00 PM ET on September 4 and 12:00 PM ET on September 11, 2026, counting only main feed posts, quote posts, and reposts, and excluding replies?\"\nA. 20-39\nB. 40-59\nC. 60-79\nD. 80-99\nE. 100-119\nF. 120-139\nG. 140-159\nH. 160-179\nI. 180-199\nJ. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cz-binance-of-tweets-september-4-september-11-2026",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "20-39",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.481084,
+        "B": 0.434376,
+        "C": 0.042504,
+        "D": 0.019617,
+        "E": 0.003737,
+        "F": 0.004671,
+        "G": 0.004671,
+        "H": 0.00327,
+        "I": 0.004204,
+        "J": 0.001868
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.800038,
+          "alpha": -0.33980056655557467,
+          "probabilities": {
+            "A": 0.2,
+            "B": 0.3,
+            "C": 0.22,
+            "D": 0.12,
+            "E": 0.07,
+            "F": 0.04,
+            "G": 0.02,
+            "H": 0.015,
+            "I": 0.008,
+            "J": 0.007
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 4.122999999999893e-05,
+          "alpha": 0.46019620344442536,
+          "probabilities": {
+            "A": 0.9950000000000001,
+            "B": 0.004000000000000001,
+            "C": 0.0004000000000000001,
+            "D": 0.00020000000000000004,
+            "E": 0.00010000000000000002,
+            "F": 0.00010000000000000002,
+            "G": 5.000000000000001e-05,
+            "H": 5.000000000000001e-05,
+            "I": 5.000000000000001e-05,
+            "J": 5.000000000000001e-05
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.19336399999999998,
+          "alpha": 0.2668734334444254,
+          "probabilities": {
+            "A": 0.62,
+            "B": 0.2,
+            "C": 0.08,
+            "D": 0.04,
+            "E": 0.025,
+            "F": 0.015,
+            "G": 0.008,
+            "H": 0.005,
+            "I": 0.004,
+            "J": 0.003
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_964864",
+      "title": "Bitcoin price on September 11?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<70,000",
+          "market_id": "4216751"
+        },
+        {
+          "key": "B",
+          "text": "70,000-72,000",
+          "market_id": "4216753"
+        },
+        {
+          "key": "C",
+          "text": "72,000-74,000",
+          "market_id": "4216755"
+        },
+        {
+          "key": "D",
+          "text": "74,000-76,000",
+          "market_id": "4216757"
+        },
+        {
+          "key": "E",
+          "text": "76,000-78,000",
+          "market_id": "4216759"
+        },
+        {
+          "key": "F",
+          "text": "78,000-80,000",
+          "market_id": "4216761"
+        },
+        {
+          "key": "G",
+          "text": "80,000-82,000",
+          "market_id": "4216763"
+        },
+        {
+          "key": "H",
+          "text": "82,000-84,000",
+          "market_id": "4216765"
+        },
+        {
+          "key": "I",
+          "text": "84,000-86,000",
+          "market_id": "4216767"
+        },
+        {
+          "key": "J",
+          "text": "86,000-88,000",
+          "market_id": "4216770"
+        },
+        {
+          "key": "K",
+          "text": ">88,000",
+          "market_id": "4216772"
+        }
+      ],
+      "end_time": "2026-09-12T00:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Bitcoin",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 2521.47,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0599,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the BTC/USDT close price on Binance for the 1-minute candle at 12:00 ET on September 11?\"\nA. <70,000\nB. 70,000-72,000\nC. 72,000-74,000\nD. 74,000-76,000\nE. 76,000-78,000\nF. 78,000-80,000\nG. 80,000-82,000\nH. 82,000-84,000\nI. 84,000-86,000\nJ. 86,000-88,000\nK. >88,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/bitcoin-price-on-september-11-2026",
+      "answer": [
+        "E"
+      ],
+      "answer_text": "76,000-78,000",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.010269,
+        "B": 0.005868,
+        "C": 0.026895,
+        "D": 0.0978,
+        "E": 0.254279,
+        "F": 0.288509,
+        "G": 0.190709,
+        "H": 0.07335,
+        "I": 0.023961,
+        "J": 0.015648,
+        "K": 0.012714
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3158659999999999,
+          "alpha": 0.37663031303397804,
+          "probabilities": {
+            "A": 0.003,
+            "B": 0.004,
+            "C": 0.018,
+            "D": 0.235,
+            "E": 0.525,
+            "F": 0.185,
+            "G": 0.02,
+            "H": 0.006,
+            "I": 0.002,
+            "J": 0.001,
+            "K": 0.001
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.18552559735000002,
+          "alpha": 0.506970715683978,
+          "probabilities": {
+            "A": 0.0,
+            "B": 1e-06,
+            "C": 0.002448,
+            "D": 0.179561,
+            "E": 0.646609,
+            "F": 0.168475,
+            "G": 0.002903,
+            "H": 3e-06,
+            "I": 0.0,
+            "J": 0.0,
+            "K": 0.0
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.434286,
+          "alpha": 0.25821031303397796,
+          "probabilities": {
+            "A": 0.005,
+            "B": 0.015,
+            "C": 0.05,
+            "D": 0.18,
+            "E": 0.42,
+            "F": 0.24,
+            "G": 0.07,
+            "H": 0.015,
+            "I": 0.003,
+            "J": 0.001,
+            "K": 0.001
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_966799_4231432",
+      "title": "Will Microsoft Corporation (MSFT) hit (HIGH) $502.50 Week of September 7 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4231432"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4231432"
+        }
+      ],
+      "end_time": "2026-09-12T04:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 4,
+      "volume": 905.3018890000001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0869,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the high price of Microsoft Corporation (MSFT) reach or exceed $502.50 during regular trading hours during the week of September 7, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/will-msft-hit-week-of-september-7-2026",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "No",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.515,
+        "B": 0.485
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.012799999999999994,
+          "alpha": 0.5176499999999999,
+          "probabilities": {
+            "A": 0.08,
+            "B": 0.92
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.07999999999999999,
+          "alpha": 0.45045,
+          "probabilities": {
+            "A": 0.2,
+            "B": 0.8
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.07999999999999999,
+          "alpha": 0.45045,
+          "probabilities": {
+            "A": 0.2,
+            "B": 0.8
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_966826_4231748",
+      "title": "Will Opendoor Technologies Inc. (OPEN) hit (HIGH) $3.25 Week of September 7 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4231748"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4231748"
+        }
+      ],
+      "end_time": "2026-09-12T04:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 3,
+      "volume": 550.780486,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1096,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Opendoor Technologies Inc. (OPEN) reach a high price of $3.25 or more during regular trading hours during the week of September 7, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/will-open-hit-week-of-september-7-2026",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "No",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.415,
+        "B": 0.585
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0012500000000000011,
+          "alpha": 0.34320000000000006,
+          "probabilities": {
+            "A": 0.025,
+            "B": 0.975
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0002000000000000002,
+          "alpha": 0.34425000000000006,
+          "probabilities": {
+            "A": 0.01,
+            "B": 0.99
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0018000000000000017,
+          "alpha": 0.34265,
+          "probabilities": {
+            "A": 0.03,
+            "B": 0.97
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_966844_4232007",
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 Week of September 7 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4232007"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4232007"
+        }
+      ],
+      "end_time": "2026-09-12T05:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 2,
+      "volume": 7506.025510000001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1474,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will any 1-minute candle for the Active Month of WTI Crude Oil futures reach a final high price of $100 or more during a trading session of the week of September 7 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_966844_4232008",
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $95 Week of September 7 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4232008"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4232008"
+        }
+      ],
+      "end_time": "2026-09-12T05:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 2,
+      "volume": 3300.5336070000003,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1474,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the high price of any 1-minute candle for the Active Month of WTI Crude Oil futures reach or exceed $95 during a trading session in the week of September 7, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_966845_4232024",
+      "title": "Will Natural Gas (NG) hit (LOW) $2.80 Week of September 7 2026?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4232024"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4232024"
+        }
+      ],
+      "end_time": "2026-09-12T05:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Finance",
+      "kind": "binary",
+      "level": 2,
+      "volume": 5428.972292,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1579,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the Active Month Natural Gas (NG) futures hit a low price of $2.80 or lower during any 1-minute candle within the trading sessions of the week of September 7, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_970966",
+      "title": "LoL: GIANTX vs Natus Vincere (BO5) - LEC Playoffs",
+      "options": [
+        {
+          "key": "A",
+          "text": "GIANTX",
+          "market_id": "4254457"
+        },
+        {
+          "key": "B",
+          "text": "Natus Vincere",
+          "market_id": "4254457"
+        }
+      ],
+      "end_time": "2026-09-12T05:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Esports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 3804.6,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0797,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the LoL Lower bracket quarterfinal 1 BO5 match between GIANTX and Natus Vincere in the LEC Playoffs?\"\nA. GIANTX\nB. Natus Vincere\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/lol-gx-navi-2026-09-11",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Natus Vincere",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.435,
+        "B": 0.565
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3872,
+          "alpha": -0.008749999999999925,
+          "probabilities": {
+            "A": 0.44,
+            "B": 0.56
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.40499999999999997,
+          "alpha": -0.026549999999999907,
+          "probabilities": {
+            "A": 0.45,
+            "B": 0.55
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.5408000000000001,
+          "alpha": -0.16235,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944337",
+      "title": "Rutgers vs. Boston College",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rutgers",
+          "market_id": "4045542"
+        },
+        {
+          "key": "B",
+          "text": "Boston College",
+          "market_id": "4045542"
+        }
+      ],
+      "end_time": "2026-09-12T07:30:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 1313.57,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1369,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the college football game between Rutgers and Boston College on September 11, including overtime?\"\nA. Rutgers\nB. Boston College\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-rutger-boscol-2026-09-11",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Boston College",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.405,
+        "B": 0.595
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3528,
+          "alpha": -0.02474999999999994,
+          "probabilities": {
+            "A": 0.42,
+            "B": 0.58
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3362,
+          "alpha": -0.008149999999999935,
+          "probabilities": {
+            "A": 0.41,
+            "B": 0.59
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2738,
+          "alpha": 0.054250000000000076,
+          "probabilities": {
+            "A": 0.37,
+            "B": 0.63
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_910235_3874930",
+      "title": "Will Aryna Sabalenka advance to the Final in Women's Singles at the 2026 US Open?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "3874930"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "3874930"
+        }
+      ],
+      "end_time": "2026-09-12T07:59:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "WTA",
+      "kind": "binary",
+      "level": 3,
+      "volume": 1903.477426,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0652,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Aryna Sabalenka advance to the Final in Women's Singles at the 2026 US Open?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_983377",
+      "title": "Trump approval rating on September 11?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<37.5",
+          "market_id": "4338473"
+        },
+        {
+          "key": "B",
+          "text": "37.5–37.9",
+          "market_id": "4338474"
+        },
+        {
+          "key": "C",
+          "text": "38.0–38.4",
+          "market_id": "4338475"
+        },
+        {
+          "key": "D",
+          "text": "38.5–38.9",
+          "market_id": "4338476"
+        },
+        {
+          "key": "E",
+          "text": "39.0–39.4",
+          "market_id": "4338477"
+        },
+        {
+          "key": "F",
+          "text": "39.5+",
+          "market_id": "4338478"
+        }
+      ],
+      "end_time": "2026-09-12T07:59:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Trump",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 3283.79,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1066,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Donald Trump's approval rating be on September 11, 2026, according to the green trend line of the Silver Bulletin poll aggregator?\"\nA. <37.5\nB. 37.5–37.9\nC. 38.0–38.4\nD. 38.5–38.9\nE. 39.0–39.4\nF. 39.5+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/trump-approval-rating-on-september-11",
+      "answer": [
+        "C"
+      ],
+      "answer_text": "38.0–38.4",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.007515,
+        "B": 0.06012,
+        "C": 0.636273,
+        "D": 0.215431,
+        "E": 0.07515,
+        "F": 0.005511
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "D"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.5697000000000001,
+          "alpha": -0.3816433704640001,
+          "probabilities": {
+            "A": 0.005,
+            "B": 0.02,
+            "C": 0.44,
+            "D": 0.505,
+            "E": 0.025,
+            "F": 0.005
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.093992,
+          "alpha": 0.09406462953600002,
+          "probabilities": {
+            "A": 0.01,
+            "B": 0.115,
+            "C": 0.745,
+            "D": 0.125,
+            "E": 0.004,
+            "F": 0.001
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.48219999999999996,
+          "alpha": -0.29414337046399996,
+          "probabilities": {
+            "A": 0.1,
+            "B": 0.3,
+            "C": 0.4,
+            "D": 0.14,
+            "E": 0.05,
+            "F": 0.01
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944338_4208050",
+      "title": "Missouri vs. Kansas: O/U 50.5",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4208050"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4208050"
+        }
+      ],
+      "end_time": "2026-09-12T08:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1445.0,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0839,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Missouri and Kansas combine to score over 50.5 points in their college football game on September 11?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-missr-kan-2026-09-11",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Over",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.515,
+        "B": 0.485
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": 0.009649999999999992,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3528,
+          "alpha": 0.11764999999999998,
+          "probabilities": {
+            "A": 0.58,
+            "B": 0.42
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": 0.009649999999999992,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_937257",
+      "title": "CA Boca Juniors vs. CA Central Córdoba",
+      "options": [
+        {
+          "key": "A",
+          "text": "CA Central Córdoba",
+          "market_id": "4006150"
+        },
+        {
+          "key": "B",
+          "text": "Draw (CA Boca Juniors vs. CA Central Córdoba)",
+          "market_id": "4006149"
+        },
+        {
+          "key": "C",
+          "text": "CA Boca Juniors",
+          "market_id": "4006148"
+        }
+      ],
+      "end_time": "2026-09-12T08:30:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Sports",
+      "kind": "multi_outcome",
+      "level": 3,
+      "volume": 577.43,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1102,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Primera División Argentina game between CA Boca Juniors and CA Central Córdoba on September 11, 2026, considering only the first 90 minutes of regular play plus stoppage time?\"\nA. CA Central Córdoba\nB. Draw (CA Boca Juniors vs. CA Central Córdoba)\nC. CA Boca Juniors\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/arg-boc-cac-2026-09-11",
+      "answer": [
+        "C"
+      ],
+      "answer_text": "CA Boca Juniors",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.100503,
+        "B": 0.20603,
+        "C": 0.693467
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2264,
+          "alpha": -0.07988830600199998,
+          "probabilities": {
+            "A": 0.12,
+            "B": 0.26,
+            "C": 0.62
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.30979999999999996,
+          "alpha": -0.16328830600199995,
+          "probabilities": {
+            "A": 0.17,
+            "B": 0.28,
+            "C": 0.55
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2238,
+          "alpha": -0.07728830600199998,
+          "probabilities": {
+            "A": 0.13,
+            "B": 0.25,
+            "C": 0.62
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_976830_4294706",
+      "title": "LoL: Hanwha Life Esports vs T1 (BO5) - LCK Playoffs",
+      "options": [
+        {
+          "key": "A",
+          "text": "Hanwha Life Esports",
+          "market_id": "4294706"
+        },
+        {
+          "key": "B",
+          "text": "T1",
+          "market_id": "4294706"
+        }
+      ],
+      "end_time": "2026-09-12T19:00:00+08:00",
+      "track": "1d",
+      "track_label": "< 1 day",
+      "category": "Esports",
+      "kind": "binary",
+      "level": 3,
+      "volume": 19853.063302999995,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0744,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the LoL Lower bracket final match between Hanwha Life Esports and T1 in the LCK Playoffs scheduled for September 12, 2026?\"\nA. Hanwha Life Esports\nB. T1\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/lol-hle1-t1-2026-09-12",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Hanwha Life Esports",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.605,
+        "B": 0.395
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3042,
+          "alpha": 0.007850000000000024,
+          "probabilities": {
+            "A": 0.61,
+            "B": 0.39
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2888,
+          "alpha": 0.02325000000000005,
+          "probabilities": {
+            "A": 0.62,
+            "B": 0.38
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.32000000000000006,
+          "alpha": -0.007950000000000013,
+          "probabilities": {
+            "A": 0.6,
+            "B": 0.4
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944353_4290404",
+      "title": "Spread: Oklahoma (-5.5)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Oklahoma",
+          "market_id": "4290404"
+        },
+        {
+          "key": "B",
+          "text": "Michigan",
+          "market_id": "4290404"
+        }
+      ],
+      "end_time": "2026-09-13T00:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 2846.5194629999996,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1668,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Oklahoma win by 6 or more points in the college football game against Michigan on September 12?\"\nA. Oklahoma\nB. Michigan\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-okl-mich-2026-09-12",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Michigan",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.515,
+        "B": 0.485
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.5408000000000001,
+          "alpha": -0.010350000000000081,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6728000000000001,
+          "alpha": -0.1423500000000001,
+          "probabilities": {
+            "A": 0.58,
+            "B": 0.42
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.44179999999999997,
+          "alpha": 0.08865,
+          "probabilities": {
+            "A": 0.47,
+            "B": 0.53
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_970264",
+      "title": "Bitcoin price on September 12?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<70,000",
+          "market_id": "4250773"
+        },
+        {
+          "key": "B",
+          "text": "70,000-72,000",
+          "market_id": "4250774"
+        },
+        {
+          "key": "C",
+          "text": "72,000-74,000",
+          "market_id": "4250777"
+        },
+        {
+          "key": "D",
+          "text": "74,000-76,000",
+          "market_id": "4250779"
+        },
+        {
+          "key": "E",
+          "text": "76,000-78,000",
+          "market_id": "4250781"
+        },
+        {
+          "key": "F",
+          "text": "78,000-80,000",
+          "market_id": "4250783"
+        },
+        {
+          "key": "G",
+          "text": "80,000-82,000",
+          "market_id": "4250785"
+        },
+        {
+          "key": "H",
+          "text": "82,000-84,000",
+          "market_id": "4250787"
+        },
+        {
+          "key": "I",
+          "text": "84,000-86,000",
+          "market_id": "4250789"
+        },
+        {
+          "key": "J",
+          "text": "86,000-88,000",
+          "market_id": "4250791"
+        },
+        {
+          "key": "K",
+          "text": ">88,000",
+          "market_id": "4250794"
+        }
+      ],
+      "end_time": "2026-09-13T00:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Bitcoin",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 11248.08,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.11,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Bitcoin price be on September 12?\"\nA. <70,000\nB. 70,000-72,000\nC. 72,000-74,000\nD. 74,000-76,000\nE. 76,000-78,000\nF. 78,000-80,000\nG. 80,000-82,000\nH. 82,000-84,000\nI. 84,000-86,000\nJ. 86,000-88,000\nK. >88,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/bitcoin-price-on-september-12-2026",
+      "answer": [
+        "E"
+      ],
+      "answer_text": "76,000-78,000",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.005005,
+        "B": 0.013013,
+        "C": 0.035536,
+        "D": 0.125125,
+        "E": 0.23023,
+        "F": 0.245245,
+        "G": 0.19019,
+        "H": 0.09009,
+        "I": 0.034535,
+        "J": 0.024024,
+        "K": 0.007007
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.536524,
+          "alpha": 0.17938778508999997,
+          "probabilities": {
+            "A": 0.004,
+            "B": 0.012,
+            "C": 0.075,
+            "D": 0.245,
+            "E": 0.355,
+            "F": 0.225,
+            "G": 0.062,
+            "H": 0.014,
+            "I": 0.004,
+            "J": 0.002,
+            "K": 0.002
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4486253519159999,
+          "alpha": 0.2672864331740001,
+          "probabilities": {
+            "A": 1.9000000000000004e-05,
+            "B": 0.0018680000000000005,
+            "C": 0.04194500000000001,
+            "D": 0.24699400000000005,
+            "E": 0.4268160000000001,
+            "F": 0.23530700000000004,
+            "G": 0.044028000000000005,
+            "H": 0.002948000000000001,
+            "I": 7.400000000000001e-05,
+            "J": 1.0000000000000002e-06,
+            "K": 0.0
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.506514,
+          "alpha": 0.20939778508999995,
+          "probabilities": {
+            "A": 0.005,
+            "B": 0.015,
+            "C": 0.055,
+            "D": 0.18,
+            "E": 0.365,
+            "F": 0.24,
+            "G": 0.095,
+            "H": 0.03,
+            "I": 0.008,
+            "J": 0.004,
+            "K": 0.003
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944375",
+      "title": "Maryland vs. UConn",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4220504"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4220504"
+        }
+      ],
+      "end_time": "2026-09-13T03:30:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1055.4,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0786,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Maryland and UConn combine to score 54 or more points in their college football game on September 12?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-mary-uconn-2026-09-12",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Under",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.465,
+        "B": 0.535
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.42319999999999997,
+          "alpha": 0.009250000000000036,
+          "probabilities": {
+            "A": 0.46,
+            "B": 0.54
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6498,
+          "alpha": -0.21735000000000004,
+          "probabilities": {
+            "A": 0.57,
+            "B": 0.43
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3872,
+          "alpha": 0.04525000000000001,
+          "probabilities": {
+            "A": 0.44,
+            "B": 0.56
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944401",
+      "title": "Buffalo vs. Florida International",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4314759"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4314759"
+        }
+      ],
+      "end_time": "2026-09-13T06:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 586.69,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.079,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the combined score of the Buffalo and Florida International college football game on September 12 be 49 or more points?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-buf-flint-2026-09-12",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Over",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.455,
+        "B": 0.545
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6272000000000001,
+          "alpha": -0.033150000000000124,
+          "probabilities": {
+            "A": 0.44,
+            "B": 0.56
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.8450000000000001,
+          "alpha": -0.2509500000000001,
+          "probabilities": {
+            "A": 0.35,
+            "B": 0.65
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6728000000000001,
+          "alpha": -0.0787500000000001,
+          "probabilities": {
+            "A": 0.42,
+            "B": 0.58
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944417_4216355",
+      "title": "Tennessee vs. Georgia Tech: O/U 54.5",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4216355"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4216355"
+        }
+      ],
+      "end_time": "2026-09-13T07:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 988.6174080000001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0646,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the total combined points scored by Tennessee and Georgia Tech in their game on September 12 be more than 54.5?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-tenn-gtech-2026-09-12",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Over",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.535,
+        "B": 0.465
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": -0.028349999999999986,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": -0.028349999999999986,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": -0.028349999999999986,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_944449",
+      "title": "Charlotte vs. Ole Miss",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4297636"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4297636"
+        }
+      ],
+      "end_time": "2026-09-13T07:45:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 3739.42,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": null,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the combined score of Charlotte and Ole Miss be 62 or more points in their college football game on September 12?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/cfb-charlt-miss-2026-09-12",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Under",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.475,
+        "B": 0.525
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": -0.009550000000000003,
+          "probabilities": {
+            "A": 0.48,
+            "B": 0.52
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6050000000000001,
+          "alpha": -0.1537500000000001,
+          "probabilities": {
+            "A": 0.55,
+            "B": 0.45
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.40499999999999997,
+          "alpha": 0.04625000000000001,
+          "probabilities": {
+            "A": 0.45,
+            "B": 0.55
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_910152_3874319",
+      "title": "Will Ben Shelton advance to the Final in Men's Singles at the 2026 US Open?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "3874319"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "3874319"
+        }
+      ],
+      "end_time": "2026-09-13T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "ATP",
+      "kind": "binary",
+      "level": 3,
+      "volume": 2809.108866,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0925,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Ben Shelton advance to the Final in Men's Singles at the 2026 US Open?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/us-open-2026-to-reach-the-final-mens-singles-20260824175605000",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Yes",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.385,
+        "B": 0.615
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.15680000000000002,
+          "alpha": 0.5996499999999999,
+          "probabilities": {
+            "A": 0.72,
+            "B": 0.28
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2592,
+          "alpha": 0.49724999999999997,
+          "probabilities": {
+            "A": 0.64,
+            "B": 0.36
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.1458,
+          "alpha": 0.6106499999999999,
+          "probabilities": {
+            "A": 0.73,
+            "B": 0.27
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_960054",
+      "title": "# of views of next MrBeast video on week 1?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<40M",
+          "market_id": "4192216"
+        },
+        {
+          "key": "B",
+          "text": "40-50M",
+          "market_id": "4192217"
+        },
+        {
+          "key": "C",
+          "text": "50-60M",
+          "market_id": "4192218"
+        },
+        {
+          "key": "D",
+          "text": "60-70M",
+          "market_id": "4192219"
+        },
+        {
+          "key": "E",
+          "text": "70-80M",
+          "market_id": "4192220"
+        },
+        {
+          "key": "F",
+          "text": "80-90M",
+          "market_id": "4192221"
+        },
+        {
+          "key": "G",
+          "text": "90M+",
+          "market_id": "4192222"
+        }
+      ],
+      "end_time": "2026-09-13T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Culture",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 140893.16,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1609,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many views will MrBeast's next regular YouTube video (not Shorts or previews) posted after this market's creation receive in its first 7 days?\"\nA. <40M\nB. 40-50M\nC. 50-60M\nD. 60-70M\nE. 70-80M\nF. 80-90M\nG. 90M+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/of-views-of-next-mrbeast-video-on-week-1-20260905",
+      "answer": [
+        "F"
+      ],
+      "answer_text": "80-90M",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.000492,
+        "B": 0.000492,
+        "C": 0.000492,
+        "D": 0.003441,
+        "E": 0.567355,
+        "F": 0.408063,
+        "G": 0.019666
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "F"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.128636,
+          "alpha": 0.544044264736798,
+          "probabilities": {
+            "A": 0.001,
+            "B": 0.001,
+            "C": 0.003,
+            "D": 0.015,
+            "E": 0.22,
+            "F": 0.72,
+            "G": 0.04
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "F"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.006162000000000005,
+          "alpha": 0.666518264736798,
+          "probabilities": {
+            "A": 0.0,
+            "B": 0.0,
+            "C": 0.0,
+            "D": 0.0,
+            "E": 0.055,
+            "F": 0.944,
+            "G": 0.001
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "F"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.34220000000000006,
+          "alpha": 0.3304802647367979,
+          "probabilities": {
+            "A": 0.01,
+            "B": 0.02,
+            "C": 0.05,
+            "D": 0.12,
+            "E": 0.2,
+            "F": 0.48,
+            "G": 0.12
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_843044",
+      "title": "Sweden Parliamentary Election: S Vote Share?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<27%",
+          "market_id": "3562235"
+        },
+        {
+          "key": "B",
+          "text": "27-30%",
+          "market_id": "3562236"
+        },
+        {
+          "key": "C",
+          "text": "30-33%",
+          "market_id": "3562237"
+        },
+        {
+          "key": "D",
+          "text": "33%+",
+          "market_id": "3562238"
+        }
+      ],
+      "end_time": "2026-09-13T08:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sweden",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 62839.74,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0652,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What vote share will the Swedish Social Democratic Party (S) receive in Sweden's parliamentary election on September 13, 2026?\"\nA. <27%\nB. 27-30%\nC. 30-33%\nD. 33%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/sweden-parliamentary-election-s-vote-share-20260812172636410",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "27-30%",
+      "resolved_at": "2026-09-21T15:30:24.421599+08:00",
+      "market_prob": {
+        "A": 0.296404,
+        "B": 0.437318,
+        "C": 0.228377,
+        "D": 0.037901
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.30484999999999995,
+          "alpha": 0.15320890427000006,
+          "probabilities": {
+            "A": 0.18,
+            "B": 0.545,
+            "C": 0.255,
+            "D": 0.02
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.25420000000000004,
+          "alpha": 0.20385890426999997,
+          "probabilities": {
+            "A": 0.1,
+            "B": 0.6,
+            "C": 0.29,
+            "D": 0.01
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3674,
+          "alpha": 0.09065890427000001,
+          "probabilities": {
+            "A": 0.35,
+            "B": 0.52,
+            "C": 0.12,
+            "D": 0.01
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_843055",
+      "title": "Sweden Parliamentary Election: V Vote Share?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<5%",
+          "market_id": "3562255"
+        },
+        {
+          "key": "B",
+          "text": "5-7%",
+          "market_id": "3562256"
+        },
+        {
+          "key": "C",
+          "text": "7-9%",
+          "market_id": "3562257"
+        },
+        {
+          "key": "D",
+          "text": "9%+",
+          "market_id": "3562258"
+        }
+      ],
+      "end_time": "2026-09-13T08:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sweden",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 47943.51,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0585,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What percentage of valid votes will the Left Party (V) receive in the Swedish parliamentary election on September 13, 2026?\"\nA. <5%\nB. 5-7%\nC. 7-9%\nD. 9%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/sweden-parliamentary-election-v-vote-share-20260812172636440",
+      "answer": [
+        "C"
+      ],
+      "answer_text": "7-9%",
+      "resolved_at": "2026-09-21T15:30:24.421599+08:00",
+      "market_prob": {
+        "A": 0.015492,
+        "B": 0.37981,
+        "C": 0.464768,
+        "D": 0.13993
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.321398,
+          "alpha": 0.1291513368879999,
+          "probabilities": {
+            "A": 0.012,
+            "B": 0.37,
+            "C": 0.573,
+            "D": 0.045
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3434,
+          "alpha": 0.10714933688799994,
+          "probabilities": {
+            "A": 0.02,
+            "B": 0.37,
+            "C": 0.55,
+            "D": 0.06
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.15759999999999996,
+          "alpha": 0.29294933688799996,
+          "probabilities": {
+            "A": 0.02,
+            "B": 0.08,
+            "C": 0.68,
+            "D": 0.22
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_971952",
+      "title": "W15 Hurghada: Bianca Compuesto vs Maria Charl",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4258831"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4258831"
+        }
+      ],
+      "end_time": "2026-09-13T08:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1430.0,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0667,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the W15 Hurghada Qualifying tennis match between Bianca Compuesto and Maria Charl scheduled for September 5, 2026, be played to completion through normal play?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_933070",
+      "title": "Noche UFC: Rodrigo Vera vs. Ramiro Jimenez (Featherweight, Prelims)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Rodrigo Vera",
+          "market_id": "3985661"
+        },
+        {
+          "key": "B",
+          "text": "Ramiro Jimenez",
+          "market_id": "3985661"
+        }
+      ],
+      "end_time": "2026-09-13T11:59:59.999000+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 4773.42,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0761,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be officially declared the winner of the featherweight preliminary fight between Rodrigo Vera and Ramiro Jimenez at Noche UFC: Silva vs. Delgado on September 12, 2026?\"\nA. Rodrigo Vera\nB. Ramiro Jimenez\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_970551_4252350",
+      "title": "Shanghai: James Kent Trotter vs Kaito Uesugi",
+      "options": [
+        {
+          "key": "A",
+          "text": "James Kent Trotter",
+          "market_id": "4252350"
+        },
+        {
+          "key": "B",
+          "text": "Kaito Uesugi",
+          "market_id": "4252350"
+        }
+      ],
+      "end_time": "2026-09-13T16:30:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 26625.922714999997,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0579,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will advance in the Shanghai, China, Qualifying tennis match between James Kent Trotter and Kaito Uesugi scheduled for September 6, 2026?\"\nA. James Kent Trotter\nB. Kaito Uesugi\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_956493",
+      "title": "\"Practical Magic 2\" Opening Weekend Box Office",
+      "options": [
+        {
+          "key": "A",
+          "text": "<38m",
+          "market_id": "4176861"
+        },
+        {
+          "key": "B",
+          "text": "38-41m",
+          "market_id": "4176862"
+        },
+        {
+          "key": "C",
+          "text": "41-44m",
+          "market_id": "4176863"
+        },
+        {
+          "key": "D",
+          "text": "44-47m",
+          "market_id": "4176864"
+        },
+        {
+          "key": "E",
+          "text": "47-51m",
+          "market_id": "4176865"
+        },
+        {
+          "key": "F",
+          "text": "51m+",
+          "market_id": "4176866"
+        }
+      ],
+      "end_time": "2026-09-13T20:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Movies",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 10141.6,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0739,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the domestic opening weekend box office gross for \"Practical Magic 2\" for the 3-day weekend of September 11-13, including previews?\"\nA. <38m\nB. 38-41m\nC. 41-44m\nD. 44-47m\nE. 47-51m\nF. 51m+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/practical-magic-2-opening-weekend-box-office",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "<38m",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.23309,
+        "B": 0.145338,
+        "C": 0.201097,
+        "D": 0.23309,
+        "E": 0.109689,
+        "F": 0.077697
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.2629499999999999,
+          "alpha": 0.45916362397603006,
+          "probabilities": {
+            "A": 0.55,
+            "B": 0.19,
+            "C": 0.13,
+            "D": 0.075,
+            "E": 0.04,
+            "F": 0.015
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.21740000000000004,
+          "alpha": 0.5047136239760299,
+          "probabilities": {
+            "A": 0.6,
+            "B": 0.2,
+            "C": 0.12,
+            "D": 0.05,
+            "E": 0.02,
+            "F": 0.01
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4292000000000001,
+          "alpha": 0.2929136239760299,
+          "probabilities": {
+            "A": 0.44,
+            "B": 0.29,
+            "C": 0.16,
+            "D": 0.07,
+            "E": 0.03,
+            "F": 0.01
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_976583",
+      "title": "Bitcoin price on September 13?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<70,000",
+          "market_id": "4293303"
+        },
+        {
+          "key": "B",
+          "text": "70,000-72,000",
+          "market_id": "4293305"
+        },
+        {
+          "key": "C",
+          "text": "72,000-74,000",
+          "market_id": "4293307"
+        },
+        {
+          "key": "D",
+          "text": "74,000-76,000",
+          "market_id": "4293309"
+        },
+        {
+          "key": "E",
+          "text": "76,000-78,000",
+          "market_id": "4293311"
+        },
+        {
+          "key": "F",
+          "text": "78,000-80,000",
+          "market_id": "4293313"
+        },
+        {
+          "key": "G",
+          "text": "80,000-82,000",
+          "market_id": "4293315"
+        },
+        {
+          "key": "H",
+          "text": "82,000-84,000",
+          "market_id": "4293318"
+        },
+        {
+          "key": "I",
+          "text": "84,000-86,000",
+          "market_id": "4293321"
+        },
+        {
+          "key": "J",
+          "text": "86,000-88,000",
+          "market_id": "4293324"
+        },
+        {
+          "key": "K",
+          "text": ">88,000",
+          "market_id": "4293327"
+        }
+      ],
+      "end_time": "2026-09-14T00:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Bitcoin",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 687.29,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0533,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the close price of the Binance BTC/USDT 1-minute candle at 12:00 PM ET on September 13?\"\nA. <70,000\nB. 70,000-72,000\nC. 72,000-74,000\nD. 74,000-76,000\nE. 76,000-78,000\nF. 78,000-80,000\nG. 80,000-82,000\nH. 82,000-84,000\nI. 84,000-86,000\nJ. 86,000-88,000\nK. >88,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/bitcoin-price-on-september-13-2026",
+      "answer": [
+        "E"
+      ],
+      "answer_text": "76,000-78,000",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.01036,
+        "B": 0.01628,
+        "C": 0.043414,
+        "D": 0.118402,
+        "E": 0.222003,
+        "F": 0.241737,
+        "G": 0.177602,
+        "H": 0.098668,
+        "I": 0.039467,
+        "J": 0.024174,
+        "K": 0.007893
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.6307300000000002,
+          "alpha": 0.09274445661999986,
+          "probabilities": {
+            "A": 0.008,
+            "B": 0.029,
+            "C": 0.103,
+            "D": 0.222,
+            "E": 0.283,
+            "F": 0.214,
+            "G": 0.096,
+            "H": 0.026,
+            "I": 0.011,
+            "J": 0.005,
+            "K": 0.003
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.559531058574,
+          "alpha": 0.1639433980460001,
+          "probabilities": {
+            "A": 0.0006310000000000002,
+            "B": 0.011047000000000001,
+            "C": 0.07892600000000001,
+            "D": 0.24250400000000003,
+            "E": 0.34083300000000005,
+            "F": 0.23107100000000003,
+            "G": 0.07918000000000001,
+            "H": 0.014307000000000002,
+            "I": 0.0014180000000000002,
+            "J": 8.000000000000002e-05,
+            "K": 3.0000000000000005e-06
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "E"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.5536359999999999,
+          "alpha": 0.1698384566200002,
+          "probabilities": {
+            "A": 0.008,
+            "B": 0.02,
+            "C": 0.065,
+            "D": 0.18,
+            "E": 0.33,
+            "F": 0.235,
+            "G": 0.105,
+            "H": 0.035,
+            "I": 0.01,
+            "J": 0.006,
+            "K": 0.006
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_795827_3920327",
+      "title": "Spread: Vikings (-1.5)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Vikings",
+          "market_id": "3920327"
+        },
+        {
+          "key": "B",
+          "text": "Packers",
+          "market_id": "3920327"
+        }
+      ],
+      "end_time": "2026-09-14T04:25:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1435.720981,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1308,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the Vikings win by 2 or more points against the Packers in their NFL game on September 13 at 4:25 PM ET, including overtime?\"\nA. Vikings\nB. Packers\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/nfl-gb-min-2026-09-13",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Vikings",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.505,
+        "B": 0.495
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.48019999999999996,
+          "alpha": 0.009850000000000025,
+          "probabilities": {
+            "A": 0.51,
+            "B": 0.49
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.44179999999999997,
+          "alpha": 0.048250000000000015,
+          "probabilities": {
+            "A": 0.53,
+            "B": 0.47
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.44179999999999997,
+          "alpha": 0.048250000000000015,
+          "probabilities": {
+            "A": 0.53,
+            "B": 0.47
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_795830_4013474",
+      "title": "1Q Spread: Eagles (-4.5)",
+      "options": [
+        {
+          "key": "A",
+          "text": "Eagles",
+          "market_id": "4013474"
+        },
+        {
+          "key": "B",
+          "text": "Commanders",
+          "market_id": "4013474"
+        }
+      ],
+      "end_time": "2026-09-14T04:25:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 8207.195446,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1029,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the Eagles outscore the Commanders by 5 or more points in the first quarter of their NFL game on September 13?\"\nA. Eagles\nB. Commanders\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/nfl-was-phi-2026-09-13",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Commanders",
+      "resolved_at": "2026-09-14T10:05:57.712076+08:00",
+      "market_prob": {
+        "A": 0.5,
+        "B": 0.5
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.1458,
+          "alpha": 0.35419999999999996,
+          "probabilities": {
+            "A": 0.27,
+            "B": 0.73
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.23120000000000002,
+          "alpha": 0.2688,
+          "probabilities": {
+            "A": 0.34,
+            "B": 0.66
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.20479999999999998,
+          "alpha": 0.2952,
+          "probabilities": {
+            "A": 0.32,
+            "B": 0.68
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_830746",
+      "title": "Sweden Parliamentary Elections: Social Democratic Party # of seats?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<105",
+          "market_id": "3504081"
+        },
+        {
+          "key": "B",
+          "text": "105-109",
+          "market_id": "3504082"
+        },
+        {
+          "key": "C",
+          "text": "110-114",
+          "market_id": "3504083"
+        },
+        {
+          "key": "D",
+          "text": "115-119",
+          "market_id": "3504084"
+        },
+        {
+          "key": "E",
+          "text": "120-124",
+          "market_id": "3504085"
+        },
+        {
+          "key": "F",
+          "text": "125-129",
+          "market_id": "3504086"
+        },
+        {
+          "key": "G",
+          "text": "130+",
+          "market_id": "3504087"
+        }
+      ],
+      "end_time": "2026-09-14T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Sweden",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 28427.85,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0788,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many seats will the Swedish Social Democratic Party (S) win in the September 13, 2026 Swedish parliamentary elections?\"\nA. <105\nB. 105-109\nC. 110-114\nD. 115-119\nE. 120-124\nF. 125-129\nG. 130+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/sweden-parliamentary-elections-social-democratic-party-of-seats-20260806100330525",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "<105",
+      "resolved_at": "2026-09-21T15:30:24.421599+08:00",
+      "market_prob": {
+        "A": 0.572942,
+        "B": 0.264805,
+        "C": 0.129995,
+        "D": 0.013481,
+        "E": 0.015888,
+        "F": 0.001444,
+        "G": 0.001444
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.3718915000000001,
+          "alpha": -0.10205455485037951,
+          "probabilities": {
+            "A": 0.48000000000000004,
+            "B": 0.26000000000000006,
+            "C": 0.17000000000000004,
+            "D": 0.06800000000000002,
+            "E": 0.019000000000000003,
+            "F": 0.0025000000000000005,
+            "G": 0.0005000000000000001
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.47075999999999996,
+          "alpha": -0.20092305485037937,
+          "probabilities": {
+            "A": 0.41900000000000004,
+            "B": 0.30100000000000005,
+            "C": 0.19400000000000003,
+            "D": 0.06900000000000002,
+            "E": 0.014000000000000002,
+            "F": 0.0020000000000000005,
+            "G": 0.0010000000000000002
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.16474999999999998,
+          "alpha": 0.10508694514962061,
+          "probabilities": {
+            "A": 0.66,
+            "B": 0.2,
+            "C": 0.09,
+            "D": 0.03,
+            "E": 0.01,
+            "F": 0.005,
+            "G": 0.005
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_959364",
+      "title": "How many ships transit the Strait of Hormuz week of September 7?",
+      "options": [
+        {
+          "key": "A",
+          "text": "<20",
+          "market_id": "4189404"
+        },
+        {
+          "key": "B",
+          "text": "20-24",
+          "market_id": "4189405"
+        },
+        {
+          "key": "C",
+          "text": "25-29",
+          "market_id": "4189406"
+        },
+        {
+          "key": "D",
+          "text": "30-34",
+          "market_id": "4189407"
+        },
+        {
+          "key": "E",
+          "text": "35-39",
+          "market_id": "4189408"
+        },
+        {
+          "key": "F",
+          "text": "40+",
+          "market_id": "4189409"
+        }
+      ],
+      "end_time": "2026-09-14T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Oil",
+      "kind": "multi_outcome",
+      "level": 4,
+      "volume": 7923.62,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0505,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many transit calls does IMF Portwatch report for the Strait of Hormuz from September 7 through September 13, 2026, covering container, dry bulk, roll-on/roll-off, general cargo, and tanker ships?\"\nA. <20\nB. 20-24\nC. 25-29\nD. 30-34\nE. 35-39\nF. 40+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/how-many-ships-transit-the-strait-of-hormuz-week-of-september-7",
+      "answer": [
+        "E"
+      ],
+      "answer_text": "35-39",
+      "resolved_at": "2026-09-16T16:21:00.624925+08:00",
+      "market_prob": {
+        "A": 0.171065,
+        "B": 0.259042,
+        "C": 0.268817,
+        "D": 0.16129,
+        "E": 0.112414,
+        "F": 0.02737
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.19315,
+          "alpha": -0.20994855766416332,
+          "probabilities": {
+            "A": 0.34,
+            "B": 0.31,
+            "C": 0.2,
+            "D": 0.1,
+            "E": 0.035,
+            "F": 0.015
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "C"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.0618,
+          "alpha": -0.07859855766416346,
+          "probabilities": {
+            "A": 0.06,
+            "B": 0.22,
+            "C": 0.35,
+            "D": 0.24,
+            "E": 0.09,
+            "F": 0.04
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "D"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.7294,
+          "alpha": 0.25380144233583657,
+          "probabilities": {
+            "A": 0.03,
+            "B": 0.1,
+            "C": 0.2,
+            "D": 0.28,
+            "E": 0.24,
+            "F": 0.15
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_966743_4231246",
+      "title": "Will Trump say \"Migrant Criminal\" this week?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4231246"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4231246"
+        }
+      ],
+      "end_time": "2026-09-14T07:59:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Trump",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1902.9564790000002,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1093,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Donald Trump verbally say the phrase \"Migrant Criminal\" between September 7, 2026, and September 13, 2026, excluding written statements?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/what-will-trump-say-this-week-september-7-september-13-20260913",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "No",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.51,
+        "B": 0.49
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0968,
+          "alpha": 0.4234,
+          "probabilities": {
+            "A": 0.22,
+            "B": 0.78
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.23120000000000002,
+          "alpha": 0.289,
+          "probabilities": {
+            "A": 0.34,
+            "B": 0.66
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.8450000000000001,
+          "alpha": -0.3248000000000001,
+          "probabilities": {
+            "A": 0.65,
+            "B": 0.35
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_980492_4319457",
+      "title": "Will Bitcoin reach $84,000 September 7-13?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4319457"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4319457"
+        }
+      ],
+      "end_time": "2026-09-14T12:00:00+08:00",
+      "track": "3d",
+      "track_label": "1–3 days",
+      "category": "Crypto",
+      "kind": "binary",
+      "level": 2,
+      "volume": 33786.61380300001,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.135,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the high price of any Binance 1-minute candle for BTC/USDT reach $84,000 or more between 12:00 AM ET on September 7 and 11:59 PM ET on September 13?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/what-price-will-bitcoin-hit-september-7-13-2026",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "No",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.145,
+        "B": 0.855
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0018000000000000017,
+          "alpha": 0.04025,
+          "probabilities": {
+            "A": 0.03,
+            "B": 0.97
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 8.712000000000066e-05,
+          "alpha": 0.04196288,
+          "probabilities": {
+            "A": 0.0066,
+            "B": 0.9934
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0288,
+          "alpha": 0.013250000000000005,
+          "probabilities": {
+            "A": 0.12,
+            "B": 0.88
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_945985",
+      "title": "Torino FC vs. AS Roma - More Markets",
+      "options": [
+        {
+          "key": "A",
+          "text": "Over",
+          "market_id": "4052295"
+        },
+        {
+          "key": "B",
+          "text": "Under",
+          "market_id": "4052295"
+        }
+      ],
+      "end_time": "2026-09-15T00:30:00+08:00",
+      "track": "7d",
+      "track_label": "3–7 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1294.2,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1163,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Torino FC and AS Roma combine to score 3 or more goals in their Serie A game on September 14 during the first 90 minutes of regular play plus stoppage time?\"\nA. Over\nB. Under\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/sea-tor-rom-2026-09-14-more-markets",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "Under",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.505,
+        "B": 0.495
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.4608,
+          "alpha": 0.049250000000000016,
+          "probabilities": {
+            "A": 0.48,
+            "B": 0.52
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.6272000000000001,
+          "alpha": -0.11715000000000009,
+          "probabilities": {
+            "A": 0.56,
+            "B": 0.44
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "A"
+          ],
+          "accuracy": 0.0,
+          "brier": 0.5408000000000001,
+          "alpha": -0.030750000000000055,
+          "probabilities": {
+            "A": 0.52,
+            "B": 0.48
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_942936_4036586",
+      "title": "Will \"The Uprising\" score at least 60 on the Rotten Tomatoes Tomatometer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4036586"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4036586"
+        }
+      ],
+      "end_time": "2026-09-15T07:59:00+08:00",
+      "track": "7d",
+      "track_label": "3–7 days",
+      "category": "Movies",
+      "kind": "binary",
+      "level": 3,
+      "volume": 1946.487224,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1082,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will \"The Uprising\" have an \"All Critics\" Rotten Tomatoes Tomatometer score of at least 60 as of 10:00 AM ET on September 14, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/the-uprising-rotten-tomatoes-score-20260914",
+      "answer": [
+        "B"
+      ],
+      "answer_text": "No",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.43,
+        "B": 0.57
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.0968,
+          "alpha": 0.273,
+          "probabilities": {
+            "A": 0.22,
+            "B": 0.78
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.13520000000000001,
+          "alpha": 0.2346,
+          "probabilities": {
+            "A": 0.26,
+            "B": 0.74
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 1.0,
+          "brier": 0.07999999999999999,
+          "alpha": 0.28980000000000006,
+          "probabilities": {
+            "A": 0.2,
+            "B": 0.8
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_961243_4199123",
+      "title": "Will \"Runner\" score at least 70 on the Rotten Tomatoes Tomatometer?",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4199123"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4199123"
+        }
+      ],
+      "end_time": "2026-09-15T07:59:00+08:00",
+      "track": "7d",
+      "track_label": "3–7 days",
+      "category": "Movies",
+      "kind": "binary",
+      "level": 2,
+      "volume": 2402.3800650000003,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0968,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the \"All Critics\" Rotten Tomatoes Tomatometer score for \"Runner\" be at least 70 as of 10:00 AM ET on September 14, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "resolved",
+      "source_url": "https://polymarket.com/event/runner-rotten-tomatoes-score-20260914",
+      "answer": [
+        "A"
+      ],
+      "answer_text": "Yes",
+      "resolved_at": "2026-09-15T11:04:36.345399+08:00",
+      "market_prob": {
+        "A": 0.155,
+        "B": 0.845
+      },
+      "predictions": [
+        {
+          "model": "claude-opus-5",
+          "display_name": "Claude Opus 5",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.4449999999999998,
+          "alpha": -0.01695000000000002,
+          "probabilities": {
+            "A": 0.15,
+            "B": 0.85
+          },
+          "status": "answered"
+        },
+        {
+          "model": "gpt-5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.1858,
+          "alpha": 0.24224999999999985,
+          "probabilities": {
+            "A": 0.23,
+            "B": 0.77
+          },
+          "status": "answered"
+        },
+        {
+          "model": "kimi-k3",
+          "display_name": "Kimi K3",
+          "predicted": [
+            "B"
+          ],
+          "accuracy": 0.0,
+          "brier": 1.7298,
+          "alpha": -0.3017500000000002,
+          "probabilities": {
+            "A": 0.07,
+            "B": 0.93
+          },
+          "status": "answered"
+        }
+      ]
+    },
+    {
+      "id": "pmb_987314",
+      "title": "W15 Yeongwol: Thasaporn Naklo vs YUJIN AHN",
+      "options": [
+        {
+          "key": "A",
+          "text": "Yes",
+          "market_id": "4359349"
+        },
+        {
+          "key": "B",
+          "text": "No",
+          "market_id": "4359349"
+        }
+      ],
+      "end_time": "2026-09-16T11:00:00+08:00",
+      "track": "7d",
+      "track_label": "3–7 days",
+      "category": "Tennis",
+      "kind": "binary",
+      "level": 4,
+      "volume": 3070.22,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.1273,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the tennis match between Thasaporn Naklo and YUJIN AHN in the W15 Yeongwol, scheduled for September 8, 2026, be played to completion through normal play?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    },
+    {
+      "id": "pmb_978014",
+      "title": "Turkiye vs. Germany",
+      "options": [
+        {
+          "key": "A",
+          "text": "Turkiye",
+          "market_id": "4303663"
+        },
+        {
+          "key": "B",
+          "text": "Germany",
+          "market_id": "4303663"
+        }
+      ],
+      "end_time": "2026-09-18T01:00:00+08:00",
+      "track": "7d",
+      "track_label": "3–7 days",
+      "category": "Sports",
+      "kind": "binary",
+      "level": 4,
+      "volume": 1109.89,
+      "volume_unit": "usd",
+      "source": "polymarket",
+      "price_volatility": 0.0812,
+      "price_history": null,
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the volleyball match between Turkiye and Germany in the European Championship on September 10?\"\nA. Turkiye\nB. Germany\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "status": "void",
+      "predictions": []
+    }
+  ]
+}

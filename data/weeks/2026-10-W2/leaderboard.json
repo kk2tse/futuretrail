@@ -1,0 +1,40 @@
+{
+  "week": "2026-10-W2",
+  "generated_at": "2026-10-13T17:10:31.825535+08:00",
+  "status": "open",
+  "n_models": 0,
+  "overall": {
+    "track": "all",
+    "n_questions": 0,
+    "rank_metric": "weighted_accuracy",
+    "market_baseline": null,
+    "median_bucket_baseline": null,
+    "entries": []
+  },
+  "tracks": {
+    "3d": {
+      "track": "3d",
+      "n_questions": 0,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": null,
+      "median_bucket_baseline": null,
+      "entries": []
+    },
+    "7d": {
+      "track": "7d",
+      "n_questions": 0,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": null,
+      "median_bucket_baseline": null,
+      "entries": []
+    },
+    "14d": {
+      "track": "14d",
+      "n_questions": 0,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": null,
+      "median_bucket_baseline": null,
+      "entries": []
+    }
+  }
+}

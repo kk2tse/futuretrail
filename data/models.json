@@ -1,0 +1,416 @@
+{
+  "generated_at": "2026-10-13T18:09:19.106833+08:00",
+  "models": [
+    {
+      "name": "claude-opus-5",
+      "display_name": "Claude Opus 5",
+      "org": "",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-09-W1",
+          "rank": 3,
+          "accuracy": 0.7352941176470589,
+          "weighted_accuracy": 0.7175925925925927,
+          "brier": 0.4529491617647059,
+          "alpha": 0.049048095619608476,
+          "coverage": 1.0,
+          "n_scored": 34,
+          "by_level": {
+            "4": {
+              "n": 24,
+              "accuracy": 0.7083333333333334,
+              "brier": 0.48687431249999996
+            },
+            "3": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.283561
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.7233999999999999
+            }
+          },
+          "by_category": {
+            "Politics": {
+              "n": 4,
+              "accuracy": 0.0,
+              "brier": 0.9055815
+            },
+            "Bitcoin": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.4943733333333334
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.007024999999999997
+            },
+            "Esports": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.3457
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.8181818181818182,
+              "brier": 0.42178181818181815
+            },
+            "Trump": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.33325000000000005
+            },
+            "ATP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.15680000000000002
+            },
+            "Culture": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.128636
+            },
+            "Sweden": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.33271316666666667
+            },
+            "Movies": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.6015833333333332
+            },
+            "Oil": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.19315
+            },
+            "Crypto": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0018000000000000017
+            }
+          },
+          "market_brier": 0.5019972573843144,
+          "market_accuracy": 0.5882352941176471,
+          "tracks": {
+            "1d": {
+              "label": "< 1 day",
+              "accuracy": 0.6153846153846154,
+              "weighted_accuracy": 0.6020408163265306,
+              "brier": 0.4810263076923077,
+              "alpha": -0.09527400061535357,
+              "rank": 3,
+              "n_scored": 13
+            },
+            "3d": {
+              "label": "1–3 days",
+              "accuracy": 0.8333333333333334,
+              "weighted_accuracy": 0.9166666666666667,
+              "brier": 0.39690719444444444,
+              "alpha": 0.14449429217034912,
+              "rank": 1,
+              "n_scored": 18
+            },
+            "7d": {
+              "label": "3–7 days",
+              "accuracy": 0.6666666666666666,
+              "weighted_accuracy": 0.7777777777777778,
+              "brier": 0.6675333333333332,
+              "alpha": 0.10176666666666667,
+              "rank": 1,
+              "n_scored": 3
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 34,
+        "accuracy": 0.7352941176470589,
+        "weighted_accuracy": 0.7175925925925927,
+        "best_rank": 3,
+        "alpha": 0.049048095619608476
+      }
+    },
+    {
+      "name": "gpt-5.6-sol",
+      "display_name": "GPT-5.6 Sol",
+      "org": "OpenAI",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-09-W1",
+          "rank": 1,
+          "accuracy": 0.7647058823529411,
+          "weighted_accuracy": 0.7592592592592593,
+          "brier": 0.39545829346588235,
+          "alpha": 0.10653896391843203,
+          "coverage": 1.0,
+          "n_scored": 34,
+          "by_level": {
+            "4": {
+              "n": 24,
+              "accuracy": 0.7083333333333334,
+              "brier": 0.43817331740999993
+            },
+            "3": {
+              "n": 8,
+              "accuracy": 1.0,
+              "brier": 0.21794190500000002
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.59294356
+            }
+          },
+          "by_category": {
+            "Politics": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.42157471249999995
+            },
+            "Bitcoin": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.3978940026133333
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.0401
+            },
+            "Esports": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.3469
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.5029454545454546
+            },
+            "Trump": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.16259600000000002
+            },
+            "ATP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2592
+            },
+            "Culture": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.006162000000000005
+            },
+            "Sweden": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.35612
+            },
+            "Movies": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5128
+            },
+            "Oil": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.0618
+            },
+            "Crypto": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 8.712000000000066e-05
+            }
+          },
+          "market_brier": 0.5019972573843144,
+          "market_accuracy": 0.5882352941176471,
+          "tracks": {
+            "1d": {
+              "label": "< 1 day",
+              "accuracy": 0.9230769230769231,
+              "weighted_accuracy": 0.9183673469387755,
+              "brier": 0.28758588056538464,
+              "alpha": 0.09816642651156952,
+              "rank": 1,
+              "n_scored": 13
+            },
+            "3d": {
+              "label": "1–3 days",
+              "accuracy": 0.7222222222222222,
+              "weighted_accuracy": 0.861111111111111,
+              "brier": 0.4310425294716667,
+              "alpha": 0.11035895714312693,
+              "rank": 3,
+              "n_scored": 18
+            },
+            "7d": {
+              "label": "3–7 days",
+              "accuracy": 0.3333333333333333,
+              "weighted_accuracy": 0.33333333333333337,
+              "brier": 0.6494,
+              "alpha": 0.11989999999999994,
+              "rank": 2,
+              "n_scored": 3
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 34,
+        "accuracy": 0.7647058823529411,
+        "weighted_accuracy": 0.7592592592592593,
+        "best_rank": 1,
+        "alpha": 0.10653896391843203
+      }
+    },
+    {
+      "name": "kimi-k3",
+      "display_name": "Kimi K3",
+      "org": "",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-09-W1",
+          "rank": 2,
+          "accuracy": 0.7941176470588235,
+          "weighted_accuracy": 0.7546296296296297,
+          "brier": 0.42189576470588247,
+          "alpha": 0.080101492678432,
+          "coverage": 1.0,
+          "n_scored": 34,
+          "by_level": {
+            "4": {
+              "n": 24,
+              "accuracy": 0.7916666666666666,
+              "brier": 0.45606458333333344
+            },
+            "3": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.20503825
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.8793
+            }
+          },
+          "by_category": {
+            "Politics": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.4729675
+            },
+            "Bitcoin": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.4981453333333333
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.04089999999999999
+            },
+            "Esports": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.43040000000000006
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.8181818181818182,
+              "brier": 0.4103090909090909
+            },
+            "Trump": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.6636
+            },
+            "ATP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.1458
+            },
+            "Culture": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.34220000000000006
+            },
+            "Sweden": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.22991666666666663
+            },
+            "Movies": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.7463333333333333
+            },
+            "Oil": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.7294
+            },
+            "Crypto": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0288
+            }
+          },
+          "market_brier": 0.5019972573843144,
+          "market_accuracy": 0.5882352941176471,
+          "tracks": {
+            "1d": {
+              "label": "< 1 day",
+              "accuracy": 0.8461538461538461,
+              "weighted_accuracy": 0.8469387755102041,
+              "brier": 0.36225815384615384,
+              "alpha": 0.02349415323080027,
+              "rank": 2,
+              "n_scored": 13
+            },
+            "3d": {
+              "label": "1–3 days",
+              "accuracy": 0.8333333333333334,
+              "weighted_accuracy": 0.9166666666666667,
+              "brier": 0.40469444444444436,
+              "alpha": 0.13670704217034918,
+              "rank": 2,
+              "n_scored": 18
+            },
+            "7d": {
+              "label": "3–7 days",
+              "accuracy": 0.3333333333333333,
+              "weighted_accuracy": 0.33333333333333337,
+              "brier": 0.7835333333333333,
+              "alpha": -0.014233333333333395,
+              "rank": 3,
+              "n_scored": 3
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 34,
+        "accuracy": 0.7941176470588235,
+        "weighted_accuracy": 0.7546296296296297,
+        "best_rank": 2,
+        "alpha": 0.080101492678432
+      }
+    }
+  ]
+}
