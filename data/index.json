@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:09:52.820135+08:00",
+  "generated_at": "2026-10-19T18:33:38.242895+08:00",
   "latest": "2026-10-W2",
   "weeks": [
     {
@@ -213,33 +213,33 @@
       "n_scored": 25,
       "market_baseline": {
         "n_scored": 25,
-        "accuracy": 0.72,
-        "weighted_accuracy": 0.7216666666666666,
-        "brier": 0.42571241277179256,
+        "accuracy": 0.6,
+        "weighted_accuracy": 0.6333333333333333,
+        "brier": 0.519116312407778,
         "by_level": {
           "4": {
             "n": 4,
             "accuracy": 0.75,
-            "brier": 0.4008904960217357
+            "brier": 0.4394835087701466
           },
           "2": {
             "n": 8,
-            "accuracy": 0.875,
-            "brier": 0.24021812785149999
+            "accuracy": 0.75,
+            "brier": 0.5422143165562073
           },
           "3": {
             "n": 10,
-            "accuracy": 0.6,
-            "brier": 0.564412942951387
+            "accuracy": 0.5,
+            "brier": 0.4639535359782207
           },
           "1": {
             "n": 3,
-            "accuracy": 0.6666666666666666,
-            "brier": 0.49112462762733333
+            "accuracy": 0.3333333333333333,
+            "brier": 0.7475746276273334
           }
         }
       },
-      "leaderboard_generated_at": "2026-10-19T18:02:45.427537+08:00",
+      "leaderboard_generated_at": "2026-10-19T18:32:23.597940+08:00",
       "has_process": true
     },
     {
@@ -365,7 +365,7 @@
           }
         }
       },
-      "leaderboard_generated_at": "2026-10-19T18:02:45.405332+08:00",
+      "leaderboard_generated_at": "2026-10-19T18:10:37.668101+08:00",
       "has_process": false
     }
   ]

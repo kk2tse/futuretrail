@@ -1,6 +1,6 @@
 {
   "week": "2026-10-W2",
-  "generated_at": "2026-10-19T18:02:45.427537+08:00",
+  "generated_at": "2026-10-19T18:32:23.597940+08:00",
   "status": "resolving",
   "n_models": 8,
   "overall": {
@@ -9,58 +9,58 @@
     "rank_metric": "weighted_accuracy",
     "market_baseline": {
       "n_scored": 25,
-      "accuracy": 0.72,
-      "weighted_accuracy": 0.7216666666666666,
-      "brier": 0.42571241277179256,
+      "accuracy": 0.6,
+      "weighted_accuracy": 0.6333333333333333,
+      "brier": 0.519116312407778,
       "by_level": {
         "4": {
           "n": 4,
           "accuracy": 0.75,
-          "brier": 0.4008904960217357
+          "brier": 0.4394835087701466
         },
         "2": {
           "n": 8,
-          "accuracy": 0.875,
-          "brier": 0.24021812785149999
+          "accuracy": 0.75,
+          "brier": 0.5422143165562073
         },
         "3": {
           "n": 10,
-          "accuracy": 0.6,
-          "brier": 0.564412942951387
+          "accuracy": 0.5,
+          "brier": 0.4639535359782207
         },
         "1": {
           "n": 3,
-          "accuracy": 0.6666666666666666,
-          "brier": 0.49112462762733333
+          "accuracy": 0.3333333333333333,
+          "brier": 0.7475746276273334
         }
       }
     },
-    "median_bucket_baseline": {
+    "random_baseline": {
       "n_scored": 25,
-      "accuracy": 0.36,
-      "weighted_accuracy": 0.4116666666666665,
-      "brier": 1.28,
-      "alpha": -0.8542875872282076,
+      "accuracy": 0.4029696969696969,
+      "weighted_accuracy": 0.36234090909090905,
+      "brier": 0.5970303030303031,
+      "alpha": -0.07791399062252495,
       "by_level": {
         "4": {
           "n": 4,
-          "accuracy": 0.5,
-          "brier": 1.0
+          "accuracy": 0.2623106060606061,
+          "brier": 0.7376893939393938
         },
         "2": {
           "n": 8,
-          "accuracy": 0.125,
-          "brier": 1.75
+          "accuracy": 0.4583333333333333,
+          "brier": 0.5416666666666667
         },
         "3": {
           "n": 10,
-          "accuracy": 0.4,
-          "brier": 1.2
+          "accuracy": 0.38583333333333336,
+          "brier": 0.6141666666666666
         },
         "1": {
           "n": 3,
-          "accuracy": 0.6666666666666666,
-          "brier": 0.6666666666666666
+          "accuracy": 0.5,
+          "brier": 0.5
         }
       }
     },
@@ -159,7 +159,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.0641712127717925,
+        "alpha": 0.15757511240777802,
         "alpha_n": 25,
         "rank": 1
       },
@@ -257,7 +257,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.07515329277179253,
+        "alpha": 0.16855719240777808,
         "alpha_n": 25,
         "rank": 2
       },
@@ -355,7 +355,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.07017097277179253,
+        "alpha": 0.1635748724077781,
         "alpha_n": 25,
         "rank": 3
       },
@@ -453,7 +453,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": -0.039491244028207494,
+        "alpha": 0.05391265560777811,
         "alpha_n": 25,
         "rank": 4
       },
@@ -551,7 +551,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.058447452771792516,
+        "alpha": 0.15185135240777803,
         "alpha_n": 25,
         "rank": 5
       },
@@ -649,7 +649,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.04239243162179251,
+        "alpha": 0.13579633125777812,
         "alpha_n": 25,
         "rank": 6
       },
@@ -747,7 +747,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.0819776415717925,
+        "alpha": 0.1753815412077781,
         "alpha_n": 25,
         "rank": 7
       },
@@ -845,7 +845,7 @@
           "invalid_values": 0,
           "total_with_probs": 25
         },
-        "alpha": 0.05086145277179251,
+        "alpha": 0.14426535240777805,
         "alpha_n": 25,
         "rank": 8
       }
@@ -858,58 +858,58 @@
       "rank_metric": "weighted_accuracy",
       "market_baseline": {
         "n_scored": 25,
-        "accuracy": 0.72,
-        "weighted_accuracy": 0.7216666666666666,
-        "brier": 0.42571241277179256,
+        "accuracy": 0.6,
+        "weighted_accuracy": 0.6333333333333333,
+        "brier": 0.519116312407778,
         "by_level": {
           "4": {
             "n": 4,
             "accuracy": 0.75,
-            "brier": 0.4008904960217357
+            "brier": 0.4394835087701466
           },
           "2": {
             "n": 8,
-            "accuracy": 0.875,
-            "brier": 0.24021812785149999
+            "accuracy": 0.75,
+            "brier": 0.5422143165562073
           },
           "3": {
             "n": 10,
-            "accuracy": 0.6,
-            "brier": 0.564412942951387
+            "accuracy": 0.5,
+            "brier": 0.4639535359782207
           },
           "1": {
             "n": 3,
-            "accuracy": 0.6666666666666666,
-            "brier": 0.49112462762733333
+            "accuracy": 0.3333333333333333,
+            "brier": 0.7475746276273334
           }
         }
       },
-      "median_bucket_baseline": {
+      "random_baseline": {
         "n_scored": 25,
-        "accuracy": 0.36,
-        "weighted_accuracy": 0.4116666666666665,
-        "brier": 1.28,
-        "alpha": -0.8542875872282076,
+        "accuracy": 0.4029696969696969,
+        "weighted_accuracy": 0.36234090909090905,
+        "brier": 0.5970303030303031,
+        "alpha": -0.07791399062252495,
         "by_level": {
           "4": {
             "n": 4,
-            "accuracy": 0.5,
-            "brier": 1.0
+            "accuracy": 0.2623106060606061,
+            "brier": 0.7376893939393938
           },
           "2": {
             "n": 8,
-            "accuracy": 0.125,
-            "brier": 1.75
+            "accuracy": 0.4583333333333333,
+            "brier": 0.5416666666666667
           },
           "3": {
             "n": 10,
-            "accuracy": 0.4,
-            "brier": 1.2
+            "accuracy": 0.38583333333333336,
+            "brier": 0.6141666666666666
           },
           "1": {
             "n": 3,
-            "accuracy": 0.6666666666666666,
-            "brier": 0.6666666666666666
+            "accuracy": 0.5,
+            "brier": 0.5
           }
         }
       },
@@ -1008,7 +1008,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.0641712127717925,
+          "alpha": 0.15757511240777802,
           "alpha_n": 25,
           "rank": 1
         },
@@ -1106,7 +1106,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.07515329277179253,
+          "alpha": 0.16855719240777808,
           "alpha_n": 25,
           "rank": 2
         },
@@ -1204,7 +1204,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.07017097277179253,
+          "alpha": 0.1635748724077781,
           "alpha_n": 25,
           "rank": 3
         },
@@ -1302,7 +1302,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": -0.039491244028207494,
+          "alpha": 0.05391265560777811,
           "alpha_n": 25,
           "rank": 4
         },
@@ -1400,7 +1400,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.058447452771792516,
+          "alpha": 0.15185135240777803,
           "alpha_n": 25,
           "rank": 5
         },
@@ -1498,7 +1498,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.04239243162179251,
+          "alpha": 0.13579633125777812,
           "alpha_n": 25,
           "rank": 6
         },
@@ -1596,7 +1596,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.0819776415717925,
+          "alpha": 0.1753815412077781,
           "alpha_n": 25,
           "rank": 7
         },
@@ -1694,7 +1694,7 @@
             "invalid_values": 0,
             "total_with_probs": 25
           },
-          "alpha": 0.05086145277179251,
+          "alpha": 0.14426535240777805,
           "alpha_n": 25,
           "rank": 8
         }
@@ -1705,7 +1705,7 @@
       "n_questions": 0,
       "rank_metric": "weighted_accuracy",
       "market_baseline": null,
-      "median_bucket_baseline": null,
+      "random_baseline": null,
       "entries": [
         {
           "name": "claude-opus5.5inline",
@@ -1922,7 +1922,7 @@
       "n_questions": 0,
       "rank_metric": "weighted_accuracy",
       "market_baseline": null,
-      "median_bucket_baseline": null,
+      "random_baseline": null,
       "entries": [
         {
           "name": "claude-opus5.5inline",

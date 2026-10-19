@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T18:09:52.820694+08:00",
+  "generated_at": "2026-10-19T18:33:38.243458+08:00",
   "rounds": [
     "2026-09-W1",
     "2026-10-W2"
@@ -165,7 +165,7 @@
           "accuracy": 0.72,
           "weighted_accuracy": 0.725,
           "brier": 0.36154120000000006,
-          "alpha": 0.0641712127717925,
+          "alpha": 0.15757511240777802,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -242,16 +242,16 @@
               "brier": 0.0828
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.72,
               "weighted_accuracy": 0.725,
               "brier": 0.36154120000000006,
-              "alpha": 0.0641712127717925,
+              "alpha": 0.15757511240777802,
               "rank": 1,
               "n_scored": 25
             },
@@ -282,7 +282,7 @@
         "accuracy": 0.72,
         "weighted_accuracy": 0.725,
         "best_rank": 1,
-        "alpha": 0.0641712127717925,
+        "alpha": 0.15757511240777802,
         "n_alpha": 1,
         "beat_market": 1,
         "mean_percentile": 1.0
@@ -304,7 +304,7 @@
           "accuracy": 0.72,
           "weighted_accuracy": 0.6549999999999998,
           "brier": 0.35055911999999995,
-          "alpha": 0.07515329277179253,
+          "alpha": 0.16855719240777808,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -381,16 +381,16 @@
               "brier": 0.3466
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.72,
               "weighted_accuracy": 0.6549999999999998,
               "brier": 0.35055911999999995,
-              "alpha": 0.07515329277179253,
+              "alpha": 0.16855719240777808,
               "rank": 2,
               "n_scored": 25
             },
@@ -421,7 +421,7 @@
         "accuracy": 0.72,
         "weighted_accuracy": 0.6549999999999998,
         "best_rank": 2,
-        "alpha": 0.07515329277179253,
+        "alpha": 0.16855719240777808,
         "n_alpha": 1,
         "beat_market": 1,
         "mean_percentile": 0.8571428571428571
@@ -568,7 +568,7 @@
           "accuracy": 0.64,
           "weighted_accuracy": 0.5949999999999999,
           "brier": 0.38331998115000004,
-          "alpha": 0.04239243162179251,
+          "alpha": 0.13579633125777812,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -645,16 +645,16 @@
               "brier": 0.09525000000000002
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.64,
               "weighted_accuracy": 0.5949999999999999,
               "brier": 0.38331998115000004,
-              "alpha": 0.04239243162179251,
+              "alpha": 0.13579633125777812,
               "rank": 6,
               "n_scored": 25
             },
@@ -685,7 +685,7 @@
         "accuracy": 0.711864406779661,
         "weighted_accuracy": 0.6896578782172001,
         "best_rank": 1,
-        "alpha": 0.07935822989443223,
+        "alpha": 0.1189361534690024,
         "n_alpha": 2,
         "beat_market": 2,
         "mean_percentile": 0.6428571428571428
@@ -707,7 +707,7 @@
           "accuracy": 0.64,
           "weighted_accuracy": 0.5949999999999999,
           "brier": 0.36726496,
-          "alpha": 0.058447452771792516,
+          "alpha": 0.15185135240777803,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -784,16 +784,16 @@
               "brier": 0.2804
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.64,
               "weighted_accuracy": 0.5949999999999999,
               "brier": 0.36726496,
-              "alpha": 0.058447452771792516,
+              "alpha": 0.15185135240777803,
               "rank": 5,
               "n_scored": 25
             },
@@ -824,7 +824,7 @@
         "accuracy": 0.64,
         "weighted_accuracy": 0.5949999999999999,
         "best_rank": 5,
-        "alpha": 0.058447452771792516,
+        "alpha": 0.15185135240777803,
         "n_alpha": 1,
         "beat_market": 1,
         "mean_percentile": 0.42857142857142855
@@ -969,7 +969,7 @@
           "accuracy": 0.72,
           "weighted_accuracy": 0.6549999999999998,
           "brier": 0.35554143999999993,
-          "alpha": 0.07017097277179253,
+          "alpha": 0.1635748724077781,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -1046,16 +1046,16 @@
               "brier": 0.2726
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.72,
               "weighted_accuracy": 0.6549999999999998,
               "brier": 0.35554143999999993,
-              "alpha": 0.07017097277179253,
+              "alpha": 0.1635748724077781,
               "rank": 3,
               "n_scored": 25
             },
@@ -1086,7 +1086,7 @@
         "accuracy": 0.7627118644067796,
         "weighted_accuracy": 0.712413684871312,
         "best_rank": 2,
-        "alpha": 0.07589364526036442,
+        "alpha": 0.1154715688349346,
         "n_alpha": 2,
         "beat_market": 2,
         "mean_percentile": 0.6071428571428572
@@ -1108,7 +1108,7 @@
           "accuracy": 0.68,
           "weighted_accuracy": 0.6216666666666665,
           "brier": 0.4652036568,
-          "alpha": -0.039491244028207494,
+          "alpha": 0.05391265560777811,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -1185,16 +1185,16 @@
               "brier": 0.30660000000000004
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.68,
               "weighted_accuracy": 0.6216666666666665,
               "brier": 0.4652036568,
-              "alpha": -0.039491244028207494,
+              "alpha": 0.05391265560777811,
               "rank": 4,
               "n_scored": 25
             },
@@ -1225,9 +1225,9 @@
         "accuracy": 0.68,
         "weighted_accuracy": 0.6216666666666665,
         "best_rank": 4,
-        "alpha": -0.039491244028207494,
+        "alpha": 0.05391265560777811,
         "n_alpha": 1,
-        "beat_market": 0,
+        "beat_market": 1,
         "mean_percentile": 0.5714285714285714
       }
     },
@@ -1247,7 +1247,7 @@
           "accuracy": 0.64,
           "weighted_accuracy": 0.5916666666666666,
           "brier": 0.34373477119999996,
-          "alpha": 0.0819776415717925,
+          "alpha": 0.1753815412077781,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -1324,16 +1324,16 @@
               "brier": 0.20060000000000003
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.64,
               "weighted_accuracy": 0.5916666666666666,
               "brier": 0.34373477119999996,
-              "alpha": 0.0819776415717925,
+              "alpha": 0.1753815412077781,
               "rank": 7,
               "n_scored": 25
             },
@@ -1364,7 +1364,7 @@
         "accuracy": 0.64,
         "weighted_accuracy": 0.5916666666666666,
         "best_rank": 7,
-        "alpha": 0.0819776415717925,
+        "alpha": 0.1753815412077781,
         "n_alpha": 1,
         "beat_market": 1,
         "mean_percentile": 0.14285714285714285
@@ -1386,7 +1386,7 @@
           "accuracy": 0.64,
           "weighted_accuracy": 0.5916666666666666,
           "brier": 0.37485096,
-          "alpha": 0.05086145277179251,
+          "alpha": 0.14426535240777805,
           "coverage": 1.0,
           "n_scored": 25,
           "by_level": {
@@ -1463,16 +1463,16 @@
               "brier": 0.028150000000000005
             }
           },
-          "market_brier": 0.42571241277179256,
-          "market_accuracy": 0.72,
-          "market_weighted_accuracy": 0.7216666666666666,
+          "market_brier": 0.519116312407778,
+          "market_accuracy": 0.6,
+          "market_weighted_accuracy": 0.6333333333333333,
           "tracks": {
             "3d": {
               "label": "Near · 0–3 days",
               "accuracy": 0.64,
               "weighted_accuracy": 0.5916666666666666,
               "brier": 0.37485096,
-              "alpha": 0.05086145277179251,
+              "alpha": 0.14426535240777805,
               "rank": 8,
               "n_scored": 25
             },
@@ -1503,7 +1503,7 @@
         "accuracy": 0.64,
         "weighted_accuracy": 0.5916666666666666,
         "best_rank": 8,
-        "alpha": 0.05086145277179251,
+        "alpha": 0.14426535240777805,
         "n_alpha": 1,
         "beat_market": 1,
         "mean_percentile": 0.0

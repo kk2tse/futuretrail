@@ -1,6 +1,6 @@
 {
   "week": "2026-09-W1",
-  "generated_at": "2026-10-19T18:02:45.405332+08:00",
+  "generated_at": "2026-10-19T18:10:37.668101+08:00",
   "status": "settled",
   "n_models": 3,
   "overall": {
@@ -30,27 +30,27 @@
         }
       }
     },
-    "median_bucket_baseline": {
+    "random_baseline": {
       "n_scored": 34,
-      "accuracy": 0.29411764705882354,
-      "weighted_accuracy": 0.3240740740740741,
-      "brier": 1.411764705882353,
-      "alpha": -0.9097674484980386,
+      "accuracy": 0.3526992615227909,
+      "weighted_accuracy": 0.3941378066378067,
+      "brier": 0.647300738477209,
+      "alpha": -0.14530348109289473,
       "by_level": {
         "4": {
           "n": 24,
-          "accuracy": 0.2916666666666667,
-          "brier": 1.4166666666666667
+          "accuracy": 0.314935064935065,
+          "brier": 0.685064935064935
         },
         "3": {
           "n": 8,
-          "accuracy": 0.25,
-          "brier": 1.5
+          "accuracy": 0.4291666666666667,
+          "brier": 0.5708333333333334
         },
         "2": {
           "n": 2,
           "accuracy": 0.5,
-          "brier": 1.0
+          "brier": 0.5
         }
       }
     },
@@ -389,22 +389,22 @@
           }
         }
       },
-      "median_bucket_baseline": {
+      "random_baseline": {
         "n_scored": 13,
-        "accuracy": 0.3076923076923077,
-        "weighted_accuracy": 0.3163265306122449,
-        "brier": 1.3846153846153846,
-        "alpha": -0.9988630775384306,
+        "accuracy": 0.3223776223776224,
+        "weighted_accuracy": 0.3172850958565245,
+        "brier": 0.6776223776223778,
+        "alpha": -0.2918700705454235,
         "by_level": {
           "4": {
             "n": 7,
-            "accuracy": 0.42857142857142855,
-            "brier": 1.1428571428571428
+            "accuracy": 0.2510822510822511,
+            "brier": 0.748917748917749
           },
           "3": {
             "n": 6,
-            "accuracy": 0.16666666666666666,
-            "brier": 1.6666666666666667
+            "accuracy": 0.4055555555555556,
+            "brier": 0.5944444444444446
           }
         }
       },
@@ -642,27 +642,27 @@
           }
         }
       },
-      "median_bucket_baseline": {
+      "random_baseline": {
         "n_scored": 18,
-        "accuracy": 0.2777777777777778,
-        "weighted_accuracy": 0.44444444444444453,
-        "brier": 1.4444444444444444,
-        "alpha": -0.9030429578296508,
+        "accuracy": 0.35004810004810005,
+        "weighted_accuracy": 0.42502405002405,
+        "brier": 0.6499518999519,
+        "alpha": -0.10855041333710634,
         "by_level": {
           "4": {
             "n": 16,
-            "accuracy": 0.25,
-            "brier": 1.5
+            "accuracy": 0.3313041125541126,
+            "brier": 0.6686958874458876
           },
           "3": {
             "n": 1,
-            "accuracy": 1.0,
-            "brier": 0.0
+            "accuracy": 0.5,
+            "brier": 0.5
           },
           "2": {
             "n": 1,
-            "accuracy": 0.0,
-            "brier": 2.0
+            "accuracy": 0.5,
+            "brier": 0.5
           }
         }
       },
@@ -960,27 +960,27 @@
           }
         }
       },
-      "median_bucket_baseline": {
+      "random_baseline": {
         "n_scored": 3,
-        "accuracy": 0.3333333333333333,
-        "weighted_accuracy": 0.22222222222222227,
-        "brier": 1.3333333333333333,
-        "alpha": -0.5640333333333333,
+        "accuracy": 0.5,
+        "weighted_accuracy": 0.5,
+        "brier": 0.5,
+        "alpha": 0.26929999999999993,
         "by_level": {
           "4": {
             "n": 1,
-            "accuracy": 0.0,
-            "brier": 2.0
+            "accuracy": 0.5,
+            "brier": 0.5
           },
           "3": {
             "n": 1,
-            "accuracy": 0.0,
-            "brier": 2.0
+            "accuracy": 0.5,
+            "brier": 0.5
           },
           "2": {
             "n": 1,
-            "accuracy": 1.0,
-            "brier": 0.0
+            "accuracy": 0.5,
+            "brier": 0.5
           }
         }
       },

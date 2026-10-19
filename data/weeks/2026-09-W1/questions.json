@@ -54,6 +54,7 @@
         "D": 0.359961,
         "E": 0.586785
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -189,6 +190,7 @@
         "I": 0.004204,
         "J": 0.001868
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -314,6 +316,7 @@
         "D": 0.315294,
         "E": 0.367059
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -449,6 +452,7 @@
         "I": 0.004808,
         "J": 0.002885
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -604,6 +608,7 @@
         "J": 0.015648,
         "K": 0.012714
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -717,6 +722,7 @@
         "A": 0.515,
         "B": 0.485
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -803,6 +809,7 @@
         "A": 0.415,
         "B": 0.585
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -979,6 +986,7 @@
         "A": 0.435,
         "B": 0.565
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1065,6 +1073,7 @@
         "A": 0.405,
         "B": 0.595
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1201,6 +1210,7 @@
         "E": 0.07515,
         "F": 0.005511
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1299,6 +1309,7 @@
         "A": 0.515,
         "B": 0.485
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1390,6 +1401,7 @@
         "B": 0.20603,
         "C": 0.693467
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1479,6 +1491,7 @@
         "A": 0.605,
         "B": 0.395
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1610,6 +1623,7 @@
         "J": 0.024024,
         "K": 0.007007
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1723,6 +1737,7 @@
         "A": 0.515,
         "B": 0.485
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1809,6 +1824,7 @@
         "A": 0.465,
         "B": 0.535
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1895,6 +1911,7 @@
         "A": 0.455,
         "B": 0.545
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -1981,6 +1998,7 @@
         "A": 0.535,
         "B": 0.465
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2067,6 +2085,7 @@
         "A": 0.475,
         "B": 0.525
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2153,6 +2172,7 @@
         "A": 0.385,
         "B": 0.615
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2264,6 +2284,7 @@
         "F": 0.408063,
         "G": 0.019666
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2375,6 +2396,7 @@
         "C": 0.464768,
         "D": 0.13993
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2477,6 +2499,7 @@
         "C": 0.228377,
         "D": 0.037901
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2679,6 +2702,7 @@
         "E": 0.109689,
         "F": 0.077697
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2822,6 +2846,7 @@
         "J": 0.024174,
         "K": 0.007893
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -2935,6 +2960,7 @@
         "A": 0.5,
         "B": 0.5
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3021,6 +3047,7 @@
         "A": 0.505,
         "B": 0.495
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3127,6 +3154,7 @@
         "E": 0.112414,
         "F": 0.02737
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3250,6 +3278,7 @@
         "F": 0.001444,
         "G": 0.001444
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3351,6 +3380,7 @@
         "A": 0.51,
         "B": 0.49
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3437,6 +3467,7 @@
         "A": 0.145,
         "B": 0.855
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3523,6 +3554,7 @@
         "A": 0.505,
         "B": 0.495
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3609,6 +3641,7 @@
         "A": 0.43,
         "B": 0.57
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
@@ -3695,6 +3728,7 @@
         "A": 0.155,
         "B": 0.845
       },
+      "market_prob_at": "2026-09-09T11:34:23.671206+08:00",
       "predictions": [
         {
           "model": "claude-opus-5",
