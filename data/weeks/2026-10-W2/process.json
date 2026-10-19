@@ -1,0 +1,1237 @@
+{
+  "week": "2026-10-W2",
+  "generated_at": "2026-10-19T17:15:20.953740+08:00",
+  "judge": {
+    "model": "openrouter/deepseek/deepseek-v4.1-flash",
+    "rubric_version": 2,
+    "asked": 0,
+    "failed": 0,
+    "sample": 10
+  },
+  "questions": 10,
+  "sample": {
+    "size": 10,
+    "resolved": 10,
+    "resolved_only": true,
+    "levels": {
+      "3": 2,
+      "2": 3,
+      "4": 2,
+      "1": 3
+    }
+  },
+  "dimensions": [
+    "gathering",
+    "analysis",
+    "support",
+    "robustness"
+  ],
+  "used": [
+    "gathering",
+    "analysis",
+    "support",
+    "robustness"
+  ],
+  "rounds": 1000,
+  "interval": [
+    0.05,
+    0.95
+  ],
+  "runs": [
+    {
+      "scores": {
+        "gathering": 0.94,
+        "analysis": 0.8683,
+        "support": 1.0,
+        "robustness": 0.9583
+      },
+      "relative": {
+        "gathering": 0.0157,
+        "analysis": 0.1139,
+        "support": 0.0286,
+        "robustness": 0.0848
+      },
+      "dimension_ranks": {
+        "gathering": 1.0,
+        "analysis": 1.0,
+        "support": 1.5,
+        "robustness": 1.0
+      },
+      "composite": 0.0607,
+      "rank": 1.0,
+      "rank_interval": [
+        1.0,
+        2.0
+      ],
+      "mean_dimension_rank": 1.12,
+      "tier": 1,
+      "flags": [],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.6,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 6
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.85,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.85,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 2
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.896,
+            "traces": 8
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "gpt5.6-sol",
+      "model": "gpt5.6-sol",
+      "display_name": "GPT-5.6 Sol",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.9375,
+        "analysis": 0.851,
+        "support": 1.0,
+        "robustness": 0.9425
+      },
+      "relative": {
+        "gathering": 0.0132,
+        "analysis": 0.0965,
+        "support": 0.0286,
+        "robustness": 0.0689
+      },
+      "dimension_ranks": {
+        "gathering": 2.5,
+        "analysis": 2.0,
+        "support": 1.5,
+        "robustness": 2.0
+      },
+      "composite": 0.0518,
+      "rank": 2.0,
+      "rank_interval": [
+        1.0,
+        3.0
+      ],
+      "mean_dimension_rank": 2.0,
+      "tier": 1,
+      "flags": [],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.8,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.938,
+            "traces": 8
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.6,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 8
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 0.952,
+            "traces": 7
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.911,
+            "traces": 10
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "grok-4.7",
+      "model": "grok4.7",
+      "display_name": "Grok 4.7",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.9375,
+        "analysis": 0.8255,
+        "support": 0.9333,
+        "robustness": 0.9167
+      },
+      "relative": {
+        "gathering": 0.0132,
+        "analysis": 0.071,
+        "support": -0.0381,
+        "robustness": 0.0431
+      },
+      "dimension_ranks": {
+        "gathering": 2.5,
+        "analysis": 3.0,
+        "support": 6.5,
+        "robustness": 3.5
+      },
+      "composite": 0.0223,
+      "rank": 3.0,
+      "rank_interval": [
+        2.0,
+        4.0
+      ],
+      "mean_dimension_rank": 3.88,
+      "tier": 1,
+      "flags": [],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.6,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 5
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.667,
+            "traces": 3
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 8
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 0.85,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 4
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.907,
+            "traces": 9
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 0.85,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "glm-5.3",
+      "model": "glm5.3",
+      "display_name": "GLM 5.3",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.93,
+        "analysis": 0.6883,
+        "support": 0.9833,
+        "robustness": 0.9167
+      },
+      "relative": {
+        "gathering": 0.0057,
+        "analysis": -0.0661,
+        "support": 0.0119,
+        "robustness": 0.0431
+      },
+      "dimension_ranks": {
+        "gathering": 4.0,
+        "analysis": 5.0,
+        "support": 3.5,
+        "robustness": 3.5
+      },
+      "composite": -0.0013,
+      "rank": 4.0,
+      "rank_interval": [
+        3.0,
+        6.0
+      ],
+      "mean_dimension_rank": 4.0,
+      "tier": 2,
+      "flags": [
+        "started 40.8 h after the snapshot, 16.9 h later than the median run"
+      ],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.4,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.7,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.625,
+            "traces": 4
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.55,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.65,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.5,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 2
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.792,
+            "traces": 8
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "muse-wonder",
+      "model": "muse wonder",
+      "display_name": "Muse Wonder",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.91,
+        "analysis": 0.72,
+        "support": 0.9667,
+        "robustness": 0.7667
+      },
+      "relative": {
+        "gathering": -0.0143,
+        "analysis": -0.0345,
+        "support": -0.0048,
+        "robustness": -0.1069
+      },
+      "dimension_ranks": {
+        "gathering": 6.0,
+        "analysis": 4.0,
+        "support": 5.0,
+        "robustness": 6.0
+      },
+      "composite": -0.0401,
+      "rank": 5.0,
+      "rank_interval": [
+        5.0,
+        7.0
+      ],
+      "mean_dimension_rank": 5.25,
+      "tier": 2,
+      "flags": [],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.2,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.65,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.6,
+            "traces": 5
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.7,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.7,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 5
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 1
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.833,
+            "traces": 4
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "kimi-k3",
+      "model": "kimi-k3",
+      "display_name": "Kimi K3",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.915,
+        "analysis": 0.6433,
+        "support": 0.9333,
+        "robustness": 0.85
+      },
+      "relative": {
+        "gathering": -0.0093,
+        "analysis": -0.1111,
+        "support": -0.0381,
+        "robustness": -0.0235
+      },
+      "dimension_ranks": {
+        "gathering": 5.0,
+        "analysis": 7.0,
+        "support": 6.5,
+        "robustness": 5.0
+      },
+      "composite": -0.0455,
+      "rank": 6.0,
+      "rank_interval": [
+        3.0,
+        7.0
+      ],
+      "mean_dimension_rank": 5.88,
+      "tier": 2,
+      "flags": [
+        "no per-question isolation recorded",
+        "started 46.6 h after the snapshot, 22.7 h later than the median run"
+      ],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.4,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.45,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.625,
+            "traces": 4
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.667,
+            "traces": 9
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.7,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.5,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.85,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.55,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 2
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 5
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "opus5.5-inline",
+      "model": "claude-opus5.5inline",
+      "display_name": "Opus 5.5 (inline)",
+      "traces": 125,
+      "judged": 10
+    },
+    {
+      "scores": {
+        "gathering": 0.9,
+        "analysis": 0.6848,
+        "support": 0.9833,
+        "robustness": 0.7639
+      },
+      "relative": {
+        "gathering": -0.0243,
+        "analysis": -0.0697,
+        "support": 0.0119,
+        "robustness": -0.1096
+      },
+      "dimension_ranks": {
+        "gathering": 7.0,
+        "analysis": 6.0,
+        "support": 3.5,
+        "robustness": 7.0
+      },
+      "composite": -0.0479,
+      "rank": 7.0,
+      "rank_interval": [
+        5.0,
+        7.0
+      ],
+      "mean_dimension_rank": 5.88,
+      "tier": 2,
+      "flags": [],
+      "components": {
+        "gathering": [
+          {
+            "part": "deciding_source",
+            "source": "check",
+            "mean": 0.2,
+            "traces": 5
+          },
+          {
+            "part": "targeting",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "key_drivers",
+            "source": "judge",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "freshness",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "efficiency",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "analysis": [
+          {
+            "part": "source_criticism",
+            "source": "judge",
+            "mean": 0.5,
+            "traces": 10
+          },
+          {
+            "part": "conflict_handling",
+            "source": "judge",
+            "mean": 0.7,
+            "traces": 5
+          },
+          {
+            "part": "base_rate",
+            "source": "judge",
+            "mean": 0.55,
+            "traces": 10
+          },
+          {
+            "part": "quantitative_model",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          },
+          {
+            "part": "incentives_institutions",
+            "source": "judge",
+            "mean": 0.75,
+            "traces": 2
+          },
+          {
+            "part": "rule_parsing",
+            "source": "judge",
+            "mean": 0.9,
+            "traces": 10
+          },
+          {
+            "part": "scenarios",
+            "source": "judge",
+            "mean": 0.65,
+            "traces": 10
+          }
+        ],
+        "support": [
+          {
+            "part": "chosen_is_most_probable",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "boxed_matches_submission",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "no_unsupported_decision",
+            "source": "judge",
+            "mean": 0.95,
+            "traces": 10
+          },
+          {
+            "part": "direction",
+            "source": "reference",
+            "mean": 1.0,
+            "traces": 10
+          },
+          {
+            "part": "magnitude",
+            "source": "reference",
+            "mean": 0.9,
+            "traces": 10
+          },
+          {
+            "part": "traceability",
+            "source": "reference",
+            "mean": 0.95,
+            "traces": 10
+          }
+        ],
+        "robustness": [
+          {
+            "part": "continued_after_failure",
+            "source": "check",
+            "mean": 1.0,
+            "traces": 3
+          },
+          {
+            "part": "external_failures_handled",
+            "source": "judge",
+            "mean": 0.778,
+            "traces": 6
+          },
+          {
+            "part": "no_other_model_error",
+            "source": "judge",
+            "mean": 0.8,
+            "traces": 10
+          }
+        ]
+      },
+      "run": "gemini4",
+      "model": "gemini4",
+      "display_name": "Gemini 4",
+      "traces": 125,
+      "judged": 10
+    }
+  ]
+}

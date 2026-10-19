@@ -1,24 +1,1704 @@
 {
   "week": "2026-10-W2",
-  "generated_at": "2026-10-13T17:10:31.825535+08:00",
-  "status": "open",
-  "n_models": 0,
+  "generated_at": "2026-10-19T18:02:45.427537+08:00",
+  "status": "resolving",
+  "n_models": 8,
   "overall": {
     "track": "all",
-    "n_questions": 0,
+    "n_questions": 25,
     "rank_metric": "weighted_accuracy",
-    "market_baseline": null,
-    "median_bucket_baseline": null,
-    "entries": []
+    "market_baseline": {
+      "n_scored": 25,
+      "accuracy": 0.72,
+      "weighted_accuracy": 0.7216666666666666,
+      "brier": 0.42571241277179256,
+      "by_level": {
+        "4": {
+          "n": 4,
+          "accuracy": 0.75,
+          "brier": 0.4008904960217357
+        },
+        "2": {
+          "n": 8,
+          "accuracy": 0.875,
+          "brier": 0.24021812785149999
+        },
+        "3": {
+          "n": 10,
+          "accuracy": 0.6,
+          "brier": 0.564412942951387
+        },
+        "1": {
+          "n": 3,
+          "accuracy": 0.6666666666666666,
+          "brier": 0.49112462762733333
+        }
+      }
+    },
+    "median_bucket_baseline": {
+      "n_scored": 25,
+      "accuracy": 0.36,
+      "weighted_accuracy": 0.4116666666666665,
+      "brier": 1.28,
+      "alpha": -0.8542875872282076,
+      "by_level": {
+        "4": {
+          "n": 4,
+          "accuracy": 0.5,
+          "brier": 1.0
+        },
+        "2": {
+          "n": 8,
+          "accuracy": 0.125,
+          "brier": 1.75
+        },
+        "3": {
+          "n": 10,
+          "accuracy": 0.4,
+          "brier": 1.2
+        },
+        "1": {
+          "n": 3,
+          "accuracy": 0.6666666666666666,
+          "brier": 0.6666666666666666
+        }
+      }
+    },
+    "entries": [
+      {
+        "name": "gemini4",
+        "display_name": "Gemini 4",
+        "org": "google",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.725,
+        "brier": 0.36154120000000006,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.75,
+            "brier": 0.4028375
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.21334999999999998
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.5,
+            "brier": 0.5410380000000001
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.10333333333333333
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.27774999999999994
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.734
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.39533333333333337
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0050000000000000044
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.7272727272727273,
+            "brier": 0.4068545454545454
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6272000000000001
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.20892666666666673
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.2888
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0008000000000000008
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0828
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.0641712127717925,
+        "alpha_n": 25,
+        "rank": 1
+      },
+      {
+        "name": "glm5.3",
+        "display_name": "GLM 5.3",
+        "org": "zhipu",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.6549999999999998,
+        "brier": 0.35055911999999995,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.438905
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.1634
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.5414558
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.09553333333333332
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.32122
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.49260000000000004
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.4962666666666666
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.012799999999999994
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.6363636363636364,
+            "brier": 0.37774545454545455
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.72
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.161386
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.24499999999999997
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0050000000000000044
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.3466
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.07515329277179253,
+        "alpha_n": 25,
+        "rank": 2
+      },
+      {
+        "name": "kimi-k3",
+        "display_name": "Kimi K3",
+        "org": "kimi",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.6549999999999998,
+        "brier": 0.35554143999999993,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.40093749999999995
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.18705000000000002
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.5499386000000002
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.09633333333333333
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.15715
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.6075
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.40619999999999995
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.045000000000000005
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.6363636363636364,
+            "brier": 0.41689090909090915
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6728000000000001
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.1689953333333333
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.20479999999999998
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.009799999999999993
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.2726
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.07017097277179253,
+        "alpha_n": 25,
+        "rank": 3
+      },
+      {
+        "name": "murmur",
+        "display_name": "Murmur",
+        "org": "M",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.68,
+        "weighted_accuracy": 0.6216666666666665,
+        "brier": 0.4652036568,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.469021355
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.30610625
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.6252356000000001
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.3509333333333333
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.35608542
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.6959
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.19321666666666668
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.72
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.6363636363636364,
+            "brier": 0.5353914545454544
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6050000000000001
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.4871999999999999
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.32000000000000006
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 5.000000000000005e-05
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.30660000000000004
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": -0.039491244028207494,
+        "alpha_n": 25,
+        "rank": 4
+      },
+      {
+        "name": "grok4.7",
+        "display_name": "Grok 4.7",
+        "org": "SpaceX",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5949999999999999,
+        "brier": 0.36726496,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.4115665
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.173825
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.4,
+            "brier": 0.5804358000000001
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.11346666666666667
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.290666
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.5400000000000001
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.39746666666666663
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.05780000000000002
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.41140000000000004
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.7688
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.25505266666666665
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.2178
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.003200000000000003
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.2804
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.058447452771792516,
+        "alpha_n": 25,
+        "rank": 5
+      },
+      {
+        "name": "gpt5.6-sol",
+        "display_name": "GPT-5.6 Sol",
+        "org": "openAI",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5949999999999999,
+        "brier": 0.38331998115000004,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.4449586271875
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.18938125
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.4,
+            "brier": 0.598891502
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.09973333333333334
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.39963250874999995
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.472671
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.3784666666666667
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.003200000000000003
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.4133818181818182
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6962
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.49050834000000004
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.2888
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0004500000000000004
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.09525000000000002
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.04239243162179251,
+        "alpha_n": 25,
+        "rank": 6
+      },
+      {
+        "name": "muse wonder",
+        "display_name": "Muse Wonder",
+        "org": "meta",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5916666666666666,
+        "brier": 0.34373477119999996,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.36033181999999997
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.18084999999999998
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.5,
+            "brier": 0.4954842000000001
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.2501333333333334
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.049327280000000015
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.634
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 1.0,
+            "brier": 0.15653333333333333
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.012799999999999994
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.4114727272727272
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6050000000000001
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.26194733333333337
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.6728000000000001
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.003200000000000003
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.20060000000000003
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.0819776415717925,
+        "alpha_n": 25,
+        "rank": 7
+      },
+      {
+        "name": "claude-opus5.5inline",
+        "display_name": "Opus 5.5 (inline)",
+        "org": "Anthropic",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-16T10:00:00+08:00",
+        "n_scored": 25,
+        "n_answered": 25,
+        "coverage": 1.0,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5916666666666666,
+        "brier": 0.37485096,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 0.355624
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.16657500000000003
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.5,
+            "brier": 0.5866928
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.24975
+          }
+        },
+        "by_category": {
+          "NFLX": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.028646
+          },
+          "Finance": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.7967890000000001
+          },
+          "Commodities": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.27393333333333336
+          },
+          "Trump": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0004500000000000004
+          },
+          "Sports": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.4309454545454546
+          },
+          "Esports": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.48019999999999996
+          },
+          "Culture": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.31928333333333336
+          },
+          "Ethereum": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.72
+          },
+          "XRP": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.0002000000000000002
+          },
+          "Politics": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.028150000000000005
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 25
+        },
+        "alpha": 0.05086145277179251,
+        "alpha_n": 25,
+        "rank": 8
+      }
+    ]
   },
   "tracks": {
     "3d": {
       "track": "3d",
-      "n_questions": 0,
+      "n_questions": 25,
       "rank_metric": "weighted_accuracy",
-      "market_baseline": null,
-      "median_bucket_baseline": null,
-      "entries": []
+      "market_baseline": {
+        "n_scored": 25,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.7216666666666666,
+        "brier": 0.42571241277179256,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.75,
+            "brier": 0.4008904960217357
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.24021812785149999
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.564412942951387
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.49112462762733333
+          }
+        }
+      },
+      "median_bucket_baseline": {
+        "n_scored": 25,
+        "accuracy": 0.36,
+        "weighted_accuracy": 0.4116666666666665,
+        "brier": 1.28,
+        "alpha": -0.8542875872282076,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.5,
+            "brier": 1.0
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.125,
+            "brier": 1.75
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.4,
+            "brier": 1.2
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.6666666666666666
+          }
+        }
+      },
+      "entries": [
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.725,
+          "brier": 0.36154120000000006,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.4028375
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.21334999999999998
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.5410380000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.10333333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.27774999999999994
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.734
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.39533333333333337
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0050000000000000044
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.7272727272727273,
+              "brier": 0.4068545454545454
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6272000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.20892666666666673
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2888
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0008000000000000008
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0828
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.0641712127717925,
+          "alpha_n": 25,
+          "rank": 1
+        },
+        {
+          "name": "glm5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.6549999999999998,
+          "brier": 0.35055911999999995,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.438905
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.1634
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.5414558
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09553333333333332
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.32122
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.49260000000000004
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4962666666666666
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.012799999999999994
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.37774545454545455
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.161386
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24499999999999997
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0050000000000000044
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.3466
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.07515329277179253,
+          "alpha_n": 25,
+          "rank": 2
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "kimi",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.6549999999999998,
+          "brier": 0.35554143999999993,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.40093749999999995
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18705000000000002
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.5499386000000002
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09633333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.15715
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.6075
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.40619999999999995
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.045000000000000005
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.41689090909090915
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6728000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.1689953333333333
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.20479999999999998
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.009799999999999993
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2726
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.07017097277179253,
+          "alpha_n": 25,
+          "rank": 3
+        },
+        {
+          "name": "murmur",
+          "display_name": "Murmur",
+          "org": "M",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.68,
+          "weighted_accuracy": 0.6216666666666665,
+          "brier": 0.4652036568,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.469021355
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.30610625
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.6252356000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3509333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.35608542
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.6959
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.19321666666666668
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.5353914545454544
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6050000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4871999999999999
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.32000000000000006
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 5.000000000000005e-05
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.30660000000000004
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": -0.039491244028207494,
+          "alpha_n": 25,
+          "rank": 4
+        },
+        {
+          "name": "grok4.7",
+          "display_name": "Grok 4.7",
+          "org": "SpaceX",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5949999999999999,
+          "brier": 0.36726496,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.4115665
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.173825
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.4,
+              "brier": 0.5804358000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.11346666666666667
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.290666
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5400000000000001
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.39746666666666663
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.05780000000000002
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.41140000000000004
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.7688
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.25505266666666665
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2178
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2804
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.058447452771792516,
+          "alpha_n": 25,
+          "rank": 5
+        },
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openAI",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5949999999999999,
+          "brier": 0.38331998115000004,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.4449586271875
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18938125
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.4,
+              "brier": 0.598891502
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09973333333333334
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.39963250874999995
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.472671
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3784666666666667
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4133818181818182
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6962
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.49050834000000004
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2888
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0004500000000000004
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.09525000000000002
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.04239243162179251,
+          "alpha_n": 25,
+          "rank": 6
+        },
+        {
+          "name": "muse wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5916666666666666,
+          "brier": 0.34373477119999996,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.36033181999999997
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18084999999999998
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.4954842000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.2501333333333334
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.049327280000000015
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.634
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.15653333333333333
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.012799999999999994
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4114727272727272
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6050000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.26194733333333337
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6728000000000001
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.20060000000000003
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.0819776415717925,
+          "alpha_n": 25,
+          "rank": 7
+        },
+        {
+          "name": "claude-opus5.5inline",
+          "display_name": "Opus 5.5 (inline)",
+          "org": "Anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 25,
+          "n_answered": 25,
+          "coverage": 1.0,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5916666666666666,
+          "brier": 0.37485096,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.355624
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.16657500000000003
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.5866928
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.24975
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.028646
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.7967890000000001
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.27393333333333336
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0004500000000000004
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4309454545454546
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.48019999999999996
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.31928333333333336
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0002000000000000002
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.028150000000000005
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 25
+          },
+          "alpha": 0.05086145277179251,
+          "alpha_n": 25,
+          "rank": 8
+        }
+      ]
     },
     "7d": {
       "track": "7d",
@@ -26,7 +1706,216 @@
       "rank_metric": "weighted_accuracy",
       "market_baseline": null,
       "median_bucket_baseline": null,
-      "entries": []
+      "entries": [
+        {
+          "name": "claude-opus5.5inline",
+          "display_name": "Opus 5.5 (inline)",
+          "org": "Anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "glm5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openAI",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "grok4.7",
+          "display_name": "Grok 4.7",
+          "org": "SpaceX",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "kimi",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "murmur",
+          "display_name": "Murmur",
+          "org": "M",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "muse wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        }
+      ]
     },
     "14d": {
       "track": "14d",
@@ -34,7 +1923,216 @@
       "rank_metric": "weighted_accuracy",
       "market_baseline": null,
       "median_bucket_baseline": null,
-      "entries": []
+      "entries": [
+        {
+          "name": "claude-opus5.5inline",
+          "display_name": "Opus 5.5 (inline)",
+          "org": "Anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "glm5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openAI",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "grok4.7",
+          "display_name": "Grok 4.7",
+          "org": "SpaceX",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "kimi",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "murmur",
+          "display_name": "Murmur",
+          "org": "M",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        },
+        {
+          "name": "muse wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-16T10:00:00+08:00",
+          "n_scored": 0,
+          "n_answered": 0,
+          "coverage": 0.0,
+          "accuracy": null,
+          "weighted_accuracy": null,
+          "brier": null,
+          "brier_coverage": 0.0,
+          "by_level": {},
+          "by_category": {},
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 0
+          },
+          "alpha": null,
+          "alpha_n": 0,
+          "rank": null
+        }
+      ]
     }
   }
 }

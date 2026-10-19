@@ -1,8 +1,13 @@
 {
-  "generated_at": "2026-10-13T18:09:19.106833+08:00",
+  "generated_at": "2026-10-19T18:03:46.545128+08:00",
+  "rounds": [
+    "2026-09-W1",
+    "2026-10-W2"
+  ],
   "models": [
     {
       "name": "claude-opus-5",
+      "aliases": [],
       "display_name": "Claude Opus 5",
       "org": "",
       "mode": "submit",
@@ -11,6 +16,8 @@
         {
           "week": "2026-09-W1",
           "rank": 3,
+          "n_ranked": 3,
+          "percentile": 0.0,
           "accuracy": 0.7352941176470589,
           "weighted_accuracy": 0.7175925925925927,
           "brier": 0.4529491617647059,
@@ -98,6 +105,7 @@
           },
           "market_brier": 0.5019972573843144,
           "market_accuracy": 0.5882352941176471,
+          "market_weighted_accuracy": 0.6250000000000001,
           "tracks": {
             "1d": {
               "label": "< 1 day",
@@ -135,19 +143,305 @@
         "accuracy": 0.7352941176470589,
         "weighted_accuracy": 0.7175925925925927,
         "best_rank": 3,
-        "alpha": 0.049048095619608476
+        "alpha": 0.049048095619608476,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 0.0
+      }
+    },
+    {
+      "name": "gemini4",
+      "aliases": [],
+      "display_name": "Gemini 4",
+      "org": "google",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 1,
+          "n_ranked": 8,
+          "percentile": 1.0,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.725,
+          "brier": 0.36154120000000006,
+          "alpha": 0.0641712127717925,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.4028375
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.21334999999999998
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.5410380000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.10333333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.27774999999999994
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.734
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.39533333333333337
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0050000000000000044
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.7272727272727273,
+              "brier": 0.4068545454545454
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6272000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.20892666666666673
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2888
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0008000000000000008
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0828
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.72,
+              "weighted_accuracy": 0.725,
+              "brier": 0.36154120000000006,
+              "alpha": 0.0641712127717925,
+              "rank": 1,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 25,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.725,
+        "best_rank": 1,
+        "alpha": 0.0641712127717925,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 1.0
+      }
+    },
+    {
+      "name": "glm5.3",
+      "aliases": [],
+      "display_name": "GLM 5.3",
+      "org": "zhipu",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 2,
+          "n_ranked": 8,
+          "percentile": 0.8571428571428571,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.6549999999999998,
+          "brier": 0.35055911999999995,
+          "alpha": 0.07515329277179253,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.438905
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.1634
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.5414558
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09553333333333332
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.32122
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.49260000000000004
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4962666666666666
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.012799999999999994
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.37774545454545455
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.161386
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24499999999999997
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0050000000000000044
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.3466
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.72,
+              "weighted_accuracy": 0.6549999999999998,
+              "brier": 0.35055911999999995,
+              "alpha": 0.07515329277179253,
+              "rank": 2,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 25,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.6549999999999998,
+        "best_rank": 2,
+        "alpha": 0.07515329277179253,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 0.8571428571428571
       }
     },
     {
       "name": "gpt-5.6-sol",
+      "aliases": [
+        "gpt5.6-sol"
+      ],
       "display_name": "GPT-5.6 Sol",
-      "org": "OpenAI",
+      "org": "openAI",
       "mode": "submit",
       "public": true,
       "weeks": [
         {
           "week": "2026-09-W1",
           "rank": 1,
+          "n_ranked": 3,
+          "percentile": 1.0,
           "accuracy": 0.7647058823529411,
           "weighted_accuracy": 0.7592592592592593,
           "brier": 0.39545829346588235,
@@ -235,6 +529,7 @@
           },
           "market_brier": 0.5019972573843144,
           "market_accuracy": 0.5882352941176471,
+          "market_weighted_accuracy": 0.6250000000000001,
           "tracks": {
             "1d": {
               "label": "< 1 day",
@@ -264,27 +559,290 @@
               "n_scored": 3
             }
           }
+        },
+        {
+          "week": "2026-10-W2",
+          "rank": 6,
+          "n_ranked": 8,
+          "percentile": 0.2857142857142857,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5949999999999999,
+          "brier": 0.38331998115000004,
+          "alpha": 0.04239243162179251,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.4449586271875
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18938125
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.4,
+              "brier": 0.598891502
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09973333333333334
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.39963250874999995
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.472671
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3784666666666667
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4133818181818182
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6962
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.49050834000000004
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2888
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0004500000000000004
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.09525000000000002
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.64,
+              "weighted_accuracy": 0.5949999999999999,
+              "brier": 0.38331998115000004,
+              "alpha": 0.04239243162179251,
+              "rank": 6,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 2,
+        "n_scored": 59,
+        "accuracy": 0.711864406779661,
+        "weighted_accuracy": 0.6896578782172001,
+        "best_rank": 1,
+        "alpha": 0.07935822989443223,
+        "n_alpha": 2,
+        "beat_market": 2,
+        "mean_percentile": 0.6428571428571428
+      }
+    },
+    {
+      "name": "grok4.7",
+      "aliases": [],
+      "display_name": "Grok 4.7",
+      "org": "SpaceX",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 5,
+          "n_ranked": 8,
+          "percentile": 0.42857142857142855,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5949999999999999,
+          "brier": 0.36726496,
+          "alpha": 0.058447452771792516,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.4115665
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.173825
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.4,
+              "brier": 0.5804358000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.11346666666666667
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.290666
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5400000000000001
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.39746666666666663
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.05780000000000002
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.41140000000000004
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.7688
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.25505266666666665
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2178
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2804
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.64,
+              "weighted_accuracy": 0.5949999999999999,
+              "brier": 0.36726496,
+              "alpha": 0.058447452771792516,
+              "rank": 5,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
         }
       ],
       "career": {
         "n_weeks": 1,
-        "n_scored": 34,
-        "accuracy": 0.7647058823529411,
-        "weighted_accuracy": 0.7592592592592593,
-        "best_rank": 1,
-        "alpha": 0.10653896391843203
+        "n_scored": 25,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5949999999999999,
+        "best_rank": 5,
+        "alpha": 0.058447452771792516,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 0.42857142857142855
       }
     },
     {
       "name": "kimi-k3",
+      "aliases": [],
       "display_name": "Kimi K3",
-      "org": "",
+      "org": "kimi",
       "mode": "submit",
       "public": true,
       "weeks": [
         {
           "week": "2026-09-W1",
           "rank": 2,
+          "n_ranked": 3,
+          "percentile": 0.5,
           "accuracy": 0.7941176470588235,
           "weighted_accuracy": 0.7546296296296297,
           "brier": 0.42189576470588247,
@@ -372,6 +930,7 @@
           },
           "market_brier": 0.5019972573843144,
           "market_accuracy": 0.5882352941176471,
+          "market_weighted_accuracy": 0.6250000000000001,
           "tracks": {
             "1d": {
               "label": "< 1 day",
@@ -401,15 +960,553 @@
               "n_scored": 3
             }
           }
+        },
+        {
+          "week": "2026-10-W2",
+          "rank": 3,
+          "n_ranked": 8,
+          "percentile": 0.7142857142857143,
+          "accuracy": 0.72,
+          "weighted_accuracy": 0.6549999999999998,
+          "brier": 0.35554143999999993,
+          "alpha": 0.07017097277179253,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.40093749999999995
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18705000000000002
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.5499386000000002
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.09633333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.15715
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.6075
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.40619999999999995
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.045000000000000005
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.41689090909090915
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6728000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.1689953333333333
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.20479999999999998
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.009799999999999993
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2726
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.72,
+              "weighted_accuracy": 0.6549999999999998,
+              "brier": 0.35554143999999993,
+              "alpha": 0.07017097277179253,
+              "rank": 3,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 2,
+        "n_scored": 59,
+        "accuracy": 0.7627118644067796,
+        "weighted_accuracy": 0.712413684871312,
+        "best_rank": 2,
+        "alpha": 0.07589364526036442,
+        "n_alpha": 2,
+        "beat_market": 2,
+        "mean_percentile": 0.6071428571428572
+      }
+    },
+    {
+      "name": "murmur",
+      "aliases": [],
+      "display_name": "Murmur",
+      "org": "M",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 4,
+          "n_ranked": 8,
+          "percentile": 0.5714285714285714,
+          "accuracy": 0.68,
+          "weighted_accuracy": 0.6216666666666665,
+          "brier": 0.4652036568,
+          "alpha": -0.039491244028207494,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.469021355
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.30610625
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.6252356000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3509333333333333
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.35608542
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.6959
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.19321666666666668
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.6363636363636364,
+              "brier": 0.5353914545454544
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6050000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4871999999999999
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.32000000000000006
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 5.000000000000005e-05
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.30660000000000004
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.68,
+              "weighted_accuracy": 0.6216666666666665,
+              "brier": 0.4652036568,
+              "alpha": -0.039491244028207494,
+              "rank": 4,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
         }
       ],
       "career": {
         "n_weeks": 1,
-        "n_scored": 34,
-        "accuracy": 0.7941176470588235,
-        "weighted_accuracy": 0.7546296296296297,
-        "best_rank": 2,
-        "alpha": 0.080101492678432
+        "n_scored": 25,
+        "accuracy": 0.68,
+        "weighted_accuracy": 0.6216666666666665,
+        "best_rank": 4,
+        "alpha": -0.039491244028207494,
+        "n_alpha": 1,
+        "beat_market": 0,
+        "mean_percentile": 0.5714285714285714
+      }
+    },
+    {
+      "name": "muse wonder",
+      "aliases": [],
+      "display_name": "Muse Wonder",
+      "org": "meta",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 7,
+          "n_ranked": 8,
+          "percentile": 0.14285714285714285,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5916666666666666,
+          "brier": 0.34373477119999996,
+          "alpha": 0.0819776415717925,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.36033181999999997
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.18084999999999998
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.4954842000000001
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.2501333333333334
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.049327280000000015
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.634
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 1.0,
+              "brier": 0.15653333333333333
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.012799999999999994
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4114727272727272
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6050000000000001
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.26194733333333337
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6728000000000001
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.003200000000000003
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.20060000000000003
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.64,
+              "weighted_accuracy": 0.5916666666666666,
+              "brier": 0.34373477119999996,
+              "alpha": 0.0819776415717925,
+              "rank": 7,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 25,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5916666666666666,
+        "best_rank": 7,
+        "alpha": 0.0819776415717925,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 0.14285714285714285
+      }
+    },
+    {
+      "name": "claude-opus5.5inline",
+      "aliases": [],
+      "display_name": "Opus 5.5 (inline)",
+      "org": "Anthropic",
+      "mode": "submit",
+      "public": true,
+      "weeks": [
+        {
+          "week": "2026-10-W2",
+          "rank": 8,
+          "n_ranked": 8,
+          "percentile": 0.0,
+          "accuracy": 0.64,
+          "weighted_accuracy": 0.5916666666666666,
+          "brier": 0.37485096,
+          "alpha": 0.05086145277179251,
+          "coverage": 1.0,
+          "n_scored": 25,
+          "by_level": {
+            "4": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.355624
+            },
+            "2": {
+              "n": 8,
+              "accuracy": 0.875,
+              "brier": 0.16657500000000003
+            },
+            "3": {
+              "n": 10,
+              "accuracy": 0.5,
+              "brier": 0.5866928
+            },
+            "1": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.24975
+            }
+          },
+          "by_category": {
+            "NFLX": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.028646
+            },
+            "Finance": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.7967890000000001
+            },
+            "Commodities": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.27393333333333336
+            },
+            "Trump": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0004500000000000004
+            },
+            "Sports": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.4309454545454546
+            },
+            "Esports": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.48019999999999996
+            },
+            "Culture": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.31928333333333336
+            },
+            "Ethereum": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.72
+            },
+            "XRP": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0002000000000000002
+            },
+            "Politics": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.028150000000000005
+            }
+          },
+          "market_brier": 0.42571241277179256,
+          "market_accuracy": 0.72,
+          "market_weighted_accuracy": 0.7216666666666666,
+          "tracks": {
+            "3d": {
+              "label": "Near · 0–3 days",
+              "accuracy": 0.64,
+              "weighted_accuracy": 0.5916666666666666,
+              "brier": 0.37485096,
+              "alpha": 0.05086145277179251,
+              "rank": 8,
+              "n_scored": 25
+            },
+            "7d": {
+              "label": "Mid · 3–7 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            },
+            "14d": {
+              "label": "Far · 7–14 days",
+              "accuracy": null,
+              "weighted_accuracy": null,
+              "brier": null,
+              "alpha": null,
+              "rank": null,
+              "n_scored": 0
+            }
+          }
+        }
+      ],
+      "career": {
+        "n_weeks": 1,
+        "n_scored": 25,
+        "accuracy": 0.64,
+        "weighted_accuracy": 0.5916666666666666,
+        "best_rank": 8,
+        "alpha": 0.05086145277179251,
+        "n_alpha": 1,
+        "beat_market": 1,
+        "mean_percentile": 0.0
       }
     }
   ]

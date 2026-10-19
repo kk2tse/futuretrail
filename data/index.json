@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-13T18:09:19.105911+08:00",
+  "generated_at": "2026-10-19T18:03:46.544560+08:00",
   "latest": "2026-10-W2",
   "weeks": [
     {
       "week": "2026-10-W2",
-      "status": "open",
-      "ingested_at": "2026-10-13T16:17:34.555696+08:00",
+      "status": "resolving",
+      "ingested_at": "2026-10-14T17:29:23.043994+08:00",
       "submission_deadline": "2026-10-17T00:00:00+08:00",
       "week_start": "2026-10-12T00:00:00+08:00",
       "week_end": "2026-10-19T00:00:00+08:00",
@@ -16,181 +16,231 @@
         "polymarket"
       ],
       "totals": {
-        "3d": 26,
-        "7d": 21,
-        "14d": 22
+        "3d": 41,
+        "7d": 39,
+        "14d": 45
       },
       "tracks": {
         "3d": {
-          "n_questions": 26,
+          "n_questions": 41,
           "label": "Near · 0–3 days",
           "window_start": "2026-10-17T00:00:00+08:00",
           "window_end": "2026-10-20T00:00:00+08:00",
           "level_counts": {
-            "3": 5,
-            "4": 21
+            "1": 7,
+            "2": 11,
+            "3": 14,
+            "4": 9
+          },
+          "selection_level_counts": {
+            "1": 7,
+            "2": 12,
+            "3": 13,
+            "4": 9
+          },
+          "level_transition_counts": {
+            "1->1": 7,
+            "2->2": 11,
+            "2->3": 1,
+            "3->3": 13,
+            "4->4": 9
+          },
+          "resolution_horizon_counts": {
+            "1_to_3_days": 26,
+            "within_24h": 15
+          },
+          "resolution_basis_counts": {
+            "platform_deadline": 21,
+            "review_decided_by": 20
+          },
+          "difficulty_factor_counts": {
+            "high_volatility": 22,
+            "individual_or_organization_decision": 3,
+            "partly_scarce_and_discretionary": 2,
+            "thin_trading": 1
           },
           "category_counts": {
-            "Commodities": 1,
-            "Crypto": 2,
-            "Culture": 1,
-            "Economy": 1,
+            "Commodities": 3,
+            "Culture": 4,
+            "Economy": 2,
+            "Esports": 1,
+            "Ethereum": 1,
             "Finance": 3,
-            "Movies": 2,
+            "Movies": 3,
             "NFLX": 1,
-            "OPEN": 1,
-            "Oil": 1,
-            "Solana": 1,
-            "Sports": 10,
-            "Tech": 1,
-            "Trump": 1
+            "Oil": 2,
+            "Politics": 1,
+            "Putin": 1,
+            "Sports": 11,
+            "Tech": 3,
+            "Trump": 2,
+            "Weather": 2,
+            "XRP": 1
           }
         },
         "7d": {
-          "n_questions": 21,
+          "n_questions": 39,
           "label": "Mid · 3–7 days",
           "window_start": "2026-10-20T00:00:00+08:00",
           "window_end": "2026-10-24T00:00:00+08:00",
           "level_counts": {
-            "1": 1,
-            "2": 1,
-            "3": 5,
-            "4": 14
+            "1": 9,
+            "2": 8,
+            "3": 9,
+            "4": 13
+          },
+          "selection_level_counts": {
+            "1": 13,
+            "2": 6,
+            "3": 9,
+            "4": 11
+          },
+          "level_transition_counts": {
+            "1->1": 9,
+            "1->2": 4,
+            "2->2": 4,
+            "2->3": 2,
+            "3->3": 7,
+            "3->4": 2,
+            "4->4": 11
+          },
+          "resolution_horizon_counts": {
+            "1_to_3_days": 4,
+            "3_to_7_days": 35
+          },
+          "resolution_basis_counts": {
+            "platform_deadline": 31,
+            "review_decided_by": 8
+          },
+          "difficulty_factor_counts": {
+            "high_volatility": 6,
+            "individual_or_organization_decision": 8,
+            "thin_trading": 2
           },
           "category_counts": {
             "ABT": 1,
-            "AI": 1,
+            "AI": 2,
             "AXP": 1,
             "BX": 1,
+            "Bitcoin": 1,
             "CPI": 1,
-            "Finance": 3,
-            "GE": 1,
+            "Culture": 3,
+            "DHR": 1,
+            "Economy": 4,
+            "Finance": 1,
+            "Hon": 1,
             "ISRG": 1,
             "KPIs": 1,
-            "Politics": 2,
-            "Sports": 5,
+            "LMT": 1,
+            "MAU": 1,
+            "Mentions": 1,
+            "Politics": 3,
+            "Sports": 8,
+            "TMO": 1,
+            "TXN": 1,
+            "UAL": 1,
             "UMich": 1,
             "UNP": 1,
-            "VCT": 1
+            "Weather": 1
           }
         },
         "14d": {
-          "n_questions": 22,
+          "n_questions": 45,
           "label": "Far · 7–14 days",
           "window_start": "2026-10-24T00:00:00+08:00",
           "window_end": "2026-10-31T00:00:00+08:00",
           "level_counts": {
-            "2": 1,
-            "3": 10,
-            "4": 11
+            "2": 17,
+            "3": 13,
+            "4": 15
+          },
+          "selection_level_counts": {
+            "2": 19,
+            "3": 11,
+            "4": 15
+          },
+          "level_transition_counts": {
+            "2->2": 17,
+            "2->3": 2,
+            "3->3": 11,
+            "4->4": 15
+          },
+          "resolution_horizon_counts": {
+            "3_to_7_days": 3,
+            "over_7_days": 40,
+            "within_24h": 2
+          },
+          "resolution_basis_counts": {
+            "platform_deadline": 27,
+            "review_decided_by": 18
+          },
+          "difficulty_factor_counts": {
+            "far_horizon": 40,
+            "high_volatility": 6,
+            "individual_or_organization_decision": 4,
+            "partly_scarce_and_discretionary": 6,
+            "thin_trading": 4
           },
           "category_counts": {
-            "AI": 1,
-            "Culture": 2,
-            "Economy": 1,
-            "Finance": 1,
+            "AI": 2,
+            "Bulgaria": 1,
+            "Culture": 3,
+            "Economy": 4,
             "GDP": 1,
-            "Politics": 4,
-            "Serbia": 1,
-            "Sports": 7,
-            "World": 4
-          }
-        }
-      },
-      "resolution": {},
-      "n_models": 0,
-      "n_scored": 0,
-      "market_baseline": null,
-      "leaderboard_generated_at": "2026-10-13T17:10:31.825535+08:00"
-    },
-    {
-      "week": "2026-10-W1",
-      "status": "open",
-      "ingested_at": "2026-10-10T18:29:12.675288+08:00",
-      "submission_deadline": "2026-10-14T00:00:00+08:00",
-      "week_start": "2026-10-05T00:00:00+08:00",
-      "week_end": "2026-10-12T00:00:00+08:00",
-      "timezone": "UTC+8",
-      "source_mode": "live",
-      "sources": [
-        "kalshi",
-        "polymarket"
-      ],
-      "totals": {
-        "3d": 9,
-        "7d": 17,
-        "14d": 9
-      },
-      "tracks": {
-        "3d": {
-          "n_questions": 9,
-          "label": "Near · 0–3 days",
-          "window_start": "2026-10-14T00:00:00+08:00",
-          "window_end": "2026-10-17T00:00:00+08:00",
-          "level_counts": {
-            "2": 1,
-            "3": 4,
-            "4": 4
-          },
-          "category_counts": {
-            "Commodities": 1,
-            "Esports": 1,
-            "Finance": 1,
-            "MLB": 1,
-            "Solana": 1,
-            "Sports": 2,
-            "Tech": 1,
-            "Tennis": 1
-          }
-        },
-        "7d": {
-          "n_questions": 17,
-          "label": "Mid · 3–7 days",
-          "window_start": "2026-10-17T00:00:00+08:00",
-          "window_end": "2026-10-21T00:00:00+08:00",
-          "level_counts": {
-            "2": 2,
-            "3": 9,
-            "4": 6
-          },
-          "category_counts": {
-            "Culture": 1,
-            "Movies": 2,
-            "Oil": 1,
-            "RTX": 1,
-            "Sports": 6,
-            "Tennis": 4,
-            "Views": 1,
-            "Weather": 1
-          }
-        },
-        "14d": {
-          "n_questions": 9,
-          "label": "Far · 7–14 days",
-          "window_start": "2026-10-21T00:00:00+08:00",
-          "window_end": "2026-10-28T00:00:00+08:00",
-          "level_counts": {
-            "2": 1,
-            "3": 4,
-            "4": 4
-          },
-          "category_counts": {
-            "AI": 1,
-            "CPI": 1,
-            "Economy": 1,
-            "Finance": 2,
             "KPIs": 1,
-            "Sports": 1,
-            "Typhoon": 1,
-            "Weather": 1
+            "Mayoral": 2,
+            "Movies": 1,
+            "NBA": 1,
+            "Oil": 1,
+            "PCE": 1,
+            "Politics": 6,
+            "Serbia": 1,
+            "Sports": 9,
+            "Tech": 5,
+            "V": 1,
+            "VRT": 1,
+            "Weather": 1,
+            "World": 3
           }
         }
       },
-      "resolution": {},
-      "n_models": 0,
-      "n_scored": 0,
-      "market_baseline": null,
-      "leaderboard_generated_at": "2026-10-13T17:10:31.821878+08:00"
+      "resolution": {
+        "resolved": 25,
+        "pending": 8,
+        "void": 2
+      },
+      "n_models": 8,
+      "n_scored": 25,
+      "market_baseline": {
+        "n_scored": 25,
+        "accuracy": 0.72,
+        "weighted_accuracy": 0.7216666666666666,
+        "brier": 0.42571241277179256,
+        "by_level": {
+          "4": {
+            "n": 4,
+            "accuracy": 0.75,
+            "brier": 0.4008904960217357
+          },
+          "2": {
+            "n": 8,
+            "accuracy": 0.875,
+            "brier": 0.24021812785149999
+          },
+          "3": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.564412942951387
+          },
+          "1": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.49112462762733333
+          }
+        }
+      },
+      "leaderboard_generated_at": "2026-10-19T18:02:45.427537+08:00",
+      "has_process": true
     },
     {
       "week": "2026-09-W1",
@@ -220,6 +270,11 @@
             "3": 7,
             "4": 7
           },
+          "selection_level_counts": {},
+          "level_transition_counts": {},
+          "resolution_horizon_counts": {},
+          "resolution_basis_counts": {},
+          "difficulty_factor_counts": {},
           "category_counts": {
             "Bitcoin": 1,
             "Esports": 2,
@@ -240,6 +295,11 @@
             "3": 1,
             "4": 19
           },
+          "selection_level_counts": {},
+          "level_transition_counts": {},
+          "resolution_horizon_counts": {},
+          "resolution_basis_counts": {},
+          "difficulty_factor_counts": {},
           "category_counts": {
             "ATP": 1,
             "Bitcoin": 2,
@@ -263,6 +323,11 @@
             "3": 1,
             "4": 3
           },
+          "selection_level_counts": {},
+          "level_transition_counts": {},
+          "resolution_horizon_counts": {},
+          "resolution_basis_counts": {},
+          "difficulty_factor_counts": {},
           "category_counts": {
             "Movies": 2,
             "Sports": 2,
@@ -300,7 +365,8 @@
           }
         }
       },
-      "leaderboard_generated_at": "2026-10-13T17:10:31.814668+08:00"
+      "leaderboard_generated_at": "2026-10-19T18:02:45.405332+08:00",
+      "has_process": false
     }
   ]
 }
