@@ -1,0 +1,1002 @@
+{
+  "week": "2026-10-W4",
+  "submission_deadline": "2026-10-30T00:00:00+08:00",
+  "questions": [
+    {
+      "id": "q_zcAJPBcID51xo8PDuY5G6zMX",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many goals will NK Brinje Grosuplje and Bravo Ljubljana combine to score in the first half — the first 45 minutes of regular play plus first-half stoppage time — of their October 29 Slovenia PrvaLiga game?\"\nA. 0\nB. 1\nC. 2\nD. 3 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T00:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_SF-lQL0T23GRjPptJoPHIbLL",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many goals will Frosinone Calcio score in the first 90 minutes of regular play plus stoppage time in their Serie A game against US Lecce on October 29, excluding extra time and penalty shoot-outs?\"\nA. 0\nB. 1\nC. 2–3\nD. 4\nE. 5 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T01:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_1tQDlrRTAyWpseSJlpqzcbtE",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the Allsvenskan match between Kalmar FF and GAIS on October 29, 2026, what will be the result within the first 90 minutes of regular play plus stoppage time?\"\nA. Kalmar FF\nB. GAIS\nC. Draw (Kalmar FF vs. GAIS)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T02:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_ry1D21XPGkIgLs-p0yhhbYId",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the Golden State vs Atlanta women's Pro Basketball game originally scheduled for Oct 29, 2026, how many points will Golden State win by, or Atlanta win by, or will it be a tie?\"\nA. Golden State by 7 or more\nB. Golden State by 1–6, a tie or Atlanta by 1–3\nC. Atlanta by 4–9\nD. Atlanta by 10–15\nE. Atlanta by 16 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T03:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_HGYEqVyIY7JZK61LmiYrwr5O",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many goals will HB Køge and FC Barcelona combine to score in the first half (the first 45 minutes of regular play plus first-half stoppage time) of their UEFA Women's Champions League game on October 29, excluding second-half goals, extra time, and penalty shoot-outs?\"\nA. 0\nB. 1\nC. 2\nD. 3\nE. 4 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T04:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_tVraXj9k5xVU3_SR_iF3j4rK",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Reddit (RDDT) report diluted GAAP EPS greater than $1.37 in its next quarterly earnings release, expected around November 4, 2026, as listed in the company's official earnings documents?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T05:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_s6kgyJfjJ97Rq7bB3Q_YRya8",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Starbucks report as its year-over-year global comparable store sales growth for the fourth fiscal quarter, per its official earnings materials by November 30, 2026, later revisions not considered, with a value between two brackets going to the higher bracket and a range using its midpoint?\"\nA. <5%\nB. 5% to 7%\nC. 7% to 9%\nD. 9% to 11%\nE. 11%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T06:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_B4yJ8pGOUbAtpH1chG7bNbPA",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which outcome will the Brazil Série A game between CA Mineiro and Cruzeiro EC on October 29, 2026 produce — a CA Mineiro win, a Cruzeiro EC win, or a draw — counting only the first 90 minutes of regular play plus stoppage time?\"\nA. CA Mineiro\nB. Cruzeiro EC\nC. Draw (CA Mineiro vs. Cruzeiro EC)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T06:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_aB7F-SZl-6gjB_9D6-xEcp7R",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Sporting Cristal vs Alianza Lima professional Peru Liga 1 soccer game originally scheduled for Oct 29, 2026, after 90 minutes plus stoppage time (not including extra time or penalties)?\"\nA. Alianza Lima\nB. Sporting Cristal\nC. Tie\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T07:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_ihHsUOGxfmzArqQkRVG9SEUB",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will FBC Melgar and CD Comerciantes Unidos combine to score in their Peru Liga 1 game on October 29, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 1 or fewer\nB. 2\nC. 3\nD. 4\nE. 5\nF. 6 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T08:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_aOEotHUzO6CzY1blpbva9Q0T",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which, if any, of the listed Reverse Holographic cards from the Pokemon Legendary Collection set will Logan Paul pull directly from a pack opened and revealed live during his scheduled October 29, 2026, 6:00 PM ET stream, per his official stream/VOD?\"\nA. Reverse Holographic Snorlax\nB. Reverse Holographic Charizard\nC. Reverse Holographic Pikachu\nD. Reverse Holographic Gengar\nE. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D may turn out true; E means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include E.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{E} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T11:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_QSMGBw1lbE-ViAW97Gv2wugc",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How much will Germany's price-adjusted GDP grow (% change) in Q3 2026 versus the same quarter a year earlier, per Destatis's first Gross Domestic Product press release, reported to one decimal, with a value exactly between brackets counting toward the higher range?\"\nA. ≤0.0%\nB. 0.1-0.3%\nC. 0.4-0.6%\nD. 0.7-0.9%\nE. 1.0-1.2%\nF. 1.3%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T14:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_UFYP8DlIsbsecJ82BkXbpL36",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Eurostat preliminary flash estimate of Eurozone (Euro Area 21) GDP growth be in Q3 2026, as a seasonally adjusted year-over-year % change reported to one decimal place in the October 30, 2026 release, with a value exactly between two ranges counted as the higher range?\"\nA. <0.0%\nB. 0.0-0.3%\nC. 0.4-0.7%\nD. 0.8-1.1%\nE. 1.2-1.5%\nF. 1.6-1.9%\nG. 2.0%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T14:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_VHL2OV4twUXi1KMFNSCq4d56",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Canada’s real GDP monthly change be for the one-month period ending August 2026, as first reported by Statistics Canada’s “Gross domestic product by industry” release, to one decimal place?\"\nA. <-0.2%\nB. -0.2 to -0.1%\nC. 0.0 to 0.1%\nD. 0.2 to 0.3%\nE. 0.4 to 0.5%\nF. 0.6%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T20:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_mPxE3VcLLYbMBqzVLL-eJAHd",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the VoteHub 2026 generic ballot margin (D − R, time-weighted) be above 8.4% at 10:00 AM ET on Oct 30, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T22:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_cnLtibKvwbdrFM9SumkQxB8u",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Donald Trump's VoteHub approval polling average be above 37.1% at 10:00 AM ET on October 30, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-30T22:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_ecMF6AlaeFzb_A-yE-It2Slo",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will CZ (@cz_binance) post on X between October 23, 2026, 12:00 PM ET and October 30, 2026, 12:00 PM ET, counting main-feed posts, quote posts, reposts, and replies recorded on the main feed but not other replies, including deleted posts captured, per the Post Counter figure?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T00:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_sVE1Nz0tjW-LM8jHSFXEdMgu",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will Elon Musk (@elonmusk) post on X from October 23, 2026 12:00 PM ET to October 30, 2026 12:00 PM ET, counting main feed posts, quote posts, and reposts, excluding replies but including main-feed replies counted by the Post Counter tracker, and deleted posts captured by the tracker?\"\nA. 180-199\nB. 200-219\nC. 220-239\nD. 240-259\nE. 260-279\nF. 280-299\nG. 300-319\nH. 320-339\nI. 340-359\nJ. 360-379\nK. 380-399\nL. 400-419\nM. 420-439\nN. 440-459\nO. 460-479\nP. 480-499\nQ. 500-519\nR. 520-539\nS. 540-559\nT. 560-579\nU. 580+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T00:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_3Bs8I8AxkzzOyKzbJDdK_M6x",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Binance SOL/USDT price be at the close of the 12:00 p.m. ET 1-minute candle on October 30, with a value exactly on a bracket edge counted toward the higher bracket?\"\nA. <60\nB. 60-70\nC. 70-80\nD. 80-90\nE. 90-100\nF. 100-110\nG. 110-120\nH. 120-130\nI. 130-140\nJ. 140-150\nK. >150\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T00:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_103rzB3CXeIa-OhkGvdZ-yZF",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the 2. Bundesliga match between FC Energie Cottbus and VfL Bochum on October 30, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. VfL Bochum\nB. Draw (FC Energie Cottbus vs. VfL Bochum)\nC. FC Energie Cottbus\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T01:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_7kIFXyDfYz6m-fi3vagWXBGp",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will FK Bodø/Glimt and Viking FK combine to score in their Norway Eliteserien game on October 30, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 1 or fewer\nB. 2–3\nC. 4\nD. 5\nE. 6\nF. 7 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T02:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_aRqt2_vPNYh9xWk5TnklKKa9",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which outcome will the October 30, 2026 Ligue 2 game between Stade Lavallois Mayenne FC and US Boulogne Côte d'Opale produce, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. US Boulogne Côte d'Opale\nB. Draw (Stade Lavallois Mayenne FC vs. US Boulogne Côte d'Opale)\nC. Stade Lavallois Mayenne FC\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T03:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_nc2i_x6HQJH8DHRaF7AoAQbI",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will FC Volendam and De Graafschap combine to score in their Netherlands Eerste Divisie game on October 30, counting only goals scored in the first 90 minutes of regular play plus stoppage time?\"\nA. 1 or fewer\nB. 2\nC. 3\nD. 4\nE. 5\nF. 6\nG. 7 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T03:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_ueUwh5vvh5DqkJsMTrGxdYWD",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the par yield for the 10Y U.S. Treasury be on October 30, 2026, according to the U.S. Department of the Treasury?\"\nA. Below 5.02%\nB. 5.02% to below 5.04%\nC. 5.04% to below 5.12%\nD. 5.12% or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T03:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_YkAsNmHtNfuPYvXMlpSpP9Aj",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Alphabet Inc. (GOOGL) close at on the final trading day of the week of Oct 26, per Pyth's Close for the final minute of regular trading, without rounding, with values exactly between brackets counting to the higher bracket?\"\nA. <$300\nB. $300-$305\nC. $305-$310\nD. $310-$315\nE. $315-$320\nF. $320-$325\nG. $325-$330\nH. $330-$335\nI. $335-$340\nJ. $340-$345\nK. >$345\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T04:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_HqLcx7lbhhzXZ6utP5xgImuW",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the professional Colombian Liga DIMAYOR soccer game between Pereira and Jaguares, originally scheduled for Oct 30, 2026, after 90 minutes plus stoppage time (excluding extra time and penalties), or will it end in a tie, per ESPN and Fox Sports?\"\nA. Pereira\nB. Jaguares\nC. Tie\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T08:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_2twgghyw6185AdGhMbAaVBqP",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"As of 12:00 PM ET on October 30, which app will be ranked #1 in the United States on the iPhone Apple App Store's overall Top Charts under “Paid Apps”?\"\nA. Other\nB. Deck-Man: Cassette Player\nC. AnkiMobile Flashcards\nD. Shadowrocket\nE. HotSchedules\nF. play_music_theory\nG. Procreate Pocket\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T11:59:00+08:00",
+      "level": 1
+    },
+    {
+      "id": "q_OpRjXvPhyN4BgEeuDeyF7_GC",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the daily average price of APT tungsten (SMM-WU-APT-001) be in USD per tonne at 5:00 PM ET on Oct 30, 2026, as published by Shanghai Metals Market, using the midpoint of SMM's assessed High and Low for that day?\"\nA. $60,000 or below\nB. Above $60,000, up to $65,000\nC. Above $65,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T11:59:59+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_HBVsikqM4majqR171LCKy1st",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will Fagiano Okayama and FC Tōkyō combine to score in their Japan J. League game on October 31, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 0\nB. 1–2\nC. 3\nD. 4\nE. 5\nF. 6 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T13:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_JGMb0kYDDWMK1fAX4cbj6GWw",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Süper Lig game between Kocaelispor and Çaykur Rizespor on October 31, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. Kocaelispor\nB. Draw (Kocaelispor vs. Çaykur Rizespor)\nC. Çaykur Rizespor\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T21:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_AezykuC9AT9BZ3JgrtE2pMvb",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Erzurum vs Corum professional Super Lig soccer game originally scheduled for Oct 31, 2026 after 90 minutes plus stoppage time, excluding extra time and penalties?\"\nA. Corum\nB. Tie\nC. Erzurum\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T21:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_L8gAoEKYCxSnuxeMDyyTbvgw",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Poland Ekstraklasa game between Wieczysta Krakow and Jagiellonia Bialystok on Saturday, October 31, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. Jagiellonia Bialystok\nB. Draw (Wieczysta Krakow vs. Jagiellonia Bialystok)\nC. Wieczysta Krakow\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T21:45:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_8DF4GHWAIl0We7EpkiT9dnH4",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Anthropic's Vercel share of AI Gateway spend across the top labs for Oct 30, 2026 be above 37.3%, rounded to one decimal on the Vercel AI Gateway Leaderboards - Labs chart?\"\nA. 37.3% or below\nB. Above 37.3%\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T22:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_XiMu13kvYodY2TrONuAauO0W",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which AI model will be the top-ranked model on the LM Arena Leaderboard with Style Control removed as of Oct 31, 2026 at 10:00 AM ET, with ties broken by Rank (UB), then highest Arena Score, then most votes, then earlier release?\"\nA. claude-fable-5.1-max\nB. gemini-4-argon-high\nC. claude-opus-5.5-high\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T22:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_Po71iq4BXXKkrzTbtbi-RWrY",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many goals will MŠK Žilina and MFK Zemplín Michalovce combine to score in the first half (the first 45 minutes of regular play plus first-half stoppage time) of their Nike Liga game on October 31, excluding second-half goals, extra time, and penalty shoot-outs?\"\nA. 0\nB. 1\nC. 2\nD. 3\nE. 4 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-10-31T22:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_ugqNIzH66o_Rep1zK6zJDEzu",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which option will have the highest hourly odds value in the '2028 Democratic Nomination' listing on PredictionMarketOdds for the hour ending 12:00 PM ET on October 31, 2026, with an unlisted leader counted as Other and ties broken by the most recent earlier differing value, then alphabetically?\"\nA. Josh Shapiro\nB. Alexandria Ocasio-Cortez\nC. Other\nD. Kamala Harris\nE. Jon Ossoff\nF. Gavin Newsom\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T00:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_4anDEosm_oFGuN2mzVE-5VM-",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which AI company will be the third-highest ranked Lab on the arena.ai Agent Arena Leaderboard when the table filtered for Labs is checked on October 31, 2026, at 12:00 PM ET, excluding AutoEval models and ordering labs by Lab Rank, then highest-ranking model, then alphabetical as final tiebreaker?\"\nA. Baidu\nB. Microsoft\nC. Amazon\nD. Nvidia\nE. OpenAI\nF. Moonshot\nG. MiniMax\nH. Xiaomi\nI. Other\nJ. SpaceXAI\nK. Z.ai\nL. Alibaba\nM. Google\nN. Meituan\nO. Anthropic\nP. DeepSeek\nQ. Meta\nR. Mistral\nS. ByteDance\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T00:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_buDuTbGyBQE7aUnIFeACn0pb",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"As of October 31, 2026, 12:00 PM ET, which company owns the top-ranked model on the arena.ai Text-to-Video Leaderboard filtered for Models, excluding any model marked AutoEval (ties broken by leaderboard listing order, then company name alphabetically)?\"\nA. Kandinsky\nB. Runway\nC. Meta\nD. OpenAI\nE. Tencent\nF. Luma AI\nG. Genmo AI\nH. MiniMax\nI. KlingAI\nJ. Alibaba/Alibaba-ATH\nK. Pixverse\nL. Lightricks\nM. Pika\nN. Other\nO. SpaceXAI\nP. Google\nQ. ByteDance\nR. Pruna\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T00:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_Z-CiivFP1k8bIWLEr580cfmE",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the Romania SuperLiga match between FC Petrolul Ploieşti and FC CFR 1907 Cluj on October 31, how many goals will the two teams combine to score within the first 90 minutes of regular play plus stoppage time?\"\nA. 0\nB. 1\nC. 2\nD. 3–4\nE. 5 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_JS40DWPwvlnC5YY0mu98KIC_",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Meta's public market capitalization be at the close of regular trading on the final trading day of October 2026, based on official exchange trading data and publicly reported share counts for all share classes and conversion ratios, with bracket-edge values counting toward higher bracket?\"\nA. <$1.00T\nB. $1.00-$1.25T\nC. $1.25-$1.50T\nD. $1.50-$1.75T\nE. $1.75-$2.00T\nF. $2.00-$2.25T\nG. $2.25T+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T01:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_LIJDf24HlpA8n-6ujY9MhV7i",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Bremen vs Hoffenheim Bundesliga soccer game scheduled for Oct 31, 2026 after 90 minutes plus stoppage time, excluding extra time and penalties?\"\nA. Bremen\nB. Tie\nC. Hoffenheim\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T01:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_hENWYgHn5JETjKy8hAXJZqSS",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will Real Betis Balompié and Málaga CF combine to score in their La Liga game on October 31 at 1:30 PM ET, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 0\nB. 1–2\nC. 3–4\nD. 5\nE. 6 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T01:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_AZ8REwKzB-pJuISQlAjhnlMo",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Primera Nacional game between Atletico de Rafaela and CA Patronato Parana on October 31, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. Draw (Atletico de Rafaela vs. CA Patronato Parana)\nB. Atletico de Rafaela\nC. CA Patronato Parana\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T04:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_TgWncnxVIQw0nD1DgABcqS97",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Luzern vs Sion professional Swiss Super League soccer game originally scheduled for Oct 31, 2026, after 90 minutes plus stoppage time, excluding extra time and penalties?\"\nA. Luzern\nB. Sion\nC. Tie\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T06:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_uwtwoowoTfEQouJDRRZg4X9O",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which, if any, will Donald Trump publicly praise by October 31 (ET) via a public statement or qualifying social media post—not a leaked private remark or paraphrase—where praise means approval, admiration, respect, or endorsement, per Trump's public statements and a consensus of credible reporting?\"\nA. Gianni Infantino\nB. Bryson DeChambeau\nC. Warren Buffett\nD. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C may turn out true; D means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include D.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{D} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T07:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_aQ2sDyYdM7ORnHCZsXC7c9x4",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be the artist with the second-greatest number of monthly listeners on Spotify on October 31, 2026, 12:00 PM ET, counting only primary artist profiles and not features/collaborations under another artist profile, with exact ties going to the alphabetically first artist name?\"\nA. Ariana Grande\nB. Drake\nC. Michael Jackson\nD. Billie Eilish\nE. Rihanna\nF. Shakira\nG. Bruno Mars\nH. The Weeknd\nI. Taylor Swift\nJ. Justin Bieber\nK. Other\nL. Lady Gaga\nM. Bad Bunny\nN. Coldplay\nO. Ed Sheeran\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T07:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_xTc46e-VI9XxMmcV5R59rVYt",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the VidantaWorld Mexico Open golf tournament?\"\nA. David Skinns\nB. Chan Kim\nC. Justin Lower\nD. Corey Conners\nE. John Parry\nF. Luke Clanton\nG. Ryder Cowan\nH. C.T. Pan\nI. Marco Penge\nJ. Jackson Suber\nK. Denny McCarthy\nL. Jordan Smith\nM. Kevin Yu\nN. Chandler Blanchet\nO. Zac Blair\nP. Zecheng Dou\nQ. Hank Lebioda\nR. Patrick Fishburn\nS. Adrien Dumont De Chassart\nT. Christo Lamprecht\nU. Gerardo Gomez\nV. Andrew Novak\nW. Peter Malnati\nX. Ben Silverman\nY. Santiago De La Fuente\nZ. Garrett Endicott\nAA. Johnny Keefer\nAB. Karl Vilips\nAC. Mark Hubbard\nAD. Pierceson Coody\nAE. Patton Kizzire\nAF. David Ford\nAG. Paul Peterson\nAH. Rasmus Neergaard-Petersen\nAI. Aaron Wise\nAJ. Nick Dunlap\nAK. Emiliano Grillo\nAL. Aaron Baddeley\nAM. Chandler Phillips\nAN. Marcelo Rozo\nAO. Takumi Kanaya\nAP. Adam Svensson\nAQ. Haotong Li\nAR. Andrew Putnam\nAS. Jimmy Stanger\nAT. Aldrich Potgieter\nAU. Max Greyserman\nAV. Rico Hoey\nAW. Wyndham Clark\nAX. Austin Eckroat\nAY. Rafael Campos\nAZ. Davis Chatfield\nBA. Tayler Termeer\nBB. Steven Fisk\nBC. Vince Whaley\nBD. Ben Martin\nBE. Taylor Pendrith\nBF. Isaiah Salinda\nBG. Hayden Springer\nBH. Keita Nakajima\nBI. Trent Phillips\nBJ. Brice Garnett\nBK. Alvaro Ortiz\nBL. Jeffrey Kang\nBM. Joel Dahmen\nBN. Neal Shipley\nBO. Kensei Hirata\nBP. John Daly II\nBQ. Patrick Rodgers\nBR. Max McGreevy\nBS. Harry Higgs\nBT. Alejandro Tosti\nBU. Rasmus Hojgaard\nBV. Max Homa\nBW. Pontus Nyholm\nBX. Blades Brown\nBY. Sudarshan Yellamaraju\nBZ. Doug Ghim\nCA. Christiaan Bezuidenhout\nCB. Danny Walker\nCC. John VanDerLaan\nCD. Mauricio Figueroa\nCE. Tyler Duncan\nCF. Gordon Sargent\nCG. Alejandro Fierro\nCH. Lee Hodges\nCI. Camilo Villegas\nCJ. Dylan Wu\nCK. Billy Horschel\nCL. Erik van Rooyen\nCM. Kevin Roy\nCN. Taylor Moore\nCO. William Mouw\nCP. Brian Campbell\nCQ. Joe Highsmith\nCR. Tony Finau\nCS. Tom Kim\nCT. Trace Crowe\nCU. Kevin Streelman\nCV. Garrick Higgo\nCW. Chad Ramey\nCX. Kris Ventura\nCY. Mackenzie Hughes\nCZ. Harry Hall\nDA. Beau Hossler\nDB. Will Gordon\nDC. Kihei Akina\nDD. Cameron Tankersley\nDE. Benjamin James\nDF. Ben Griffin\nDG. Zachary Bauchou\nDH. Davis Riley\nDI. David Lipsky\nDJ. Jesper Svensson\nDK. Matthieu Pavon\nDL. Cam Davis\nDM. Omar Morales\nDN. A.J. Ewart\nDO. Mac Meissner\nDP. Eli Ortego\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ, AK, AL, AM, AN, AO, AP, AQ, AR, AS, AT, AU, AV, AW, AX, AY, AZ, BA, BB, BC, BD, BE, BF, BG, BH, BI, BJ, BK, BL, BM, BN, BO, BP, BQ, BR, BS, BT, BU, BV, BW, BX, BY, BZ, CA, CB, CC, CD, CE, CF, CG, CH, CI, CJ, CK, CL, CM, CN, CO, CP, CQ, CR, CS, CT, CU, CV, CW, CX, CY, CZ, DA, DB, DC, DD, DE, DF, DG, DH, DI, DJ, DK, DL, DM, DN, DO, DP.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T08:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_3_20sfDsAOMscWKYkn2SRgBY",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many SpaceX launches will occur between October 1, 2026, 12:00 AM ET and October 31, 2026, 11:59 PM ET, according to SpaceX’s launches page?\"\nA. 16\nB. 14\nC. 15\nD. <14\nE. 17+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_0TnBFlRPEzGR1cjF5CgTZ4de",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the highest wind speed, in miles per hour, reported on the summit of Mt. Washington in New Hampshire in October 2026, measured to whole mph by the Mt. Washington Weather Observatory?\"\nA. Below 105\nB. 105 to below 115\nC. 115 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_eBAXWdCdC40BcKDlk_LsQhLf",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will IMF Portwatch report as the 7-day moving average of transit calls (\"Arrivals of Ships\") for the Bab el-Mandeb Strait for October 31, 2026, including container, dry bulk, roll-on/roll-off, general cargo, and tanker ships and using the unrounded value?\"\nA. <20\nB. 20-24\nC. 25-29\nD. 30-34\nE. 35+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_VbsVJc2CkzHBKQCBTzXy8dLP",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the finalized free-market USD exchange rate on Bonbast be on October 31, 2026, in Iranian rials (1 toman = 10 rials), with a value exactly between two brackets counting toward the higher bracket?\"\nA. <2.3M\nB. 2.3-2.4M\nC. 2.4-2.5M\nD. 2.5-2.6M\nE. 2.6-2.7M\nF. 2.7-2.8M\nG. 2.8M+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_0KavcKhDdydt0q6-3zaq-tgl",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Elon Musk’s net worth be on October 31, 2026, according to the Bloomberg Billionaires Index Elon Musk Profile, with a reported value exactly between two brackets counted in the higher bracket?\"\nA. <$700B\nB. $1.00-$1.10T\nC. $1.10-$1.20T\nD. $1.20T+\nE. $700-$800B\nF. $800-$900B\nG. $900B-$1.00T\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_jIyFsCOFLzB4gHH83Cb1qucF",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In October 2026, how many days will Claude (claude.ai) experience downtime, according to the Claude Status historical uptime page for the claude.ai component, counting a day if its finalized status box is any color other than green and excluding other Claude components?\"\nA. <5\nB. 5-7\nC. 8-10\nD. 11-13\nE. 14+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_0HggfOR2vVD2105iLWpJEQXU",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"On what calendar date (ET), if any, will Anthropic make its next Fable model, version 5.2 or higher, available to the general public, including open beta or open waitlist rather than private access, per Anthropic's official information?\"\nA. No release by October 31\nB. October 27\nC. October 31\nD. October 29\nE. October 30\nF. October 28\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_g4RTkGQm6Bhf0Wehcj-wTiJS",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the finalized Ornn H100 Index price for H100 GPU rentals be on October 31, 2026, with a value exactly on a bracket edge counting toward the higher bracket?\"\nA. <$2.00\nB. $2.00-$2.25\nC. $2.25-$2.50\nD. $2.50-$2.75\nE. $2.75-$3.00\nF. $3.00+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T11:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_nw0RPhdfcwh-9HPO-WMy1fQ6",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Japan J. League game between V-Varen Nagasaki and Tōkyō Verdy on November 1, 2026, counted only over the first 90 minutes of regular play plus stoppage time, based on the official final result recognized by the governing body or event organizers?\"\nA. Draw (V-Varen Nagasaki vs. Tōkyō Verdy)\nB. Tōkyō Verdy\nC. V-Varen Nagasaki\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T13:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_x_s7b4ceg_wa3sK4DDMLYxaL",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many Album Equivalent Units will Watch Dis by Yung Miami have in the U.S. during its first week, the October 23–29, 2026 tracking week, as reported by Luminate’s API?\"\nA. 5K or below\nB. Above 5K, up to 10K\nC. Above 10K, up to 15K\nD. Above 15K, up to 20K\nE. Above 20K, up to 25K\nF. Above 25K\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T22:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_E-4MJQcCRjgi6pBz7m3swJm_",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many goals will RC Strasbourg Alsace and AJ Auxerre score in total in their Ligue 1 game on November 1, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 1 or fewer\nB. 2\nC. 3\nD. 4\nE. 5\nF. 6\nG. 7 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-01T22:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_RM_klWhhLyV2i0Tvt7qBVtLG",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the FK Austria Wien vs. SK Rapid Austria Bundesliga game on November 1, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. SK Rapid\nB. Draw (FK Austria Wien vs. SK Rapid)\nC. FK Austria Wien\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T00:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_S41sQnzbIyiyuVslHl0lGPuL",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the Frosinone vs Torino Serie A soccer game originally scheduled for Nov 1, 2026, after 90 minutes plus stoppage time and excluding extra time or penalties, or will it be a tie?\"\nA. Tie\nB. Frosinone\nC. Torino\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_8Nz72VHhHlj3YW36xrmvqnCf",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win the La Liga 2 game between Burgos CF and CD Castellón on Sunday, November 1, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. CD Castellón\nB. Burgos CF\nC. Draw (Burgos CF vs. CD Castellón)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T01:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_cz9A2Ab5DjxtW5AvchCb8kbD",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total points will the Raiders and Jets combine to score in their NFL game on November 1 at 1:00 PM ET?\"\nA. 30 or fewer\nB. 31–36\nC. 37–38\nD. 39–42\nE. 43–46\nF. 47–48\nG. 49–50\nH. 51–56\nI. 57–62\nJ. 63 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T02:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_AwOpaBQPaszUWc7lfSzxgqXs",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the final scoring margin in the Falcons vs. Buccaneers NFL game scheduled for November 1 at 1:00 PM ET, counting overtime if played?\"\nA. Buccaneers by 17 or more\nB. Buccaneers by 11–16\nC. Buccaneers by 8–10\nD. Buccaneers by 4–7\nE. Buccaneers by 3\nF. Buccaneers by 1–2, a tie or Falcons by 1–2\nG. Falcons by 3–4\nH. Falcons by 5–7\nI. Falcons by 8–13\nJ. Falcons by 14 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T02:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_UrNVlEVllGVD0IcrvrHfpUeW",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the outcome of the Chile Primera match between CD Universidad Católica and CF Universidad de Chile on November 1, 2026, within the first 90 minutes of regular play plus stoppage time, based on the official final result recognized by the governing body or event organizers?\"\nA. CF Universidad de Chile\nB. Draw (CD Universidad Católica vs. CF Universidad de Chile)\nC. CD Universidad Católica\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T04:15:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_fQq6MKo31HOgVOxPJ-zbT1Z_",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will over 2.5 total goals be scored in the Liverpool vs Arsenal EPL soccer game originally scheduled for November 1, 2026, counting only goals after 90 minutes plus stoppage time and excluding extra time and penalties?\"\nA. 2 or fewer\nB. 3 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T04:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_Cy295RjepEhJrGMOku0vFebV",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win the Las Vegas vs New York J Pro Football game originally scheduled for Nov 1, 2026?\"\nA. Las Vegas\nB. New York J\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T05:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_yTnpos2VMfuFijMQeuOYkUlt",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total points will Atlanta and Tampa Bay collectively score in their Pro Football game originally scheduled for Nov 1, 2026?\"\nA. 44 or fewer\nB. 45\nC. 46\nD. 47–53\nE. 54–56\nF. 57–62\nG. 63 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T05:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_Qa60rGSASFTfRdyezkCE9pkt",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the final point margin in the NFL football game between the Chiefs and Broncos scheduled for November 1 at 4:25 PM ET, with overtime included if played?\"\nA. Broncos by 15 or more\nB. Broncos by 10–14\nC. Broncos by 6–9\nD. Broncos by 3–5\nE. Broncos by 1–2, a tie or Chiefs by 1\nF. Chiefs by 2–4\nG. Chiefs by 5–6\nH. Chiefs by 7–10\nI. Chiefs by 11–16\nJ. Chiefs by 17 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T05:25:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_S_IjCrOyAhYrILFaobGkNE3X",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How will the Copa do Brasil match between Grêmio FBPA and CA Mineiro on November 1, 2026 end within the first 90 minutes of regular play plus stoppage time, based on the official final result recognized by the governing body or event organizers?\"\nA. CA Mineiro\nB. Draw (Grêmio FBPA vs. CA Mineiro)\nC. Grêmio FBPA\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T05:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_IpBZFf_kkMhx7GQsCZucxoyI",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which of the listed drivers will finish in the top 20 in the main race of the 2026 NASCAR Xfinity 500 originally scheduled for Nov 1, 2026, per NASCAR's final (not provisional) results, counting retirees, disqualified, or non-classified drivers as not top-20 finishers?\"\nA. Riley Herbst\nB. Zane Smith\nC. Austin Dillon\nD. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C may turn out true; D means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include D.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{D} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T09:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_eCdcw8NYR96xww8KSxZioUH3",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which of the listed drivers will finish in the top 3 (podium) in the main race of the 2026 Mexico Grand Prix scheduled for November 1, 2026, per FIA's Final Race Classification, counting only drivers classified as finishers?\"\nA. Charles Leclerc\nB. Lewis Hamilton\nC. Andrea Kimi Antonelli\nD. Lando Norris\nE. Max Verstappen\nF. Oscar Piastri\nG. George Russell\nH. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E, F, G may turn out true; H means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E, F, G exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include H.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{H} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T10:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_t5rP9mt_V1jGbK2cl2Owy0Nr",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will total precipitation in inches be at CLISEA in Seattle in Oct 2026, as reported by the corresponding TWC Report (Daily) from The Weather Company?\"\nA. 1 or below\nB. Above 1, up to 2\nC. Above 2, up to 3\nD. Above 3\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T11:59:59+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_l9IIhG0adyPxCHj_7__FHW3O",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many notices will UKMTO publish on its Recent Incidents page with a publication date from October 26 through November 1, 2026 (UTC), inclusive, counting all notice types once, including time-late reports, and excluding updates, corrections, or reissues?\"\nA. <4\nB. 4-7\nC. 8-11\nD. 12-15\nE. 16+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_reY5FE3vyYOTP2x2l4yKpMKu",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will OpenRouter's total number of tokens processed for the week of October 26 to November 1, 2026 be, as displayed in the Top Models chart on its AI Model Rankings page, with any value exactly on a bracket boundary counted toward the higher bracket?\"\nA. <175T\nB. 175-185T\nC. 185-195T\nD. 195-205T\nE. 205T+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_Id0LMMGuGRutGcHfXc8vs7Jg",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total transit calls will IMF Portwatch report for the Strait of Hormuz from October 26 through November 1, 2026, inclusive, counting container, dry bulk, roll-on/roll-off, general cargo, and tanker ships?\"\nA. <20\nB. 20-24\nC. 25-29\nD. 30-34\nE. 35-39\nF. 40+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_oE_apRIgONEKqqDwadQzUnlC",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many transit calls by container, dry bulk, roll-on/roll-off, general cargo, and tanker ships will IMF PortWatch report in its Arrivals of Ships data for the Bab el-Mandeb Strait from October 26 through November 1, 2026, inclusive?\"\nA. <170\nB. 170-189\nC. 190-209\nD. 210-229\nE. 230+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_DO-vmd8UPcAJjiNfdxu8apo2",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many earthquakes of magnitude 5.5 or higher will occur worldwide between October 26, 2026, 12:00 AM ET and November 1, 2026, 11:59 PM ET, as counted by the USGS Earthquake Hazards Program?\"\nA. 8\nB. 12\nC. more than 13\nD. ≤6\nE. 10\nF. 9\nG. 7\nH. 11\nI. 13\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_xeJwEDk2m9YobfmQXA7UMloW",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Bulgaria’s voter turnout rate be in the second round of its presidential election on November 1, 2026, calculated as votes cast divided by eligible voters and reported by the Central Election Commission (CIK), with a value exactly between brackets counting toward the higher bracket?\"\nA. <18%\nB. 18-20%\nC. 20-22%\nD. 22-24%\nE. 24%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_vbWb6I8Wg6e43u_Z3PFUiGJ5",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which bracket will the ISM Manufacturing PMI for October 2026 fall into, to one decimal point and as a plain numerical value, according to the Institute for Supply Management's monthly Manufacturing PMI Report On Business?\"\nA. <51.0\nB. 53.0 to 53.9\nC. 58.0 to 58.9\nD. 59.0+\nE. 52.0 to 52.9\nF. 57.0 to 57.9\nG. 56.0 to 56.9\nH. 51.0 to 51.9\nI. 55.0 to 55.9\nJ. 54.0 to 54.9\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T14:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_sQ5NdO2G1HLor859b9Gvo0T3",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will Legacy beat TheMongolz in their Counter-Strike Upper Bracket Quarterfinal 1 match in the IEM Beijing Group A, scheduled for November 2, 2026?\"\nA. Legacy\nB. TheMongolz\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T15:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_Io4LNp9DuU9Rn6owhUZwYEoT",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the headline PMI value in the ISM Manufacturing PMI Report On Business for October 2026 be, to one decimal place, as published by ISM?\"\nA. Below 53\nB. 53 to below 54\nC. 54 to below 56\nD. 56 to below 57\nE. 57 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T23:00:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_of_0J4MRdsZpdleQ9XM38E7p",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which AI model will be the top-ranked LLM on the LM Arena Leaderboard (Remove Style Control) on Nov 2, 2026, with ties broken by Rank (UB), then Arena Score, then most votes, then earlier release?\"\nA. Kimi\nB. ChatGPT\nC. Qwen\nD. MUSE\nE. Gemini\nF. Grok\nG. Dola\nH. Amazon Nova\nI. Claude\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T23:00:00+08:00",
+      "level": 1
+    },
+    {
+      "id": "q_qD9ev_ZkEz9N3OVxCeAmnOhK",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will The Only Living Pickpocket in New York's Rotten Tomatoes Tomatometer score be on November 2, 2026 at 10:00 AM ET?\"\nA. 90 or below\nB. Above 90, up to 92\nC. Above 92, up to 95\nD. Above 95, up to 97\nE. Above 97\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_2Shxp0XrTNYJZox4pHn__WGI",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the displayed Rotten Tomatoes “All Critics” Tomatometer score for “Wicker” be at 10:00 AM ET on November 2, 2026?\"\nA. Below 92\nB. 92 to below 94\nC. 94 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-02T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_3uT7VPfW3_7pgABsptIoHVqs",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the Brazil Serie B game between Fortaleza EC and AC Goianiense scheduled for Monday, November 2, 2026, counting only the first 90 minutes of regular play plus stoppage time and using the official final result recognized by the governing body or event organizers?\"\nA. Draw (Fortaleza EC vs. AC Goianiense)\nB. Fortaleza EC\nC. AC Goianiense\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T03:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_czJdQCrNqELjnOvXC0Xusf9C",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Apple's iPhone revenue be for the upcoming fourth fiscal quarter of 2026, in billions of dollars, as first reported in Apple's official earnings materials or, if absent there, its earnings webcast, using the most numerically precise figure and the midpoint if a range is reported?\"\nA. $55.5B or below\nB. Above $55.5B, up to $57B\nC. Above $57B, up to $60B\nD. Above $60B\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T07:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_vMWu3whEZo3cms062C--UOz3",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Reserve Bank of Australia do with its primary policy rate at its November Monetary Policy Board meeting, based on its official announcement and ignoring any emergency rate changes between scheduled meetings?\"\nA. Maintain current rate\nB. Cut 1-25bps\nC. Hike more than 25bps\nD. Hike 1-25bps\nE. Cut more than 25bps\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T11:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_mf4lRFMf-pUxKQdHEOFMYgHD",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How much will total commitments to the official 1win ($1w) public sale reach at any point before November 2, 2026, 11:59 PM ET, counting the gross pool including oversubscription, not the net allocated amount, with USDC at 1:1, as shown on the official 1W Token Sale page?\"\nA. $10M or below\nB. Above $10M, up to $15M\nC. Above $15M, up to $20M\nD. Above $20M, up to $30M\nE. Above $30M, up to $40M\nF. Above $40M, up to $60M\nG. Above $60M\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_v2m8aYat8jiX4nhLNFJwESp-",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which team will win PARI Universe, scheduled for October 22 to November 1, 2026, as decided by tournament organizer FISSURE or a consensus of credible reporting, with the alphabetically first listed team taking it if multiple winners are declared?\"\nA. GamerLegion\nB. Astra Invicta\nC. Team Spirit\nD. Other\nE. OG\nF. Team Yandex\nG. Team Liquid\nH. BetBoom Team\nI. PARIVISION\nJ. LEGION\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_QsA3WSgt8bFsJMuaR16T5M4K",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will become the next mayor of Charlottetown, Prince Edward Island as a result of the mayoral election scheduled for November 2, 2026, excluding any temporary, interim, or placeholder mayor, per a consensus of credible reporting or the City of Charlottetown if ambiguous?\"\nA. Amir Zuccolo\nB. Other\nC. Daniel Cousins\nD. Philip Brown\nE. Daniel Mullen\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_jZGrvkkZM77IrHGvGtse4TcE",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which of the listed cities will record more than 0 inches of total precipitation on at least one day from October 31 through November 1, 2026, as reported by the Weather Company, counting trace or missing values as 0?\"\nA. Dallas\nB. West Palm Beach\nC. Oklahoma City\nD. Austin\nE. Miami\nF. San Francisco\nG. San Antonio\nH. Washington DC\nI. Seattle\nJ. New Orleans\nK. Las Vegas\nL. Atlanta\nM. Houston\nN. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E, F, G, H, I, J, K, L, M may turn out true; N means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E, F, G, H, I, J, K, L, M exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include N.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{N} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T12:59:59+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_nmhQ-6t5ycxj64EiS4chXsgM",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Yum! Brands' year-over-year worldwide same-restaurant sales growth be for its third fiscal quarter of 2026, as reported in its official earnings materials, with a reported range using its midpoint and a value exactly between ranges going to the higher range?\"\nA. <-0.5%\nB. -0.5% to 0.5%\nC. 0.5% to 1.5%\nD. 1.5% to 2.5%\nE. 2.5%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T22:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_ziCawrcSf_U4LQkmn_nix_wB",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many transit calls through the Bab el-Mandeb Strait will IMF PortWatch report from Oct 26, 2026 to Nov 1, 2026, calculated by summing daily counts?\"\nA. 150 or below\nB. Above 150, up to 160\nC. Above 160, up to 170\nD. Above 170, up to 180\nE. Above 180, up to 185\nF. Above 185, up to 190\nG. Above 190, up to 205\nH. Above 205, up to 210\nI. Above 210, up to 220\nJ. Above 220\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-03T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_V_3LAE5g8zVMPJjNEU0WlzbU",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Between October 27, 12:00 PM ET and November 3, 2026, 12:00 PM ET, how many times will Donald Trump (@realDonaldTrump) post on Truth Social, counting main feed posts, quote posts, and reposts, not replies unless on the main feed, including deleted posts captured by the Post Counter tracker?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_5quIcGdZ2Ef9_RkRKDgXEvy-",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will CZ (@cz_binance) post on X from 12:00 PM ET on October 27, 2026 to 12:00 PM ET on November 3, 2026, counting main-feed posts, quote posts and reposts; replies count only if recorded on the main feed, and deleted posts count if captured by the Post Counter tracker?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T01:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_OvY4X9InuuSTHwJOztwKn_3Y",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will Volodymyr Zelenskyy (@ZelenskyyUa) post on X from Oct 27, 2026, 12:00 PM ET to Nov 3, 2026, 12:00 PM ET, counting main feed posts, quote posts, reposts, and deleted posts captured within ~5 minutes, but not replies unless on the main feed, per the \"Post Counter\" tracker?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_3Ztx9FHoe5wuGITP4YbcmnMu",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will Elon Musk (@elonmusk) post on X from Oct 27 12:00 PM ET to Nov 3, 2026 12:00 PM ET, per the Post Counter, counting main-feed posts, quote posts, reposts, and tracker-captured main-feed replies, excluding other replies, uncounted community reposts, and deleted posts not captured?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200-219\nL. 220-239\nM. 240-259\nN. 260-279\nO. 280-299\nP. 300-319\nQ. 320-339\nR. 340-359\nS. 360-379\nT. 380-399\nU. 400-419\nV. 420-439\nW. 440-459\nX. 460-479\nY. 480-499\nZ. 500-519\nAA. 520-539\nAB. 540-559\nAC. 560-579\nAD. 580+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA, AB, AC, AD.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_uvL3PyGtBmF1Jp9AxpcNhf-o",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which AI lab will rank third by market share in OpenRouter's Market Share chart, set to Percentage, for the week of October 26 to November 1, 2026, skipping the stealth and others groupings and breaking ties by Absolute token count, then alphabetically?\"\nA. Z.ai\nB. xAI\nC. Google\nD. Tencent\nE. MiniMax\nF. Qwen\nG. Other\nH. Anthropic\nI. DeepSeek\nJ. Xiaomi\nK. Meta\nL. Nvidia\nM. OpenAI\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T01:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_5oZQu1i1dVQvHfXJv6JssS7e",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total goals will Villarreal CF and Paris Saint-Germain FC combine to score in their UEFA Champions League game on November 3, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 1 or fewer\nB. 2\nC. 3–4\nD. 5\nE. 6\nF. 7 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T04:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_MuJlOuh6FN0mjKijDAAbY6Ax",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which listed state will have the lowest Republican Senate candidate vote share in the 2026 midterm elections on November 3, 2026, by valid non-exhausted ballots in the last reported round, per state election authorities, with alphabetical tiebreaks and states undetermined by March 31, 2027 excluded?\"\nA. Nebraska\nB. Iowa\nC. Kansas\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_vcfeHr4PQBj1Roa-TxcVViqS",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which party combination will win Nov. 3, 2026 Senate races in Texas, Michigan, and Maine, including runoffs, per AP, Fox News, and NBC, counting ballot-listed affiliation or nomination, independents/third parties excluded, a sweep meaning one party wins all three, and unresolved by March 31, 2027?\"\nA. Reps TX & MI, Dems ME\nB. Dems TX, Reps MI & ME\nC. Reps TX, Dems MI & ME\nD. Dems TX & ME, Reps MI\nE. Dems sweep\nF. Reps sweep\nG. Other\nH. Dems TX & MI, Reps ME\nI. Reps TX & ME, Dems MI\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_hDDAKrodXL9KpWnvGKkIoEp6",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many Independents will win Senate and House seats in 2026 midterms on Nov. 3, counting those not Democratic or Republican nominees or ballot-affiliated, runoffs decide seats, Senate races undetermined by Mar. 31, 2027 excluded, per state electoral authorities, Congress, and credible reporting?\"\nA. 0\nB. 1\nC. 4+\nD. 2\nE. 3\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_YwoOWQWKc5AkexgiUwJSV6b_",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which listed Democrats in Nov 3, 2026 statewide midterms will have an unrounded valid-vote share below Kamala Harris’s 2024 presidential share in that state, with ties No, last reported multi-round share, 0% if undetermined by Mar 31, 2027 or permanently removed, per state election authorities?\"\nA. David Jolly: FL-Gov\nB. Abdul El-Sayed: MI-Sen\nC. Troy Jackson: ME-Sen\nD. Chris Pappas: NH-Sen\nE. Kathy Hochul: NY-Gov\nF. Keisha Lance Bottoms: GA-Gov\nG. Peggy Flanagan: MN-Sen\nH. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E, F, G may turn out true; H means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E, F, G exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include H.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{H} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_h3n7OPeNappp5GT64sZ2Gl0v",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the outcome of the Nov. 3, 2026 U.S. Senate races in Iowa, Kansas, and Nebraska, including runoffs, as called by the Associated Press, Fox News, and NBC, with Nebraska Republican/Independent, Dan Osborn Independent, and no Democrat there, or official certification if no consensus?\"\nA. Dems IA & KS, Ind NE\nB. Dems IA & KS, Reps NE\nC. Other\nD. Dems IA, Reps KS, Ind NE\nE. Reps IA, Dems KS, Ind NE\nF. Reps sweep\nG. Dems IA, Reps KS & NE\nH. Reps IA & NE, Dems KS\nI. Reps IA & KS, Ind NE\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_oyIG4gSc7UvhbQrlhHelXEvf",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will receive the most valid votes from Sedgwick County in the November 3, 2026 election for U.S. Senator from Kansas, with ties broken alphabetically by last name, per credible reporting or, if ambiguous, official Kansas and Sedgwick County results?\"\nA. Adam Hamilton (D)\nB. Other\nC. Roger Marshall (R)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_O_-QzW4QZqb3Tc81j7c75ooF",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which combo wins the Nov. 3, 2026 U.S. Senate races (MS, SC, MT), incl. runoffs—sweep = one party takes all three; independents not Dems/Reps; Seth Bodnar = Ind; Other if unresolved by Mar. 31, 2027 or Ind/third-party wins MS/SC, Dem/third-party MT—per AP/Fox/NBC or official certification?\"\nA. Dems MS, Reps SC, Ind MT\nB. Reps MS & SC, Ind MT\nC. Reps MS, Dems SC, Ind MT\nD. Other\nE. Dems MS & SC, Ind MT\nF. Reps MS & MT, Dems SC\nG. Reps sweep\nH. Dems MS & SC, Reps MT\nI. Dems MS, Reps SC & MT\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_f6Vq_NJ5xIV8i99cgh-oZuV6",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the 2026 midterm Senate elections on November 3, 2026, which listed state will have the highest Democratic vote share of valid votes, using the last round with a Democrat for runoffs/ranked-choice races, non-exhausted ballots only, and ties broken alphabetically, per state election authorities?\"\nA. Alaska\nB. Maine\nC. Iowa\nD. Ohio\nE. Texas\nF. Michigan\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_r8EMMCrFI7IIdozWNFVASMhN",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many House seats will Republicans hold after the Nov. 3, 2026 midterms, counting voting-member races for 120th Congress, runoffs, and independents who caucus or intend to caucus with Republicans, with seats credited to the elected party, per electoral authorities, Congress, credible reporting?\"\nA. Below 190\nB. 190-194\nC. 195-199\nD. 200-204\nE. 205-209\nF. 210-214\nG. 215-219\nH. 220-224\nI. 225-229\nJ. 230+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_mN5MNWMNStYOa0goG1FCs1VE",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the Nov. 3, 2026 midterms, which state, Nebraska or Texas, will have smaller unrounded margin of victory in its regularly scheduled US Senate race, defined as absolute difference between first- and second-place candidates' valid-vote percentages in deciding round, per state election authorities?\"\nA. Nebraska\nB. Texas\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_LWNLTaAi69HuEHw4fzgKjXoD",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"For which, if any, of the listed countries will the USGS report an earthquake with a preferred magnitude of 6.0 or higher attributed to that country, with an origin time from October 1, 2026, 12:00 AM ET to October 31, 2026, 11:59 PM ET, by November 4, 2026, 12:00 AM ET?\"\nA. Japan\nB. Peru\nC. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B may turn out true; C means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include C.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{C} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_f9i-T-N0LbuBNw-ZouKk2oGp",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which outcome will match all three: the winner of Brazil's October 25, 2026 presidential runoff, the first Prime Minister of Israel sworn in as a result of the October 27, 2026 legislative elections, and the party that wins control of the U.S. Senate in the November 3, 2026 midterm elections?\"\nA. Lula, Eizenkot, Dems\nB. Lula, Eizenkot, Reps\nC. Lula, Bennett, Dems\nD. Other\nE. Lula, Netanyahu, Dems\nF. Lula, Netanyahu, Reps\nG. Lula, Bennett, Reps\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_lynU507fGtMLXEOj1PB9u8bp",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which US Senate election in November 2026, regular or special, will be closest by absolute difference between percentages of valid votes for the top two candidates, with ties by state name alphabetically and multi-round elections by the round the winner is determined, by state election authorities?\"\nA. Tennessee\nB. Other\nC. Alabama\nD. South Dakota\nE. Louisiana\nF. Oregon\nG. Colorado\nH. Montana\nI. Illinois\nJ. North Carolina\nK. Rhode Island\nL. Kentucky\nM. Nebraska\nN. Idaho\nO. South Carolina\nP. Arkansas\nQ. Massachusetts\nR. Ohio (Special)\nS. Iowa\nT. New Hampshire\nU. Minnesota\nV. Alaska\nW. Oklahoma\nX. Georgia\nY. Michigan\nZ. Wyoming\nAA. New Mexico\nAB. Virginia\nAC. Florida (Special)\nAD. Kansas\nAE. Maine\nAF. Texas\nAG. New Jersey\nAH. Mississippi\nAI. Delaware\nAJ. West Virginia\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, AA, AB, AC, AD, AE, AF, AG, AH, AI, AJ.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_S-BikZ8NEMnQtAmm90WWee-f",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"By how many points will Peggy Flanagan's 2026 Minnesota U.S. Senate vote share trail Amy Klobuchar's gubernatorial vote share, or exceed it, per certified Minnesota Secretary of State valid votes with write-ins, unrounded, last reported round, with ties in lowest range and midpoints in higher range?\"\nA. 9+ points behind\nB. 3-6 points behind\nC. 0-3 points behind\nD. 6-9 points behind\nE. Runs ahead\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_vIpY4RVn_Xpr2OEQMYyGngmd",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the first round of Maine’s Nov. 3, 2026 general election, how many percentage points will Troy Jackson’s Senate vote share fall below Hannah Pingree’s gubernatorial vote share, or run ahead, per valid-vote totals including write-ins from Maine Secretary of State; boundary ties counted higher?\"\nA. 9+ points behind\nB. 6-9 points behind\nC. 0-3 points behind\nD. Runs ahead\nE. 3-6 points behind\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_JB3OpdgvYnCtjUlLYkDxvnu6",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In Georgia's Nov. 3, 2026 first round, how many points will Keisha Lance Bottoms' valid-vote share for governor run behind or ahead of Jon Ossoff's U.S. Senate share, per certified Georgia Secretary of State totals with write-ins, no rounding, and exact bracket-edge differences counting higher?\"\nA. 9+ points behind\nB. 3-6 points behind\nC. 0-3 points behind\nD. Runs ahead\nE. 6-9 points behind\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_J4emABjqKktM3839IrWvnlHz",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which song will be ranked second on the official Billboard Hot 100 chart titled “Week of November 7, 2026,” with ties broken alphabetically by the songs’ listed titles?\"\nA. Patient Zero - Taylor Swift\nB. Housewife - Tate McRae\nC. Boston - Stella Lefty\nD. Choosin' Texas - Ella Langley\nE. Other\nF. Solar Eclipse - Drake & Don Toliver\nG. Been By Now - Morgan Wallen\nH. expectations - Olivia Rodrigo & Chappell Roan\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_M-D28rAG0NWLOPP1OjCzEtvN",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many total votes will be cast for U.S. House candidates (voting members from the 50 states only, excluding Delegates and the Resident Commissioner) in the November 3, 2026 midterms, per the Clerk of the House, with exact bracket-edge values counted in the higher bracket?\"\nA. <85m\nB. 85-90m\nC. 90-95m\nD. 95-100m\nE. 100-105m\nF. 105-110m\nG. 110-115m\nH. 115-120m\nI. 120-125m\nJ. 125-130m\nK. 130m+\nL. Other\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_jb5Kb67SsUeGWQo_pnDLTzyI",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be announced as the next U.S. Senate Majority Leader from whichever party holds the Senate majority after the November 3, 2026, general election, with the first announcement by January 3, 2027, or, if no majority is established, by June 30, 2027, 11:59 PM ET?\"\nA. John Barrasso\nB. Chris Van Hollen\nC. Mark Kelly\nD. Chuck Schumer\nE. Amy Klobuchar\nF. Cory Booker\nG. Patty Murray\nH. Tom Cotton\nI. John Thune\nJ. Other\nK. Steve Daines\nL. Brian Schatz\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_jQ0zAts5HZCtTryV84Qx7tfY",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many Senate seats and voting House seats will Republicans hold in the 120th Congress after the November 3, 2026 midterms, counting Senate special elections scheduled as of October 31, 2026, runoffs, and independents who caucus with them?\"\nA. ≤46 and 193–207\nB. ≤46 and ≤192\nC. ≤46 and ≥208\nD. 47–49 and 193–207\nE. 47–49 and ≤192\nF. 47–49 and ≥208\nG. 50–52 and 193–207\nH. 50–52 and 208–222\nI. 50–52 and ≤192\nJ. 50–52 and ≥223\nK. ≥53 and 208–222\nL. ≥53 and ≤207\nM. ≥53 and ≥223\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L, M.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_-ebx4V5UT544UE_HZoEuyax6",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the 2026 midterm elections on Nov. 3, how many US Senate (regular and special) and gubernatorial elections scheduled as of Oct. 31 will Republicans win in states Kamala Harris won in 2024, counting runoffs and attributing seats by party under which elected and independents by caucus?\"\nA. 6+\nB. 3\nC. 5\nD. 2\nE. 0\nF. 1\nG. 4\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_-jrvnzn7FefCwIjyAT4mhUFo",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In the 2026 U.S. Senate elections on November 3, 2026, which races will be won by a margin of 5% or less, measured as the absolute difference in valid-vote percentages between the top two candidates in the deciding round, per state election authorities?\"\nA. Iowa\nB. South Carolina\nC. Texas\nD. Kansas\nE. Ohio (Special)\nF. Minnesota\nG. Michigan\nH. Montana\nI. Georgia\nJ. North Carolina\nK. New Hampshire\nL. Maine\nM. Nebraska\nN. Mississippi\nO. Virginia\nP. Alaska\nQ. Florida (Special)\nR. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q may turn out true; R means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include R.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{R} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_5AHmNvh1aPIb2clxywsJZX4-",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will any candidate win more than 50% of the valid votes in the first round of the 2026 midterm GA-11 House election on November 3, 2026?\"\nA. Yes\nB. No\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_RlCHORBAu23QKH5h9DMyUVmH",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which listed Senate races in the 2026 midterms on Nov. 3 will have a margin of victory of 1% or less—the absolute difference between the top-two candidates’ shares of valid votes, using the winner-determining round in multi-round elections, per the state election authority or credible reporting?\"\nA. New Hampshire\nB. Kansas\nC. Nebraska\nD. South Carolina\nE. Maine\nF. Texas\nG. Minnesota\nH. Alaska\nI. Ohio (Special)\nJ. Michigan\nK. Montana\nL. Florida (Special)\nM. Georgia\nN. Iowa\nO. Mississippi\nP. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E, F, G, H, I, J, K, L, M, N, O may turn out true; P means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E, F, G, H, I, J, K, L, M, N, O exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include P.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{P} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_UZWKak50me0kEPSGQbVatn11",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Sveriges Riksbank do with its primary policy rate at its scheduled November monetary policy meeting, according to its official announcement?\"\nA. Maintain current rate\nB. Cut 1-25bps\nC. Hike more than 25bps\nD. Cut more than 25bps\nE. Hike 1-25bps\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T21:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_o_X9Ynxx_KyXanpUdfp2Pref",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will CVS Health's medical benefit ratio (MBR) for its third fiscal quarter of 2026 be, per the most numerically precise figure in its official earnings materials, counting a reported range at its midpoint and an exact bracket edge toward the higher bracket?\"\nA. <89%\nB. 89% to 90.5%\nC. 90.5% to 92%\nD. 92% to 93.5%\nE. 93.5%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T22:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_UUzYma-09CVxg7EF-msMc8SV",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will McDonald's global comparable sales growth (year over year) be for its fiscal third quarter of 2026, as reported in the company's official earnings materials, with a range using its midpoint and a value exactly between two brackets counting as the higher one?\"\nA. <0%\nB. 0% to 1%\nC. 1% to 2%\nD. 2% to 3%\nE. 3%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T22:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_hLhbIcT5cBvXv0GrGZGcXMs4",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What bracket will the ISM Services Purchasing Managers’ Index (PMI) for October 2026 fall into, as reported to one decimal point in the Institute for Supply Management’s Services PMI Report On Business?\"\nA. 56.0 to 56.9\nB. 55.0 to 55.9\nC. 51.0 to 51.9\nD. 54.0 to 54.9\nE. 57.0 to 57.9\nF. 52.0 to 52.9\nG. 59.0+\nH. 58.0 to 58.9\nI. <51.0\nJ. 53.0 to 53.9\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-04T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_rfoyBFXBX231OXkA6LItf6Lk",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the University of Florida Election Lab’s reported national total of early votes for the 2026 general election be at least 57 million at 10:00 AM ET on November 4, 2026?\"\nA. Below 57,000,000\nB. 57,000,000 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T01:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_SIgjxvsJKw_ld6ZxraeRtB-u",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many Florida in-person early votes will be reported by the University of Florida Election Lab for the 2026 general election at 10:00 AM ET on November 4, 2026?\"\nA. Below 2,200,000\nB. 2,200,000 to below 2,800,000\nC. 2,800,000 to below 3,100,000\nD. 3,100,000 to below 3,400,000\nE. 3,400,000 to below 3,700,000\nF. 3,700,000 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_d9mSQrHeD6XtyNa5qkEKXxZO",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the Democratic minus Republican margin, in percentage points, in the share of Pennsylvania returned mail ballots accepted by party registration, as displayed to one decimal place by the University of Florida Election Lab for the 2026 general election at 10:00 AM ET on November 4, 2026?\"\nA. Below D+25\nB. D+25 to D+27.9\nC. D+28 to D+30.9\nD. D+31 to D+33.9\nE. D+34 to D+36.9\nF. D+37 to D+39.9\nG. D+40 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T01:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_-Dq7MYQC1Otxc_X2DCIf-k13",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Allstate's (ALL) property-liability combined ratio be for Q3 2026, as reported in Allstate's official earnings materials, using the most numerically precise version, counting an exact bracket-edge value in the higher range, and using the midpoint if a range is reported?\"\nA. <86%\nB. 86% to 88%\nC. 88% to 90%\nD. 90% to 92%\nE. 92%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T07:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_YUQFm648XmsmOQoNNf4KUB22",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Will the Central Bank of Brazil hike, cut, or hold its primary policy rate at November's scheduled Monetary Policy Meeting, per its official announcement and excluding any emergency changes between meetings?\"\nA. Maintain current rate\nB. Hike more than 25bps\nC. Cut more than 25bps\nD. Hike 1-25bps\nE. Cut 1-25bps\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T11:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_zCsuLcHG7vbcb4rz5z7nbSRB",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be the first person to assume role of Mayor of Nelson Mandela Bay after November 4, 2026 South African municipal elections, elected by the Nelson Mandela Bay Municipal Council, excluding temporary, interim, or placeholder mayors, per South Africa's Electoral Commission or credible reports?\"\nA. Other\nB. Ntombi Nama\nC. Sinawo Thambo\nD. Xolani Vela\nE. Retief Odendaal\nF. Wandisile Jikeka\nG. Siva Pillay\nH. Babalwa Lobishe\nI. Bulelwa Mafaya\nJ. Andile Lungisa\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_pH1uYkrfJiA783jKJfgHlmRc",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will Phantom Blade Zero's Metascore be seven days after release at 10:00AM ET, using the default score shown on the game's main Metacritic page if no platform is specified?\"\nA. 65 or below\nB. Above 65, up to 80\nC. Above 80, up to 85\nD. Above 85, up to 90\nE. Above 90\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-05T22:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_veKsSgARD5Vh7nN_C5nPV3g8",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the outcome of the UEFA Europa League match between AC Sparta Praha and AFC Bournemouth on November 5, 2026, counting only the first 90 minutes plus stoppage time?\"\nA. AC Sparta Praha\nB. AFC Bournemouth\nC. Draw (AC Sparta Praha vs. AFC Bournemouth)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-06T01:45:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_8RfO0GARxDmJpqCIwuAsTe1n",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the result of the UEFA Europa Conference League match between Getafe CF and Brighton & Hove Albion FC on November 5, 2026, within the first 90 minutes of regular play plus stoppage time, as recognized by the governing body or event organizers?\"\nA. Draw (Getafe CF vs. Brighton & Hove Albion FC)\nB. Getafe CF\nC. Brighton & Hove Albion FC\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-06T04:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_Bgy-twskumz4FItsMdZpl_zZ",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will win, or will it be a tie, in the Celtic vs Besiktas Europa League game originally scheduled for Nov 5, 2026, after 90 minutes plus stoppage time, excluding extra time and penalties, per ESPN or Fox Sports?\"\nA. Celtic\nB. Besiktas\nC. Tie\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-06T07:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_0LbCYuIZ684NVW-S3ATJovAY",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many jobs will the Bureau of Labor Statistics report as the increase in total non-farm payroll employment for October 2026 in its Monthly Employment Situation Report?\"\nA. -25,000 or below\nB. Above -25,000, up to 10,000\nC. Above 10,000, up to 30,000\nD. Above 30,000, up to 50,000\nE. Above 50,000, up to 70,000\nF. Above 70,000, up to 80,000\nG. Above 80,000, up to 90,000\nH. Above 90,000, up to 100,000\nI. Above 100,000, up to 125,000\nJ. Above 125,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-06T23:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_hVqYyadpE3awa_TIV4UG1WaL",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many times will Donald Trump post on Truth Social from Oct 30, 2026, 12:00 PM ET to Nov 6, 2026, 12:00 PM ET, counting main feed posts, quote posts, and reposts, not replies except main-feed replies counted by the Post Counter tracker, and deleted posts captured for ~5 minutes?\"\nA. <20\nB. 20-39\nC. 40-59\nD. 60-79\nE. 80-99\nF. 100-119\nG. 120-139\nH. 140-159\nI. 160-179\nJ. 180-199\nK. 200+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-07T01:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_VGf0souxgsQ3OU6cqdVpliRe",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which category will the CNN Fear & Greed Index be in at 4:00 PM ET on Oct 30, 2026?\"\nA. Fear\nB. Extreme Greed\nC. Greed\nD. Extreme Fear\nE. Neutral\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-07T04:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_FcYLch83gk1837bi02aCw0tq",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In their La Liga game on November 6 at 3:00 PM ET, how many total goals will Sevilla FC and Deportivo Alavés combine to score, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. 0\nB. 1\nC. 2\nD. 3\nE. 4\nF. 5 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-07T04:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_UDpF3JcAIr11vQcDGO-SdKbc",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many jobs will be added to total nonfarm payroll employment in October 2026, per the BLS Employment Situation Summary released November 6, 2026, with a figure falling exactly between two brackets counted in the higher one?\"\nA. <-25k\nB. -25k to 0\nC. 0 to 25k\nD. 25k to 50k\nE. 50k to 75k\nF. 75k to 100k\nG. 100k+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-07T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_DuNWmNHRDss9u94ZH7v0qFnV",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What percentage of the Black vote will Republicans win in the 2026 U.S. midterm elections, per CNN's national exit polling for the U.S. House at noon ET on November 6, 2026, rounded to the nearest whole number (or CBS/ABC if CNN lacks such polling)?\"\nA. <8%\nB. 8–9%\nC. 10–11%\nD. 12–13%\nE. 14–15%\nF. 16–17%\nG. 18%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-07T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_5pj9mFooxxiorm2bcdSr5baP",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many games will be played in the Tampa Bay vs Milwaukee Championship Series in the 2026 Pro Baseball Playoffs?\"\nA. 4 or fewer\nB. 5\nC. 6\nD. 7 or more\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-08T08:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_rOLZREhzNP3-w1m_-4kBO8lb",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be officially appointed by New Zealand's Governor-General as Prime Minister after the November 7, 2026 general election and take office by December 31, 2027, 11:59 PM ET, excluding interim or caretaker PMs, per the Government of New Zealand?\"\nA. Chris Hipkins\nB. Winston Peters\nC. Nicola Willis\nD. Carmel Sepuloni\nE. David Seymour\nF. Christopher Luxon\nG. Chlöe Swarbrick\nH. Other\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-08T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_bMeVFixiMXS4duhZlnqWaWIA",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many seats will the National Party win in the New Zealand House of Representatives in the general election scheduled for November 7, 2026, based on a consensus of credible reporting or, if ambiguous, the New Zealand Electoral Commission’s official results?\"\nA. <25\nB. 25-29\nC. 30-34\nD. 35-39\nE. 40-44\nF. 45-49\nG. 50+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-08T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_BiIgz04fae2dmPy93LVWs9A7",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the outcome of the Prva Liga game between NK Osijek and HNK Hajduk Split on November 8, 2026, counting only the first 90 minutes of regular play plus stoppage time?\"\nA. NK Osijek\nB. HNK Hajduk Split\nC. Draw (NK Osijek vs. HNK Hajduk Split)\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-08T22:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_35m4nfGwL5ROjy5jFeRx2N3M",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many album equivalent units will Forever by The Big Moon have in its first week in the U.S. during the October 30-November 5, 2026 tracking week, according to Luminate?\"\nA. 2K or below\nB. Above 2K, up to 5K\nC. Above 5K, up to 7K\nD. Above 7K, up to 10K\nE. Above 10K\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-08T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_sdaYp9fiqU6DhZRMgg0t4tEE",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which candidate will win the November 8, 2026 by-election for member of the Seimas in Lithuania’s single-member Northern Nalšia constituency (No. 52), counting any required second round, per the Central Electoral Commission of the Republic of Lithuania?\"\nA. Giedrius Dainys\nB. Antanas Šakalis\nC. Maksimas Paukštė\nD. Mėta Palauskaitė\nE. Dalia Štraupaitė\nF. Andrej Šildiajėv\nG. Other\nH. Vladislav Kondratovič\nI. Gintautas Kindurys\nJ. Nikolajus Lebedevičius\nK. Ignotas Adomavičius\nL. Viktor Voronin\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J, K, L.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-09T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_bV5zAHsmxb0Dq88TYJyXi8Fn",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the first October 2026 value reported by Spice Data for the U.S. average price of a Burger King Double Whopper be, in USD?\"\nA. Below 8.13\nB. 8.13 to below 8.14\nC. 8.14 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-09T14:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_CtDImdTjS9piS0JkbjAjIPtp",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the average U.S. price of a Starbucks Grande Strawberry Açaí Refresher be in October 2026, based on the first October 2026 value reported by Spice Data in USD?\"\nA. Below 5.08\nB. 5.08 to below 5.09\nC. 5.09 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-09T14:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_214x2FRv4T-ruZzM1RAStEpc",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the average U.S. price of a Wendy's Baconator be for October 2026, based on the first October 2026 value reported by Spice Data for “Wendy's Baconator Price” / “Price (USD)”?\"\nA. Below 8.68\nB. 8.68 to below 8.69\nC. 8.69 to below 8.7\nD. 8.7 to below 8.71\nE. 8.71 to below 8.73\nF. 8.73 to below 8.74\nG. 8.74 or above\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-09T14:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_BjJx1TBosSrmmqGUsCgy3aKw",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"According to Rotten Tomatoes, what will The Cat in the Hat's Tomatometer score be on Nov 9, 2026 at 10:00 AM ET, with a score exactly on a listed threshold counting as not above that threshold?\"\nA. 50 or below\nB. Above 50, up to 55\nC. Above 55, up to 60\nD. Above 60, up to 65\nE. Above 65, up to 70\nF. Above 70, up to 75\nG. Above 75, up to 80\nH. Above 80, up to 85\nI. Above 85, up to 90\nJ. Above 90\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G, H, I, J.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-09T23:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_-q2cav3su8VjF0QqOr6JZ9uZ",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the U.S. Census Bureau's first published estimate of U.S. private data center construction spending for September 2026 be, under Private → Nonresidential → Office → Data center, in billions of dollars at a seasonally adjusted annual rate?\"\nA. 87.5 or below\nB. Above 87.5, up to 90\nC. Above 90, up to 92.5\nD. Above 92.5\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T00:30:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_mPEnxnv5OkFVmw4Q5dmMCG_h",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will China’s Consumer Price Index inflation rate be for the 12-month period ending October 2026, as reported by the National Bureau of Statistics to one decimal place?\"\nA. ≤0.6%\nB. 0.7% to 0.8%\nC. 0.9% to 1.0%\nD. 1.1% to 1.2%\nE. 1.3%+\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T07:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_W1eKu0RJFVZV2TY4zR7W12gM",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the highest category of cyclonic disturbance that RSMC New Delhi assigns to Arnab's observed intensity in its Tropical Cyclone Advisories, based on 3-minute maximum sustained surface wind, before it stops publishing advisories or by November 9, 2026?\"\nA. Super cyclonic storm\nB. Very severe cyclonic storm\nC. Extremely severe cyclonic storm\nD. Severe cyclonic storm or weaker\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_qHC-vN5UMVeUGlI1aQPhpRMf",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which AI model will top the arena.ai Text Arena (Overall) leaderboard—style control off, Adjustments: None, Models filter, AutoEval models excluded—when checked on November 9 at 12:00 PM ET, with rank ties broken by Arena score then alphabetical model name?\"\nA. gemini-4-argon-high\nB. Other\nC. claude-opus-5.5-high\nD. claude-fable-5.1-max\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T12:59:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_qOubc7VRwK3cU7VE6CIPyhuC",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Who will be the next leader of the Ontario Liberal Party from the 2026 leadership election, voting November 9–20, 2026, excluding temporary, interim, or placeholder leaders appointed before the election, per credible reporting or official Ontario Liberal Party if ambiguous?\"\nA. Eric Lombardi\nB. Stephanie Bowman\nC. Other\nD. Dylan Marando\nE. Navdeep Bains\nF. Lee Fairclough\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T12:59:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_VUql1Dy5dTUJ2IvuADh9kzLy",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Carbon Arc Dr Pepper Point of Sale Growth index for October 2026 be, based on finalized Carbon Arc values recorded at 11:59 p.m. ET on November 2, 2026, where 100 equals the same month last year?\"\nA. 92 or below\nB. Above 92, up to 93\nC. Above 93, up to 94\nD. Above 94, up to 95\nE. Above 95, up to 96\nF. Above 96, up to 99\nG. Above 99\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T14:30:00+08:00",
+      "level": 1
+    },
+    {
+      "id": "q_I3Z6jklSONH4v56nXie1eLl1",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will be the reported one-decimal percent change in the seasonally adjusted Consumer Price Index for All Urban Consumers: All Items less Food and Energy for October 2026, as published by the Bureau of Labor Statistics?\"\nA. 0.0% or below\nB. Above 0.0%, up to 0.1%\nC. Above 0.1%, up to 0.2%\nD. Above 0.2%, up to 0.3%\nE. Above 0.3%, up to 0.4%\nF. Above 0.4%\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T23:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_V09H84QD3j9tYFTW6kJLa7-W",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"As of Nov. 10, 2026, which Kansas or Nebraska US Senate race on Nov. 3, 2026 will have larger margin of victory, by the absolute difference in first- and second-place vote shares using total votes cast, per the Kansas and Nebraska Secretaries of State (official or 95%-complete preliminary results)?\"\nA. Nebraska US Senate\nB. Kansas US Senate\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-10T23:00:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_X_afzj4_JWapGtwxC01OZACj",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Carbon Arc Affirm Credit Card Spend index for October 2026 be, based on finalized Carbon Arc year-over-year values for aggregated U.S. credit and debit card transactions matched to the same period a year earlier, recorded at 11:59 p.m. ET on the 4th calendar day after October 2026?\"\nA. 125 or below\nB. Above 125, up to 130\nC. Above 130, up to 135\nD. Above 135\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-12T14:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_NwbgxqztCEkDI26ssQe12Rx_",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"What will the Carbon Arc Fast food credit card spend array index (Quick Service Restaurants Array)—the equally weighted average of its constituent year-over-year indices—be for the full month of October 2026, as recorded by Kalshi at 11:59 p.m. ET on the 4th day after month-end?\"\nA. 86 or below\nB. Above 86, up to 88\nC. Above 88, up to 90\nD. Above 90, up to 92\nE. Above 92, up to 96\nF. Above 96, up to 102\nG. Above 102\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F, G.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-12T14:30:00+08:00",
+      "level": 3
+    },
+    {
+      "id": "q_LD6pcktALLAtA2L9tUBF8QQZ",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"In which range will the Carbon Arc Klarna Credit Card Spend year-over-year index for October 2026 fall, where 100 equals the same month last year, based on Carbon Arc's aggregated U.S. credit and debit card transaction panel and finalized on the 4th calendar day after month end?\"\nA. 190 or below\nB. Above 190, up to 220\nC. Above 220, up to 230\nD. Above 230\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-12T14:30:00+08:00",
+      "level": 2
+    },
+    {
+      "id": "q_GXRmJwM76aOHiR4_Cw8R0Af8",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"How many United States Challenger job cuts will Trading Economics report for October 2026?\"\nA. 50,000 or below\nB. Above 50,000, up to 60,000\nC. Above 60,000, up to 70,000\nD. Above 70,000, up to 80,000\nE. Above 80,000, up to 90,000\nF. Above 90,000\nYour task is to identify the single correct option based on your analysis.\nOutput exactly two parts:\n1. A fenced JSON object containing every valid option key exactly once. The probabilities must sum to 1. Valid option keys: A, B, C, D, E, F.\n2. A final line containing only \\boxed{X}, replacing X with the option you consider most likely.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-12T20:00:00+08:00",
+      "level": 4
+    },
+    {
+      "id": "q_1rG_aBg7V5p5KGDPX6zsi56H",
+      "prompt": "You are an agent that can predict future events. The event to be predicted: \"Which, if any, of the listed options will JD Vance say in an official capacity during Fox News town hall scheduled for October 29, 2026, counting exact, plural, or possessive forms—or either word for slash phrases—but not other inflections, per live broadcast/stream or official transcripts?\"\nA. Iran / Iranian\nB. Trump (3+ times)\nC. Oil / Gas / Gasoline\nD. Midterm\nE. America First\nF. None of these\nYour task is to identify every option that will turn out to be true. Judge each option on its own: depending on the question, none, one or several of the options A, B, C, D, E may turn out true; F means that none of them will be.\nOutput exactly two parts:\n1. A fenced JSON object containing every one of the keys A, B, C, D, E exactly once, each with the probability between 0 and 1 that that option will be true. Each probability stands on its own, so they need not sum to 1. Do not include F.\n2. A final line containing only \\boxed{...} with the keys of every option you expect to be true, separated by commas, or \\boxed{F} if you expect none of them to be true.\nDo not refuse to make a prediction. You must make a clear prediction based on the best data currently available.",
+      "end_time": "2026-11-12T23:00:00+08:00",
+      "level": 4
+    }
+  ]
+}

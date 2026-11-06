@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-19T18:33:38.242895+08:00",
-  "latest": "2026-10-W2",
+  "generated_at": "2026-11-06T11:33:58.538611+08:00",
+  "latest": "2026-10-W4",
   "weeks": [
     {
-      "week": "2026-10-W2",
+      "week": "2026-10-W4",
       "status": "resolving",
-      "ingested_at": "2026-10-14T17:29:23.043994+08:00",
-      "submission_deadline": "2026-10-17T00:00:00+08:00",
-      "week_start": "2026-10-12T00:00:00+08:00",
-      "week_end": "2026-10-19T00:00:00+08:00",
+      "ingested_at": "2026-10-27T19:24:28.774280+08:00",
+      "submission_deadline": "2026-10-30T00:00:00+08:00",
+      "week_start": "2026-10-26T00:00:00+08:00",
+      "week_end": "2026-11-02T00:00:00+08:00",
       "timezone": "UTC+8",
       "source_mode": "live",
       "sources": [
@@ -16,357 +16,210 @@
         "polymarket"
       ],
       "totals": {
-        "3d": 41,
-        "7d": 39,
-        "14d": 45
+        "3d": 58,
+        "7d": 76,
+        "14d": 32
       },
       "tracks": {
         "3d": {
-          "n_questions": 41,
+          "n_questions": 58,
           "label": "Near · 0–3 days",
-          "window_start": "2026-10-17T00:00:00+08:00",
-          "window_end": "2026-10-20T00:00:00+08:00",
+          "window_start": "2026-10-30T00:00:00+08:00",
+          "window_end": "2026-11-02T00:00:00+08:00",
           "level_counts": {
-            "1": 7,
-            "2": 11,
-            "3": 14,
-            "4": 9
+            "1": 1,
+            "2": 13,
+            "3": 17,
+            "4": 27
           },
           "selection_level_counts": {
-            "1": 7,
-            "2": 12,
-            "3": 13,
-            "4": 9
+            "1": 1,
+            "2": 15,
+            "3": 15,
+            "4": 27
           },
           "level_transition_counts": {
-            "1->1": 7,
-            "2->2": 11,
-            "2->3": 1,
-            "3->3": 13,
-            "4->4": 9
-          },
-          "resolution_horizon_counts": {
-            "1_to_3_days": 26,
-            "within_24h": 15
-          },
-          "resolution_basis_counts": {
-            "platform_deadline": 21,
-            "review_decided_by": 20
-          },
-          "difficulty_factor_counts": {
-            "high_volatility": 22,
-            "individual_or_organization_decision": 3,
-            "partly_scarce_and_discretionary": 2,
-            "thin_trading": 1
-          },
-          "category_counts": {
-            "Commodities": 3,
-            "Culture": 4,
-            "Economy": 2,
-            "Esports": 1,
-            "Ethereum": 1,
-            "Finance": 3,
-            "Movies": 3,
-            "NFLX": 1,
-            "Oil": 2,
-            "Politics": 1,
-            "Putin": 1,
-            "Sports": 11,
-            "Tech": 3,
-            "Trump": 2,
-            "Weather": 2,
-            "XRP": 1
-          }
-        },
-        "7d": {
-          "n_questions": 39,
-          "label": "Mid · 3–7 days",
-          "window_start": "2026-10-20T00:00:00+08:00",
-          "window_end": "2026-10-24T00:00:00+08:00",
-          "level_counts": {
-            "1": 9,
-            "2": 8,
-            "3": 9,
-            "4": 13
-          },
-          "selection_level_counts": {
-            "1": 13,
-            "2": 6,
-            "3": 9,
-            "4": 11
-          },
-          "level_transition_counts": {
-            "1->1": 9,
-            "1->2": 4,
-            "2->2": 4,
+            "1->1": 1,
+            "2->2": 13,
             "2->3": 2,
-            "3->3": 7,
-            "3->4": 2,
-            "4->4": 11
+            "3->3": 15,
+            "4->4": 27
           },
           "resolution_horizon_counts": {
-            "1_to_3_days": 4,
-            "3_to_7_days": 35
+            "1_to_3_days": 38,
+            "within_24h": 20
           },
           "resolution_basis_counts": {
-            "platform_deadline": 31,
-            "review_decided_by": 8
+            "platform_deadline": 37,
+            "review_decided_by": 21
           },
           "difficulty_factor_counts": {
-            "high_volatility": 6,
-            "individual_or_organization_decision": 8,
-            "thin_trading": 2
+            "active_contest": 8,
+            "individual_or_organization_decision": 4,
+            "thin_trading": 5
           },
           "category_counts": {
-            "ABT": 1,
-            "AI": 2,
-            "AXP": 1,
-            "BX": 1,
-            "Bitcoin": 1,
-            "CPI": 1,
-            "Culture": 3,
-            "DHR": 1,
-            "Economy": 4,
-            "Finance": 1,
-            "Hon": 1,
-            "ISRG": 1,
-            "KPIs": 1,
-            "LMT": 1,
-            "MAU": 1,
-            "Mentions": 1,
-            "Politics": 3,
-            "Sports": 8,
-            "TMO": 1,
-            "TXN": 1,
-            "UAL": 1,
-            "UMich": 1,
-            "UNP": 1,
+            "Commodities": 2,
+            "Culture & entertainment": 6,
+            "Economy": 5,
+            "Finance & business": 5,
+            "Politics & world": 3,
+            "Sports & esports": 26,
+            "Technology, AI & crypto": 10,
             "Weather": 1
           }
         },
-        "14d": {
-          "n_questions": 45,
-          "label": "Far · 7–14 days",
-          "window_start": "2026-10-24T00:00:00+08:00",
-          "window_end": "2026-10-31T00:00:00+08:00",
+        "7d": {
+          "n_questions": 76,
+          "label": "Mid · 3–7 days",
+          "window_start": "2026-11-02T00:00:00+08:00",
+          "window_end": "2026-11-06T00:00:00+08:00",
           "level_counts": {
-            "2": 17,
-            "3": 13,
-            "4": 15
+            "1": 1,
+            "2": 5,
+            "3": 33,
+            "4": 37
           },
           "selection_level_counts": {
-            "2": 19,
-            "3": 11,
-            "4": 15
+            "1": 1,
+            "2": 11,
+            "3": 33,
+            "4": 31
           },
           "level_transition_counts": {
-            "2->2": 17,
-            "2->3": 2,
-            "3->3": 11,
-            "4->4": 15
+            "1->1": 1,
+            "2->2": 5,
+            "2->3": 6,
+            "3->3": 27,
+            "3->4": 6,
+            "4->4": 31
           },
           "resolution_horizon_counts": {
-            "3_to_7_days": 3,
-            "over_7_days": 40,
-            "within_24h": 2
+            "1_to_3_days": 1,
+            "3_to_7_days": 75
           },
           "resolution_basis_counts": {
-            "platform_deadline": 27,
-            "review_decided_by": 18
+            "platform_deadline": 47,
+            "review_decided_by": 29
           },
           "difficulty_factor_counts": {
-            "far_horizon": 40,
-            "high_volatility": 6,
-            "individual_or_organization_decision": 4,
+            "active_contest": 11,
+            "individual_or_organization_decision": 8,
             "partly_scarce_and_discretionary": 6,
-            "thin_trading": 4
+            "public_information_scarce": 1,
+            "thin_trading": 2
           },
           "category_counts": {
-            "AI": 2,
-            "Bulgaria": 1,
-            "Culture": 3,
-            "Economy": 4,
-            "GDP": 1,
-            "KPIs": 1,
-            "Mayoral": 2,
-            "Movies": 1,
-            "NBA": 1,
-            "Oil": 1,
-            "PCE": 1,
-            "Politics": 6,
-            "Serbia": 1,
-            "Sports": 9,
-            "Tech": 5,
-            "V": 1,
-            "VRT": 1,
-            "Weather": 1,
-            "World": 3
+            "Commodities": 2,
+            "Culture & entertainment": 8,
+            "Economy": 6,
+            "Finance & business": 5,
+            "Politics & world": 30,
+            "Sports & esports": 17,
+            "Technology, AI & crypto": 4,
+            "Weather": 4
+          }
+        },
+        "14d": {
+          "n_questions": 32,
+          "label": "Far · 7–14 days",
+          "window_start": "2026-11-06T00:00:00+08:00",
+          "window_end": "2026-11-13T00:00:00+08:00",
+          "level_counts": {
+            "1": 1,
+            "2": 1,
+            "3": 10,
+            "4": 20
+          },
+          "selection_level_counts": {
+            "2": 1,
+            "3": 8,
+            "4": 23
+          },
+          "level_transition_counts": {
+            "2->1": 1,
+            "3->2": 1,
+            "3->3": 7,
+            "4->3": 3,
+            "4->4": 20
+          },
+          "resolution_horizon_counts": {
+            "1_to_3_days": 1,
+            "3_to_7_days": 4,
+            "over_7_days": 26,
+            "within_24h": 1
+          },
+          "resolution_basis_counts": {
+            "platform_deadline": 18,
+            "review_decided_by": 14
+          },
+          "difficulty_factor_counts": {
+            "active_contest": 1,
+            "far_horizon": 26,
+            "individual_or_organization_decision": 2,
+            "partly_scarce_and_discretionary": 4,
+            "thin_trading": 1
+          },
+          "category_counts": {
+            "Culture & entertainment": 3,
+            "Economy": 9,
+            "Finance & business": 5,
+            "Politics & world": 7,
+            "Sports & esports": 6,
+            "Technology, AI & crypto": 1,
+            "Weather": 1
           }
         }
       },
       "resolution": {
-        "resolved": 25,
-        "pending": 8,
-        "void": 2
+        "resolved": 111,
+        "pending": 20,
+        "void": 6
       },
       "n_models": 8,
-      "n_scored": 25,
+      "n_scored": 111,
       "market_baseline": {
-        "n_scored": 25,
-        "accuracy": 0.6,
-        "weighted_accuracy": 0.6333333333333333,
-        "brier": 0.519116312407778,
+        "n_scored": 111,
+        "accuracy": 0.43738738738738736,
+        "weighted_accuracy": 0.5119982773471147,
+        "brier": 0.6727102062590797,
         "by_level": {
           "4": {
-            "n": 4,
-            "accuracy": 0.75,
-            "brier": 0.4394835087701466
-          },
-          "2": {
-            "n": 8,
-            "accuracy": 0.75,
-            "brier": 0.5422143165562073
+            "n": 54,
+            "accuracy": 0.4175925925925926,
+            "brier": 0.740725091988626
           },
           "3": {
-            "n": 10,
-            "accuracy": 0.5,
-            "brier": 0.4639535359782207
+            "n": 43,
+            "accuracy": 0.37209302325581395,
+            "brier": 0.660657261743978
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.4699408346716569
           },
           "1": {
-            "n": 3,
-            "accuracy": 0.3333333333333333,
-            "brier": 0.7475746276273334
-          }
-        }
-      },
-      "leaderboard_generated_at": "2026-10-19T18:32:23.597940+08:00",
-      "has_process": true
-    },
-    {
-      "week": "2026-09-W1",
-      "status": "settled",
-      "ingested_at": "2026-09-09T11:34:23.671206+08:00",
-      "submission_deadline": "2026-09-12T00:00:00+08:00",
-      "week_start": "2026-09-07T00:00:00+08:00",
-      "week_end": "2026-09-14T00:00:00+08:00",
-      "timezone": "UTC+8",
-      "source_mode": "live",
-      "sources": [
-        "polymarket"
-      ],
-      "totals": {
-        "1d": 17,
-        "3d": 21,
-        "7d": 5
-      },
-      "tracks": {
-        "1d": {
-          "n_questions": 17,
-          "label": "< 1 day",
-          "window_start": "2026-09-12T00:00:00+08:00",
-          "window_end": "2026-09-13T00:00:00+08:00",
-          "level_counts": {
-            "2": 3,
-            "3": 7,
-            "4": 7
-          },
-          "selection_level_counts": {},
-          "level_transition_counts": {},
-          "resolution_horizon_counts": {},
-          "resolution_basis_counts": {},
-          "difficulty_factor_counts": {},
-          "category_counts": {
-            "Bitcoin": 1,
-            "Esports": 2,
-            "Finance": 5,
-            "Politics": 4,
-            "Sports": 3,
-            "Trump": 1,
-            "WTA": 1
-          }
-        },
-        "3d": {
-          "n_questions": 21,
-          "label": "1–3 days",
-          "window_start": "2026-09-13T00:00:00+08:00",
-          "window_end": "2026-09-15T00:00:00+08:00",
-          "level_counts": {
-            "2": 1,
-            "3": 1,
-            "4": 19
-          },
-          "selection_level_counts": {},
-          "level_transition_counts": {},
-          "resolution_horizon_counts": {},
-          "resolution_basis_counts": {},
-          "difficulty_factor_counts": {},
-          "category_counts": {
-            "ATP": 1,
-            "Bitcoin": 2,
-            "Crypto": 1,
-            "Culture": 1,
-            "Movies": 1,
-            "Oil": 1,
-            "Sports": 8,
-            "Sweden": 3,
-            "Tennis": 2,
-            "Trump": 1
-          }
-        },
-        "7d": {
-          "n_questions": 5,
-          "label": "3–7 days",
-          "window_start": "2026-09-15T00:00:00+08:00",
-          "window_end": "2026-09-19T00:00:00+08:00",
-          "level_counts": {
-            "2": 1,
-            "3": 1,
-            "4": 3
-          },
-          "selection_level_counts": {},
-          "level_transition_counts": {},
-          "resolution_horizon_counts": {},
-          "resolution_basis_counts": {},
-          "difficulty_factor_counts": {},
-          "category_counts": {
-            "Movies": 2,
-            "Sports": 2,
-            "Tennis": 1
-          }
-        }
-      },
-      "resolution": {
-        "resolved": 34,
-        "pending": 0,
-        "void": 9
-      },
-      "n_models": 3,
-      "n_scored": 34,
-      "market_baseline": {
-        "n_scored": 34,
-        "accuracy": 0.5882352941176471,
-        "weighted_accuracy": 0.6250000000000001,
-        "brier": 0.5019972573843144,
-        "by_level": {
-          "4": {
-            "n": 24,
-            "accuracy": 0.5,
-            "brier": 0.5361224155065286
-          },
-          "3": {
-            "n": 8,
-            "accuracy": 0.875,
-            "brier": 0.34135859736375007
-          },
-          "2": {
             "n": 2,
-            "accuracy": 0.5,
-            "brier": 0.7350499999999999
+            "accuracy": 1.0,
+            "brier": 0.31206282816057596
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4392523364485981,
+            "brier": 0.6804989419317689
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.3875,
+            "brier": 0.464361527014652
           }
         }
       },
-      "leaderboard_generated_at": "2026-10-19T18:10:37.668101+08:00",
-      "has_process": false
+      "leaderboard_generated_at": "2026-11-06T09:47:02.644697+08:00",
+      "has_process": true
     }
   ]
 }

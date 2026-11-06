@@ -1,0 +1,3413 @@
+{
+  "week": "2026-10-W4",
+  "generated_at": "2026-11-06T09:47:02.644697+08:00",
+  "status": "resolving",
+  "n_models": 8,
+  "overall": {
+    "track": "all",
+    "n_questions": 111,
+    "rank_metric": "weighted_accuracy",
+    "market_baseline": {
+      "n_scored": 111,
+      "accuracy": 0.43738738738738736,
+      "weighted_accuracy": 0.5119982773471147,
+      "brier": 0.6727102062590797,
+      "by_level": {
+        "4": {
+          "n": 54,
+          "accuracy": 0.4175925925925926,
+          "brier": 0.740725091988626
+        },
+        "3": {
+          "n": 43,
+          "accuracy": 0.37209302325581395,
+          "brier": 0.660657261743978
+        },
+        "2": {
+          "n": 12,
+          "accuracy": 0.6666666666666666,
+          "brier": 0.4699408346716569
+        },
+        "1": {
+          "n": 2,
+          "accuracy": 1.0,
+          "brier": 0.31206282816057596
+        }
+      },
+      "by_type": {
+        "single_choice": {
+          "n": 107,
+          "accuracy": 0.4392523364485981,
+          "brier": 0.6804989419317689
+        },
+        "multi_choice": {
+          "n": 4,
+          "accuracy": 0.3875,
+          "brier": 0.464361527014652
+        }
+      }
+    },
+    "random_baseline": {
+      "n_scored": 111,
+      "accuracy": 0.2332023366750668,
+      "weighted_accuracy": 0.2238120394519732,
+      "brier": 0.7667202088254714,
+      "alpha": -0.09401000256639198,
+      "by_level": {
+        "4": {
+          "n": 54,
+          "accuracy": 0.2520908013344545,
+          "brier": 0.7477499866388755,
+          "alpha": -0.0070248946502496894
+        },
+        "3": {
+          "n": 43,
+          "accuracy": 0.2160779788686765,
+          "brier": 0.7839220211313234,
+          "alpha": -0.12326475938734553
+        },
+        "2": {
+          "n": 12,
+          "accuracy": 0.2272695627958786,
+          "brier": 0.7727304372041216,
+          "alpha": -0.3027896025324646
+        },
+        "1": {
+          "n": 2,
+          "accuracy": 0.12698412698412698,
+          "brier": 0.8730158730158732,
+          "alpha": -0.5609530448552973
+        }
+      }
+    },
+    "entries": [
+      {
+        "name": "opus5.5",
+        "display_name": "Claude Opus 5.5",
+        "org": "anthropic",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.5251369016074898,
+        "weighted_accuracy": 0.5469385756025065,
+        "brier": 0.5904793814249414,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.4312999273783587,
+            "brier": 0.6308788458920093,
+            "alpha": 0.10984624609661674,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5813953488372093,
+            "brier": 0.5648371809302325,
+            "alpha": 0.09582008081374546,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.75,
+            "brier": 0.45475611499999996,
+            "alpha": 0.015184719671656835,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.8653407500000002,
+            "alpha": -0.5532779218394244,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3869565217391305,
+            "brier": 0.6829558145755693
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.8,
+            "brier": 0.3393594000000001
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.5128205128205128,
+            "brier": 0.6425410523076924
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.5582741818181819
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.6428571428571429,
+            "brier": 0.5669847142857142
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6153846153846154,
+            "brier": 0.5406490676923077
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.31834407692307687
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.5233644859813084,
+            "brier": 0.597489185420561,
+            "alpha": 0.08300975651120825,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.5725490196078431,
+            "brier": 0.4029671245421246,
+            "alpha": 0.06139440247252745,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.08223082483413865,
+        "alpha_n": 111,
+        "rank": 1
+      },
+      {
+        "name": "gpt5.6-sol",
+        "display_name": "GPT-5.6 Sol",
+        "org": "openai",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.5165915915915916,
+        "weighted_accuracy": 0.5412044214757395,
+        "brier": 0.5834844847608159,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.46929012345679016,
+            "brier": 0.6198157994129369,
+            "alpha": 0.12090929257568923,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5116279069767442,
+            "brier": 0.5727769849282328,
+            "alpha": 0.08788027681574548,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.75,
+            "brier": 0.3988900656865,
+            "alpha": 0.07105076898515687,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.9403167499999999,
+            "alpha": -0.6282539218394241,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3652173913043478,
+            "brier": 0.6796507970333269
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.8,
+            "brier": 0.39985586406
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.5128205128205128,
+            "brier": 0.6457587753581537
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.45454545454545453,
+            "brier": 0.5516259545454546
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.6428571428571429,
+            "brier": 0.4957618299999999
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6153846153846154,
+            "brier": 0.5223863035538462
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.96875,
+            "brier": 0.3274613396153846
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.514018691588785,
+            "brier": 0.5898551142277568,
+            "alpha": 0.09064382770401203,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.5854166666666667,
+            "brier": 0.4130701465201465,
+            "alpha": 0.051291380494505476,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.08922572149826404,
+        "alpha_n": 111,
+        "rank": 2
+      },
+      {
+        "name": "gemini4",
+        "display_name": "Gemini 4",
+        "org": "google",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.4909026673732556,
+        "weighted_accuracy": 0.5192210906757192,
+        "brier": 0.6102294702330462,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.37944807552650694,
+            "brier": 0.6602101650345946,
+            "alpha": 0.08051492695403095,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5581395348837209,
+            "brier": 0.5837321056744186,
+            "alpha": 0.07692515606955942,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.75,
+            "brier": 0.43463031166666655,
+            "alpha": 0.035310523004990234,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.8840390000000001,
+            "alpha": -0.5719761718394242,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3840579710144927,
+            "brier": 0.6829001049937887
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.7,
+            "brier": 0.41945360000000004
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.46153846153846156,
+            "brier": 0.6466215984615385
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.6018354090909092
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.42857142857142855,
+            "brier": 0.6278394285714287
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6923076923076923,
+            "brier": 0.5003134030769231
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.45185846153846143
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4953271028037383,
+            "brier": 0.6180238604112149,
+            "alpha": 0.062475081520554074,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.37254901960784315,
+            "brier": 0.40172953296703295,
+            "alpha": 0.06263199404761906,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.062480736026033885,
+        "alpha_n": 111,
+        "rank": 3
+      },
+      {
+        "name": "muse-wonder",
+        "display_name": "Muse Wonder",
+        "org": "meta",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.48189365836424664,
+        "weighted_accuracy": 0.5029850872304135,
+        "brier": 0.6193168715246258,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.39796659404502543,
+            "brier": 0.6741578702319905,
+            "alpha": 0.06656722175663574,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5348837209302325,
+            "brier": 0.5955614866675814,
+            "alpha": 0.06509577507639663,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.41819436000000004,
+            "alpha": 0.051746474671656856,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.85608575,
+            "alpha": -0.5440229218394241,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3188405797101449,
+            "brier": 0.6921747056271491
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 1.0,
+            "brier": 0.43326050600000005
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.5384615384615384,
+            "brier": 0.6325914819230769
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.5845867272727273
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.2857142857142857,
+            "brier": 0.7098845714285715
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6923076923076923,
+            "brier": 0.4962644107692307
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.38189165384615387
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.48598130841121495,
+            "brier": 0.627740609969215,
+            "alpha": 0.05275833196255407,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.37254901960784315,
+            "brier": 0.3939818681318682,
+            "alpha": 0.07037965888278386,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.05339333473445425,
+        "alpha_n": 111,
+        "rank": 4
+      },
+      {
+        "name": "glm-5.3",
+        "display_name": "GLM 5.3",
+        "org": "zhipu",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.47588765235824054,
+        "weighted_accuracy": 0.49804681562547504,
+        "brier": 0.6227774850685605,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.3856209150326797,
+            "brier": 0.6645689312060777,
+            "alpha": 0.07615616078254812,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5348837209302325,
+            "brier": 0.6126585943600465,
+            "alpha": 0.04799866738393154,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.44427608333333324,
+            "alpha": 0.025664751338323532,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.7829729999999998,
+            "alpha": -0.47091017183942385,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.39855072463768115,
+            "brier": 0.6809330066119275
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.5,
+            "brier": 0.5121672
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.5128205128205128,
+            "brier": 0.674470229230769
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.45454545454545453,
+            "brier": 0.6186001818181818
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.42857142857142855,
+            "brier": 0.6519981428571429
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6923076923076923,
+            "brier": 0.4964963092307692
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.3821423846153847
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4672897196261682,
+            "brier": 0.6324534825932899,
+            "alpha": 0.04804545933847929,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.36394455128205133,
+            "alpha": 0.1004169757326007,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.04993272119051972,
+        "alpha_n": 111,
+        "rank": 5
+      },
+      {
+        "name": "grok-4.7",
+        "display_name": "Grok 4.7",
+        "org": "xai",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.47154654654654654,
+        "weighted_accuracy": 0.4944774619580822,
+        "brier": 0.626329307802382,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.37669753086419755,
+            "brier": 0.6843181568308231,
+            "alpha": 0.05640693515780244,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5348837209302325,
+            "brier": 0.6052127631906977,
+            "alpha": 0.0554444985532804,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.39794499,
+            "alpha": 0.0719958446716569,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.884942,
+            "alpha": -0.5728791718394242,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.35797101449275365,
+            "brier": 0.6899544090281572
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.4634608
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.5384615384615384,
+            "brier": 0.6181018092307693
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.45454545454545453,
+            "brier": 0.6002287272727271
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.5,
+            "brier": 0.6415327142857142
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6153846153846154,
+            "brier": 0.5753212000000001
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.71875,
+            "brier": 0.5128923076923076
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4672897196261682,
+            "brier": 0.6342868102542051,
+            "alpha": 0.04621213167756341,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.5854166666666667,
+            "brier": 0.41346611721611726,
+            "alpha": 0.05089540979853478,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.04638089845669752,
+        "alpha_n": 111,
+        "rank": 6
+      },
+      {
+        "name": "deepseek-v4.1-flash",
+        "display_name": "DeepSeek V4.1 Flash",
+        "org": "deepseek",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 111,
+        "coverage": 1.0,
+        "accuracy": 0.4698816463522345,
+        "weighted_accuracy": 0.4935392072418977,
+        "brier": 0.6234223621748671,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.39179375453885257,
+            "brier": 0.6831035388224121,
+            "alpha": 0.05762155316621384,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.5116279069767442,
+            "brier": 0.5990616080232559,
+            "alpha": 0.06159565372072226,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.40478395500000003,
+            "alpha": 0.06515687967165687,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.84761725,
+            "alpha": -0.5355544218394239,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3623188405797101,
+            "brier": 0.6930725974333335
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.6,
+            "brier": 0.5123381499999999
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.43589743589743585,
+            "brier": 0.6558562597230769
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.45454545454545453,
+            "brier": 0.5859618181818181
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.5,
+            "brier": 0.6415825714285716
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.6923076923076923,
+            "brier": 0.5412731476923077
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.7058823529411764,
+            "brier": 0.3011857307692308
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4672897196261682,
+            "brier": 0.627874971448598,
+            "alpha": 0.052623970483170884,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.5392156862745098,
+            "brier": 0.5043150641025641,
+            "alpha": -0.03995353708791209,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 111
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.049287844084212946,
+        "alpha_n": 111,
+        "rank": 7
+      },
+      {
+        "name": "kimi-k3",
+        "display_name": "Kimi K3",
+        "org": "moonshot",
+        "mode": "submit",
+        "public": true,
+        "submitted_at": "2026-10-29T12:00:00+08:00",
+        "n_scored": 111,
+        "n_answered": 106,
+        "coverage": 0.954954954954955,
+        "accuracy": 0.4638756403462286,
+        "weighted_accuracy": 0.47977233959906107,
+        "brier": 0.6262581533724294,
+        "brier_coverage": 1.0,
+        "by_level": {
+          "4": {
+            "n": 54,
+            "accuracy": 0.416485112563544,
+            "brier": 0.6640293863275791,
+            "alpha": 0.07669570566104691,
+            "alpha_n": 54
+          },
+          "3": {
+            "n": 43,
+            "accuracy": 0.4883720930232558,
+            "brier": 0.6160441718304082,
+            "alpha": 0.04461308991357007,
+            "alpha_n": 43
+          },
+          "2": {
+            "n": 12,
+            "accuracy": 0.5833333333333334,
+            "brier": 0.5247372430666667,
+            "alpha": -0.05479640839500977,
+            "alpha_n": 12
+          },
+          "1": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.43516092857142874,
+            "alpha": -0.12309810041085277,
+            "alpha_n": 2
+          }
+        },
+        "by_category": {
+          "Sports & esports": {
+            "n": 46,
+            "accuracy": 0.3623188405797101,
+            "brier": 0.6958694912494822
+          },
+          "Finance & business": {
+            "n": 10,
+            "accuracy": 0.7,
+            "brier": 0.48517915368
+          },
+          "Culture & entertainment": {
+            "n": 13,
+            "accuracy": 0.46153846153846156,
+            "brier": 0.5835778602600699
+          },
+          "Economy": {
+            "n": 11,
+            "accuracy": 0.5454545454545454,
+            "brier": 0.6238012727272726
+          },
+          "Politics & world": {
+            "n": 14,
+            "accuracy": 0.5,
+            "brier": 0.6431908226530613
+          },
+          "Technology, AI & crypto": {
+            "n": 13,
+            "accuracy": 0.5384615384615384,
+            "brier": 0.5104092951648354
+          },
+          "Weather": {
+            "n": 4,
+            "accuracy": 0.45588235294117646,
+            "brier": 0.6411370880992134
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 107,
+            "accuracy": 0.4672897196261682,
+            "brier": 0.6321720164200036,
+            "alpha": 0.04832692551176525,
+            "alpha_n": 107
+          },
+          "multi_choice": {
+            "n": 4,
+            "accuracy": 0.37254901960784315,
+            "brier": 0.46806231684981686,
+            "alpha": -0.00370078983516485,
+            "alpha_n": 4
+          }
+        },
+        "prob_quality": {
+          "incomplete_keys": 0,
+          "bad_sum": 0,
+          "invalid_values": 0,
+          "total_with_probs": 106
+        },
+        "answer_quality": {
+          "invalid_keys": 0
+        },
+        "alpha": 0.04645205288665065,
+        "alpha_n": 111,
+        "rank": 8
+      }
+    ]
+  },
+  "tracks": {
+    "3d": {
+      "track": "3d",
+      "n_questions": 54,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": {
+        "n_scored": 54,
+        "accuracy": 0.3888888888888889,
+        "weighted_accuracy": 0.4562037037037037,
+        "brier": 0.7163996076350299,
+        "by_level": {
+          "4": {
+            "n": 27,
+            "accuracy": 0.25925925925925924,
+            "brier": 0.8507843627557508
+          },
+          "3": {
+            "n": 16,
+            "accuracy": 0.375,
+            "brier": 0.6603931251141546
+          },
+          "2": {
+            "n": 10,
+            "accuracy": 0.7,
+            "brier": 0.45796900160598825
+          },
+          "1": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.568421
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 53,
+            "accuracy": 0.39622641509433965,
+            "brier": 0.7203451190998419
+          },
+          "multi_choice": {
+            "n": 1,
+            "accuracy": 0.0,
+            "brier": 0.5072875
+          }
+        }
+      },
+      "random_baseline": {
+        "n_scored": 54,
+        "accuracy": 0.2302351874354797,
+        "weighted_accuracy": 0.21962134951224865,
+        "brier": 0.7690703681200758,
+        "alpha": -0.052670760485045806,
+        "by_level": {
+          "4": {
+            "n": 27,
+            "accuracy": 0.2600749559082892,
+            "brier": 0.7385361552028221,
+            "alpha": 0.11224820755292864
+          },
+          "3": {
+            "n": 16,
+            "accuracy": 0.20253652597402597,
+            "brier": 0.7974634740259742,
+            "alpha": -0.13707034891181957
+          },
+          "2": {
+            "n": 10,
+            "accuracy": 0.20272347535505428,
+            "brier": 0.7972765246449459,
+            "alpha": -0.33930752303895756
+          },
+          "1": {
+            "n": 1,
+            "accuracy": 0.14285714285714285,
+            "brier": 0.8571428571428574,
+            "alpha": -0.2887218571428575
+          }
+        }
+      },
+      "entries": [
+        {
+          "name": "muse-wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.42592592592592593,
+          "weighted_accuracy": 0.40458333333333335,
+          "brier": 0.6781847441982591,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.7086043688888886,
+              "alpha": 0.1421799938668618,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.4375,
+              "brier": 0.7377779941691252,
+              "alpha": -0.07738486905497052,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.39895323200000005,
+              "alpha": 0.05901576960598824,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.695678,
+              "alpha": -1.1272570000000002,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7525039077579229
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 1.0,
+              "brier": 0.3730010120000001
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8528419369999998
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8672072
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.6458673333333333
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5170933155555555
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.00018200000000000017
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.4339622641509434,
+              "brier": 0.6815429469189811,
+              "alpha": 0.038802172180860815,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.5002,
+              "alpha": 0.007087500000000024,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.0382148634367708,
+          "alpha_n": 54,
+          "rank": 1
+        },
+        {
+          "name": "opus5.5",
+          "display_name": "Claude Opus 5.5",
+          "org": "anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.4197530864197531,
+          "weighted_accuracy": 0.39570987654320994,
+          "brier": 0.6974627040740743,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.35802469135802467,
+              "brier": 0.6951577540740741,
+              "alpha": 0.1556266086816766,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.375,
+              "brier": 0.7742033299999999,
+              "alpha": -0.11381020488584556,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.47810733799999994,
+              "alpha": -0.02013833639401179,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.7254000000000005,
+              "alpha": -1.1569790000000006,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7479875107692308
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.3258632
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.881026072
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8638052
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.8298553333333333
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5968802644444444
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0003500000000000004
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.41509433962264153,
+              "brier": 0.7011865286792455,
+              "alpha": 0.01915859042059663,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5001,
+              "alpha": 0.007187500000000013,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.018936903560955946,
+          "alpha_n": 54,
+          "rank": 2
+        },
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.4074074074074074,
+          "weighted_accuracy": 0.38583333333333336,
+          "brier": 0.7009990189629631,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.7135657125925924,
+              "alpha": 0.13721865016315807,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.375,
+              "brier": 0.76578181525,
+              "alpha": -0.10538869013584554,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.4574963739999999,
+              "alpha": 0.00047262760598828504,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.7602000000000002,
+              "alpha": -1.1917790000000004,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.34615384615384615,
+              "brier": 0.748718790153846
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.4029472
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8818641480000002
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.9113455
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.8006453333333333
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5559789155555555
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0007280000000000007
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.41509433962264153,
+              "brier": 0.7048659815849059,
+              "alpha": 0.015479137514936276,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.49605,
+              "alpha": 0.011237500000000011,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.015400588672067086,
+          "alpha_n": 54,
+          "rank": 3
+        },
+        {
+          "name": "deepseek-v4.1-flash",
+          "display_name": "DeepSeek V4.1 Flash",
+          "org": "deepseek",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.4012345679012345,
+          "weighted_accuracy": 0.3808950617283951,
+          "brier": 0.7028956963888889,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.32098765432098764,
+              "brier": 0.7178367037037037,
+              "alpha": 0.132947659052047,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.375,
+              "brier": 0.8033263215625,
+              "alpha": -0.14293319644834546,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.40470074600000006,
+              "alpha": 0.053268255605988246,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.674548,
+              "alpha": -1.1061269999999999,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7482250826384615
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.4719163
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.8805134072800002
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8904004000000001
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.729672
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5663054355555555
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.002600000000000003
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.39622641509433965,
+              "brier": 0.7062286340566039,
+              "alpha": 0.01411648504323817,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.52625,
+              "alpha": -0.018962499999999993,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.013503911246141172,
+          "alpha_n": 54,
+          "rank": 4
+        },
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.4012345679012346,
+          "weighted_accuracy": 0.3769598765432099,
+          "brier": 0.6915000403398518,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.35802469135802467,
+              "brier": 0.7031971712296297,
+              "alpha": 0.14758719152612104,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.3125,
+              "brier": 0.7696432354321249,
+              "alpha": -0.10925011031797045,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.41706807882380004,
+              "alpha": 0.04090092278218825,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.8697059999999999,
+              "alpha": -1.301285,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7463486198428461
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.33262172811999996
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.9243486311275999
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.8306048
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.6568327266666666
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.5555555555555556,
+              "brier": 0.6141735851333334
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 1.8200000000000018e-06
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.39622641509433965,
+              "brier": 0.695079286384,
+              "alpha": 0.025265832715841943,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5018,
+              "alpha": 0.0054874999999999785,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.024899567295178202,
+          "alpha_n": 54,
+          "rank": 5
+        },
+        {
+          "name": "grok-4.7",
+          "display_name": "Grok 4.7",
+          "org": "xai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.37037037037037035,
+          "weighted_accuracy": 0.35620370370370374,
+          "brier": 0.6937244203185186,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.25925925925925924,
+              "brier": 0.7151154814814812,
+              "alpha": 0.13566888127426913,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.375,
+              "brier": 0.7849291760749999,
+              "alpha": -0.12453605096084547,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.384373988,
+              "alpha": 0.07359501360598827,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.750394,
+              "alpha": -1.1819730000000002,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7559927529692307
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.42212159999999993
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.851386704
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.0,
+              "brier": 0.9242716
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.5723886666666667
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.5661157333333333
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.004200000000000004
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.37735849056603776,
+              "brier": 0.6973192207018868,
+              "alpha": 0.023025898397955154,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.5032000000000001,
+              "alpha": 0.004087499999999911,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.02267518731651154,
+          "alpha_n": 54,
+          "rank": 6
+        },
+        {
+          "name": "glm-5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.3641975308641975,
+          "weighted_accuracy": 0.3433950617283951,
+          "brier": 0.7279591584718891,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.32098765432098764,
+              "brier": 0.7257219259259258,
+              "alpha": 0.1250624368298248,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.25,
+              "brier": 0.863251222342625,
+              "alpha": -0.20285809722847054,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.7,
+              "brier": 0.44019129999999984,
+              "alpha": 0.017777701605988246,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 1.5013699999999996,
+              "alpha": -0.9329489999999997,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.34615384615384615,
+              "brier": 0.753200062980077
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.4,
+              "brier": 0.4506044
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.9826245799999997
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.0,
+              "brier": 0.9740164
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.8320126666666666
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.508680891111111
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.6162000000000001
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.3584905660377358,
+              "brier": 0.7328442369336228,
+              "alpha": -0.012499117833780703,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.46904999999999997,
+              "alpha": 0.038237500000000035,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": -0.011559550836858836,
+          "alpha_n": 54,
+          "rank": 7
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "moonshot",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 50,
+          "coverage": 0.9259259259259259,
+          "accuracy": 0.35185185185185186,
+          "weighted_accuracy": 0.3322685185185186,
+          "brier": 0.6930140704504401,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "4": {
+              "n": 27,
+              "accuracy": 0.2962962962962963,
+              "brier": 0.7220978012699999,
+              "alpha": 0.12868656148575064,
+              "alpha_n": 27
+            },
+            "3": {
+              "n": 16,
+              "accuracy": 0.3125,
+              "brier": 0.7307455872556818,
+              "alpha": -0.07035246214152728,
+              "alpha_n": 16
+            },
+            "2": {
+              "n": 10,
+              "accuracy": 0.6,
+              "brier": 0.5377046916800001,
+              "alpha": -0.07973569007401173,
+              "alpha_n": 10
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.8571428571428574,
+              "alpha": -0.2887218571428575,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 26,
+              "accuracy": 0.3076923076923077,
+              "brier": 0.7571595194999998
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.44248830736
+            },
+            "Culture & entertainment": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.6920480846761816
+            },
+            "Economy": {
+              "n": 5,
+              "accuracy": 0.2,
+              "brier": 0.9860059999999999
+            },
+            "Politics & world": {
+              "n": 3,
+              "accuracy": 0.3333333333333333,
+              "brier": 0.8684833333333334
+            },
+            "Technology, AI & crypto": {
+              "n": 9,
+              "accuracy": 0.4444444444444444,
+              "brier": 0.5030055930158732
+            },
+            "Weather": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0014000000000000015
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 53,
+              "accuracy": 0.3584905660377358,
+              "brier": 0.6964360340438446,
+              "alpha": 0.023909085055997287,
+              "alpha_n": 53
+            },
+            "multi_choice": {
+              "n": 1,
+              "accuracy": 0.0,
+              "brier": 0.51165,
+              "alpha": -0.004362500000000047,
+              "alpha_n": 1
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 50
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.023385537184589928,
+          "alpha_n": 54,
+          "rank": 8
+        }
+      ]
+    },
+    "7d": {
+      "track": "7d",
+      "n_questions": 54,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": {
+        "n_scored": 54,
+        "accuracy": 0.47314814814814815,
+        "weighted_accuracy": 0.536646153846154,
+        "brier": 0.6386218200786884,
+        "by_level": {
+          "3": {
+            "n": 26,
+            "accuracy": 0.34615384615384615,
+            "brier": 0.677239880926552
+          },
+          "4": {
+            "n": 25,
+            "accuracy": 0.5820000000000001,
+            "brier": 0.6304814689535065
+          },
+          "2": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.5297999999999999
+          },
+          "1": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.05570465632115194
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 51,
+            "accuracy": 0.47058823529411764,
+            "brier": 0.649714111297854
+          },
+          "multi_choice": {
+            "n": 3,
+            "accuracy": 0.5166666666666667,
+            "brier": 0.45005286935286937
+          }
+        }
+      },
+      "random_baseline": {
+        "n_scored": 54,
+        "accuracy": 0.2306066527669726,
+        "weighted_accuracy": 0.24186892364236318,
+        "brier": 0.7699285796508016,
+        "alpha": -0.13130675957211366,
+        "by_level": {
+          "3": {
+            "n": 26,
+            "accuracy": 0.2199013593244363,
+            "brier": 0.7800986406755638,
+            "alpha": -0.10285875974901183
+          },
+          "4": {
+            "n": 25,
+            "accuracy": 0.23696851183480294,
+            "brier": 0.7641875901875903,
+            "alpha": -0.1337061212340837
+          },
+          "2": {
+            "n": 2,
+            "accuracy": 0.35,
+            "brier": 0.6500000000000001,
+            "alpha": -0.12020000000000014
+          },
+          "1": {
+            "n": 1,
+            "accuracy": 0.1111111111111111,
+            "brier": 0.8888888888888891,
+            "alpha": -0.8331842325677371
+          }
+        }
+      },
+      "entries": [
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.623611111111111,
+          "weighted_accuracy": 0.7194153846153848,
+          "brier": 0.4850402894462704,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.6153846153846154,
+              "brier": 0.46439686865384616,
+              "alpha": 0.21284301227270586,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.5870000000000001,
+              "brier": 0.5396371818039434,
+              "alpha": 0.09084428714956312,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.308,
+              "alpha": 0.22179999999999997,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.010927499999999995,
+              "alpha": 0.044777156321151944,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.39999999999999997,
+              "brier": 0.625016032212885
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.9583333333333334,
+              "brier": 0.4366145128205128
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.7272727272727273,
+              "brier": 0.4518334036363637
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.31586492
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.31914358333333337
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.625,
+              "brier": 0.47164011550225
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.46709000000000006
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.6274509803921569,
+              "brier": 0.4910136283140787,
+              "alpha": 0.1587004829837757,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.5583333333333333,
+              "brier": 0.38349352869352876,
+              "alpha": 0.06655934065934065,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.1535815306324182,
+          "alpha_n": 54,
+          "rank": 1
+        },
+        {
+          "name": "opus5.5",
+          "display_name": "Claude Opus 5.5",
+          "org": "anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.6226579520697167,
+          "weighted_accuracy": 0.7096687782805431,
+          "brier": 0.4928689873734908,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.6923076923076923,
+              "brier": 0.4484421346153845,
+              "alpha": 0.22879774631116737,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.5049411764705882,
+              "brier": 0.5709659327267399,
+              "alpha": 0.05951553622676663,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.338,
+              "alpha": 0.19179999999999997,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.0052814999999999945,
+              "alpha": 0.05042315632115194,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.4588235294117647,
+              "brier": 0.6295877759103642
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.6078431372549019,
+              "brier": 0.4243421025641025
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.7272727272727273,
+              "brier": 0.4952927272727274
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.414128875
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.3036650000000001
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.625,
+              "brier": 0.493487915
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.35285560000000005
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.6274509803921569,
+              "brier": 0.5000618984313726,
+              "alpha": 0.14965221286648156,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.5411764705882353,
+              "brier": 0.3705894993894994,
+              "alpha": 0.07946336996336993,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.1457528327051976,
+          "alpha_n": 54,
+          "rank": 2
+        },
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.5646332607116921,
+          "weighted_accuracy": 0.6639969834087482,
+          "brier": 0.530283780960521,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.6538461538461539,
+              "brier": 0.4844065961538461,
+              "alpha": 0.19283328477270587,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.41960784313725485,
+              "brier": 0.6156909868747253,
+              "alpha": 0.014790482078781308,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 1.0,
+              "brier": 0.32030000000000003,
+              "alpha": 0.20949999999999996,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.007877999999999994,
+              "alpha": 0.04782665632115194,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.39215686274509803,
+              "brier": 0.6294421344537815
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.6078431372549019,
+              "brier": 0.602235282051282
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.45454545454545453,
+              "brier": 0.5807105454545455
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.375066
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.3439103333333333
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.625,
+              "brier": 0.499595005
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.43595999999999996
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5686274509803921,
+              "brier": 0.5396952164705882,
+              "alpha": 0.11001889482726591,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.49673202614379086,
+              "brier": 0.37028937728937733,
+              "alpha": 0.07976349206349208,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.10833803911816736,
+          "alpha_n": 54,
+          "rank": 3
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "moonshot",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 53,
+          "coverage": 0.9814814814814815,
+          "accuracy": 0.5646332607116921,
+          "weighted_accuracy": 0.5889200603318251,
+          "brier": 0.5704573188891834,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.5769230769230769,
+              "brier": 0.5589449997160244,
+              "alpha": 0.11829488121052761,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.5396078431372549,
+              "brier": 0.6135658490959708,
+              "alpha": 0.016915619857535886,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4599,
+              "alpha": 0.06989999999999998,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.013178999999999996,
+              "alpha": 0.04252565632115194,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.39215686274509803,
+              "brier": 0.6492146523809523
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.2745098039215686,
+              "brier": 0.8543827841322845
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.5817474106493508
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.527067625
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.32196400000000003
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.625,
+              "brier": 0.5157839700000001
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.8,
+              "brier": 0.5278700000000001
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5686274509803921,
+              "brier": 0.577335214757189,
+              "alpha": 0.07237889654066523,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.49673202614379086,
+              "brier": 0.45353308913308915,
+              "alpha": -0.0034802197802197843,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 53
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.06816450118950496,
+          "alpha_n": 54,
+          "rank": 4
+        },
+        {
+          "name": "glm-5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.5769789397240378,
+          "weighted_accuracy": 0.5862021116138764,
+          "brier": 0.5301204867616336,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.6923076923076923,
+              "brier": 0.47275000000000006,
+              "alpha": 0.20448988092655204,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.4462745098039215,
+              "brier": 0.6136412114051282,
+              "alpha": 0.016840257548378364,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4647,
+              "alpha": 0.06509999999999995,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.064576,
+              "alpha": -0.008871343678848058,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.43137254901960786,
+              "brier": 0.6204539215686276
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.9411764705882352,
+              "brier": 0.30412317948717954
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.45454545454545453,
+              "brier": 0.6029032727272727
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.469081
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.32241999999999993
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.625,
+              "brier": 0.4818737599999999
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.5737300000000001
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5686274509803921,
+              "brier": 0.5419564329411766,
+              "alpha": 0.10775767835667768,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.7189542483660131,
+              "brier": 0.32890940170940175,
+              "alpha": 0.12114346764346758,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.1085013333170549,
+          "alpha_n": 54,
+          "rank": 5
+        },
+        {
+          "name": "grok-4.7",
+          "display_name": "Grok 4.7",
+          "org": "xai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.5618827160493828,
+          "weighted_accuracy": 0.5820820512820514,
+          "brier": 0.5714858234974902,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.6153846153846154,
+              "brier": 0.5086339230769232,
+              "alpha": 0.16860595784962898,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.4936666666666667,
+              "brier": 0.6673864987545788,
+              "alpha": -0.036905029801072166,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4658,
+              "alpha": 0.06399999999999999,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.01949,
+              "alpha": 0.036214656321151936,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.3803921568627451,
+              "brier": 0.6400524257703082
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.625,
+              "brier": 0.6824564102564102
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.6603901818181818
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.5,
+              "brier": 0.5960335000000001
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.33019299999999996
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.75,
+              "brier": 0.47229874999999993
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.5048
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5490196078431373,
+              "brier": 0.5825405882352942,
+              "alpha": 0.06717352306256003,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.7805555555555556,
+              "brier": 0.38355482295482296,
+              "alpha": 0.0664980463980464,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.06713599658119815,
+          "alpha_n": 54,
+          "rank": 6
+        },
+        {
+          "name": "deepseek-v4.1-flash",
+          "display_name": "DeepSeek V4.1 Flash",
+          "org": "deepseek",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.5275962236746551,
+          "weighted_accuracy": 0.5569200603318251,
+          "brier": 0.5549650851187083,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.5769230769230769,
+              "brier": 0.48665492307692315,
+              "alpha": 0.19058495784962892,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.45960784313725483,
+              "brier": 0.6593600038564104,
+              "alpha": -0.028878534902903655,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4052,
+              "alpha": 0.12459999999999997,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.020686499999999976,
+              "alpha": 0.03501815632115196,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.39215686274509803,
+              "brier": 0.656005137254902
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.6078431372549019,
+              "brier": 0.40071430769230765
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.5454545454545454,
+              "brier": 0.6175581818181818
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.48495050000000006
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.33226300000000003
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.5,
+              "brier": 0.5154455425
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 0.6,
+              "brier": 0.5527599999999999
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5294117647058824,
+              "brier": 0.5583745949019607,
+              "alpha": 0.09133951639589337,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.49673202614379086,
+              "brier": 0.49700341880341886,
+              "alpha": -0.04695054945054946,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.08365673495997987,
+          "alpha_n": 54,
+          "rank": 7
+        },
+        {
+          "name": "muse-wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 54,
+          "n_answered": 54,
+          "coverage": 1.0,
+          "accuracy": 0.5275962236746551,
+          "weighted_accuracy": 0.5569200603318251,
+          "brier": 0.571188825046805,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 26,
+              "accuracy": 0.5769230769230769,
+              "brier": 0.5207421546153846,
+              "alpha": 0.1564977263111674,
+              "alpha_n": 26
+            },
+            "4": {
+              "n": 25,
+              "accuracy": 0.45960784313725483,
+              "brier": 0.6503842813010988,
+              "alpha": -0.019902812347592322,
+              "alpha_n": 25
+            },
+            "2": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5144000000000001,
+              "alpha": 0.015399999999999928,
+              "alpha_n": 2
+            },
+            "1": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.016493499999999977,
+              "alpha": 0.03921115632115196,
+              "alpha_n": 1
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 17,
+              "accuracy": 0.27450980392156865,
+              "brier": 0.6468785210084033
+            },
+            "Weather": {
+              "n": 3,
+              "accuracy": 0.6078431372549019,
+              "brier": 0.5091282051282051
+            },
+            "Politics & world": {
+              "n": 11,
+              "accuracy": 0.2727272727272727,
+              "brier": 0.7273438181818183
+            },
+            "Technology, AI & crypto": {
+              "n": 4,
+              "accuracy": 0.75,
+              "brier": 0.449399375
+            },
+            "Economy": {
+              "n": 6,
+              "accuracy": 0.8333333333333334,
+              "brier": 0.34906966666666667
+            },
+            "Culture & entertainment": {
+              "n": 8,
+              "accuracy": 0.75,
+              "brier": 0.4949349474999999
+            },
+            "Finance & business": {
+              "n": 5,
+              "accuracy": 1.0,
+              "brier": 0.49352
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 51,
+              "accuracy": 0.5294117647058824,
+              "brier": 0.5836954721568627,
+              "alpha": 0.06601863914099139,
+              "alpha_n": 51
+            },
+            "multi_choice": {
+              "n": 3,
+              "accuracy": 0.49673202614379086,
+              "brier": 0.3585758241758242,
+              "alpha": 0.09147704517704514,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 54
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.06743299503188326,
+          "alpha_n": 54,
+          "rank": 8
+        }
+      ]
+    },
+    "14d": {
+      "track": "14d",
+      "n_questions": 3,
+      "rank_metric": "weighted_accuracy",
+      "market_baseline": {
+        "n_scored": 3,
+        "accuracy": 0.6666666666666666,
+        "weighted_accuracy": 0.7142857142857143,
+        "brier": 0.4998919327390336,
+        "by_level": {
+          "3": {
+            "n": 1,
+            "accuracy": 1.0,
+            "brier": 0.23373534907423132
+          },
+          "4": {
+            "n": 2,
+            "accuracy": 0.5,
+            "brier": 0.6329702245714348
+          }
+        },
+        "by_type": {
+          "single_choice": {
+            "n": 3,
+            "accuracy": 0.6666666666666666,
+            "brier": 0.4998919327390336
+          }
+        }
+      },
+      "random_baseline": {
+        "n_scored": 3,
+        "accuracy": 0.3333333333333333,
+        "weighted_accuracy": 0.33333333333333337,
+        "brier": 0.6666666666666666,
+        "alpha": -0.16677473392763312,
+        "by_level": {
+          "3": {
+            "n": 1,
+            "accuracy": 0.3333333333333333,
+            "brier": 0.6666666666666667,
+            "alpha": -0.4329313175924354
+          },
+          "4": {
+            "n": 2,
+            "accuracy": 0.3333333333333333,
+            "brier": 0.6666666666666667,
+            "alpha": -0.03369644209523198
+          }
+        }
+      },
+      "entries": [
+        {
+          "name": "glm-5.3",
+          "display_name": "GLM 5.3",
+          "org": "zhipu",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.3973333333333333,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24080000000000001,
+              "alpha": -0.00706465092576869,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4756,
+              "alpha": 0.15737022457143476,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3973333333333333
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.3973333333333333,
+              "alpha": 0.10255859940570028,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.10255859940570028,
+          "alpha_n": 3,
+          "rank": 1
+        },
+        {
+          "name": "grok-4.7",
+          "display_name": "Grok 4.7",
+          "org": "xai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.40040000000000003,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24080000000000001,
+              "alpha": -0.00706465092576869,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4802,
+              "alpha": 0.15277022457143474,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.40040000000000003
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.40040000000000003,
+              "alpha": 0.0994919327390336,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.0994919327390336,
+          "alpha_n": 3,
+          "rank": 2
+        },
+        {
+          "name": "gpt5.6-sol",
+          "display_name": "GPT-5.6 Sol",
+          "org": "openai",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.41119999999999995,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24080000000000001,
+              "alpha": -0.00706465092576869,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4963999999999999,
+              "alpha": 0.13657022457143486,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.41119999999999995
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.41119999999999995,
+              "alpha": 0.08869193273903368,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.08869193273903368,
+          "alpha_n": 3,
+          "rank": 3
+        },
+        {
+          "name": "gemini4",
+          "display_name": "Gemini 4",
+          "org": "google",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.4154,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2534,
+              "alpha": -0.01966465092576869,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.4963999999999999,
+              "alpha": 0.13657022457143486,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4154
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4154,
+              "alpha": 0.08449193273903367,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.08449193273903367,
+          "alpha_n": 3,
+          "rank": 4
+        },
+        {
+          "name": "opus5.5",
+          "display_name": "Claude Opus 5.5",
+          "org": "anthropic",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.4217666666666666,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.24124999999999996,
+              "alpha": -0.00751465092576864,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.512025,
+              "alpha": 0.12094522457143483,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4217666666666666
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4217666666666666,
+              "alpha": 0.07812526607236701,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.07812526607236701,
+          "alpha_n": 3,
+          "rank": 5
+        },
+        {
+          "name": "deepseek-v4.1-flash",
+          "display_name": "DeepSeek V4.1 Flash",
+          "org": "deepseek",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.4251333333333333,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2534,
+              "alpha": -0.01966465092576869,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5109999999999999,
+              "alpha": 0.12197022457143483,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4251333333333333
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4251333333333333,
+              "alpha": 0.07475859940570033,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.07475859940570033,
+          "alpha_n": 3,
+          "rank": 6
+        },
+        {
+          "name": "muse-wonder",
+          "display_name": "Muse Wonder",
+          "org": "meta",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.426,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2654,
+              "alpha": -0.0316646509257687,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5063,
+              "alpha": 0.12667022457143481,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.426
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.426,
+              "alpha": 0.07389193273903365,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.07389193273903365,
+          "alpha_n": 3,
+          "rank": 7
+        },
+        {
+          "name": "kimi-k3",
+          "display_name": "Kimi K3",
+          "org": "moonshot",
+          "mode": "submit",
+          "public": true,
+          "submitted_at": "2026-10-29T12:00:00+08:00",
+          "n_scored": 3,
+          "n_answered": 3,
+          "coverage": 1.0,
+          "accuracy": 0.6666666666666666,
+          "weighted_accuracy": 0.7142857142857143,
+          "brier": 0.4290666666666667,
+          "brier_coverage": 1.0,
+          "by_level": {
+            "3": {
+              "n": 1,
+              "accuracy": 1.0,
+              "brier": 0.2654,
+              "alpha": -0.0316646509257687,
+              "alpha_n": 1
+            },
+            "4": {
+              "n": 2,
+              "accuracy": 0.5,
+              "brier": 0.5109,
+              "alpha": 0.12207022457143474,
+              "alpha_n": 2
+            }
+          },
+          "by_category": {
+            "Sports & esports": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4290666666666667
+            }
+          },
+          "by_type": {
+            "single_choice": {
+              "n": 3,
+              "accuracy": 0.6666666666666666,
+              "brier": 0.4290666666666667,
+              "alpha": 0.07082526607236693,
+              "alpha_n": 3
+            }
+          },
+          "prob_quality": {
+            "incomplete_keys": 0,
+            "bad_sum": 0,
+            "invalid_values": 0,
+            "total_with_probs": 3
+          },
+          "answer_quality": {
+            "invalid_keys": 0
+          },
+          "alpha": 0.07082526607236693,
+          "alpha_n": 3,
+          "rank": 8
+        }
+      ]
+    }
+  }
+}
